@@ -1437,7 +1437,8 @@ idx;Tier;Category;variable;unit;piam_variable;piam_unit;piam_factor;internal_com
 1339;2;Infrastructure/ R&D;Population|Road Access;million;;;;;;population living within 2 km of an all-season road;
 1340;1;investment;Investment;billion US$2010/yr;Investments;billion US$2005/yr;1.12;;;Total economy wide investments (macroecomic capital stock, energy system, R&D, ...);R
 1341;1;investment;Investment|Energy Supply;billion US$2010/yr;Energy Investments|Supply;billion US$2005/yr;1.12;;;Investments into the energy supply system;R
-1342;1;investment;Investment|Energy Supply|Electricity;billion US$2010/yr;Energy Investments|Electricity;billion US$2005/yr;1.12;;;Investments into electricity generation and supply (including electricity storage and transmission & distribution);R
+1342;1;investment;Investment|Energy Supply|Electricity;billion US$2010/yr;Energy Investments|Elec;billion US$2005/yr;1.12;;;Investments into electricity generation and supply (including electricity storage and transmission & distribution);R
+1342;1;investment;Investment|Energy Supply|Electricity;billion US$2010/yr;Energy Investments|Electricity;billion US$2005/yr;1.12;;kept for backwards compatibility, see remind2 PR 579;Investments into electricity generation and supply (including electricity storage and transmission & distribution);Rx
 1343;1;investment;Investment|Energy Supply|Extraction|Fossil;billion US$2010/yr;;;;;;investments for all types of fossil extraction;
 1344;1;investment;Investment|Energy Supply|Extraction|Coal;billion US$2010/yr;;;;;;investments for extraction and conversion of coal. These should include mining, shipping and ports;
 1345;1;investment;Investment|Energy Supply|Extraction|Gas;billion US$2010/yr;;;;;;investments for extraction and conversion of natural gas. These should include upstream, LNG chain and transmission and distribution;
