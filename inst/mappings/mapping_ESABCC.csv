@@ -832,7 +832,8 @@ Carbon Sequestration|Direct Air Capture;Mt CO2/yr;Carbon Management|Storage|+|DA
 Emissions|CO2|Energy|Demand|Bunkers|Intra-EU;Mt CO2/yr;Emi|CO2|Energy|Demand|Transport|International Bunkers|+|Intra-region;Mt CO2/yr;1;;;;R
 Investment|Energy Supply;billion EUR_2020/yr;Energy Investments|Supply;billion US$2005/yr;1.17;;;;R
 Investment|Energy Supply|CO2 Transport and Storage;billion EUR_2020/yr;Energy Investments|CO2 Trans&Stor;billion US$2005/yr;1.17;;;;R
-Investment|Energy Supply|Electricity;billion EUR_2020/yr;Energy Investments|Electricity;billion US$2005/yr;1.17;;;;R
+Investment|Energy Supply|Electricity;billion EUR_2020/yr;Energy Investments|Elec;billion US$2005/yr;1.17;;;;R
+Investment|Energy Supply|Electricity;billion EUR_2020/yr;Energy Investments|Electricity;billion US$2005/yr;1.17;;;kept for backwards compatibility, see remind2 PR 579;Rx
 Investment|Energy Supply|Electricity|Biomass;billion EUR_2020/yr;Energy Investments|Elec|Biomass;billion US$2005/yr;1.17;;;;R
 Investment|Energy Supply|Electricity|Biomass|w/ CCS;billion EUR_2020/yr;Energy Investments|Elec|Biomass|w/ CC;billion US$2005/yr;1.17;;;;R
 Investment|Energy Supply|Electricity|Biomass|w/o CCS;billion EUR_2020/yr;Energy Investments|Elec|Biomass|w/o CC;billion US$2005/yr;1.17;;;;R

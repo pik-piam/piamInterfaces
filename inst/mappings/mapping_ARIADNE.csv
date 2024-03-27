@@ -1734,7 +1734,8 @@ Tier;Category;variable;unit;Definition;piam_variable;piam_unit;piam_factor;Comme
 3;economy;Expenditure|Energy|Infrastructure;billion EUR2020/yr;investment into infrastrucutre;;;;;0;;
 2;investment;Investment;billion EUR2020/yr;Total economy wide investments (macroecomic capital stock, energy system, R&D, ...);Investments;billion US$2005/yr;1.174;;0;;R
 2;energy (supply);Investment|Energy Supply;billion EUR2020/yr;Investments into the energy supply system;Energy Investments|Supply;billion US$2005/yr;1.174;;0;;R
-2;energy (supply);Investment|Energy Supply|Electricity;billion EUR2020/yr;Investments into electricity generation and supply (including electricity storage and transmission & distribution);Energy Investments|Electricity;billion US$2005/yr;1.174;;0;;R
+2;energy (supply);Investment|Energy Supply|Electricity;billion EUR2020/yr;Investments into electricity generation and supply (including electricity storage and transmission & distribution);Energy Investments|Elec;billion US$2005/yr;1.174;;0;;R
+2;energy (supply);Investment|Energy Supply|Electricity;billion EUR2020/yr;Investments into electricity generation and supply (including electricity storage and transmission & distribution);Energy Investments|Electricity;billion US$2005/yr;1.174;;0;kept for backwards compatibility, see remind2 PR 579;Rx
 3;energy (supply);Investment|Energy Supply|Extraction|Fossil;billion EUR2020/yr;investments for all types of fossil extraction;;;;;0;;
 3;energy (supply);Investment|Energy Supply|Extraction|Coal;billion EUR2020/yr;investments for extraction and conversion of coal. These should include mining, shipping and ports;;;;;0;;
 3;energy (supply);Investment|Energy Supply|Extraction|Gas;billion EUR2020/yr;investments for extraction and conversion of natural gas. These should include upstream, LNG chain and transmission and distribution;;;;;0;;
