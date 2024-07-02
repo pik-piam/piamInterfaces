@@ -360,7 +360,7 @@ Employment 2;Employment|Skilled;1
 Employment 2;Employment|Unskilled;1
 Energy Service|Transportation|Freight;Energy Service|Transportation|Freight|Aviation;1
 Energy Service|Transportation|Freight;Energy Service|Transportation|Freight|International Shipping;1
-Energy Service|Transportation|Freight;Energy Service|Transportation|Freight|Navigation;1
+Energy Service|Transportation|Freight;Energy Service|Transportation|Freight|Domestic Shipping;1
 Energy Service|Transportation|Freight;Energy Service|Transportation|Freight|Other;1
 Energy Service|Transportation|Freight;Energy Service|Transportation|Freight|Railways;1
 Energy Service|Transportation|Freight;Energy Service|Transportation|Freight|Road;1
@@ -368,9 +368,9 @@ Capacity Additions|Electricity|Coal;Capacity Additions|Electricity|Coal|w/ CCS;1
 Capacity Additions|Electricity|Coal;Capacity Additions|Electricity|Coal|w/o CCS;1
 Energy Service|Transportation|Passenger|Road;Energy Service|Transportation|Passenger|Road|Bus;1
 Energy Service|Transportation|Passenger|Road;Energy Service|Transportation|Passenger|Road|LDV;1
-Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Bicycling and Walking;1
+Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Bicycling and Walk;1
 Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Aviation;1
-Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Navigation;1
+Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Domestic Shipping;1
 Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Other;1
 Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Railways;1
 Energy Service|Transportation|Passenger;Energy Service|Transportation|Passenger|Road;1
