@@ -1,49 +1,49 @@
 piam_variable                                 ;old_name
 # you are allowed to add a wildcard *, but only at the end of both columns simultaneously
 # after adding variables, you can automatically adjust all mappings, see README.md.
-#
-# renamed in https://github.com/pik-piam/remind2/pull/579
+#;
+# renamed in https://github.com/pik-piam/remind2/pull/579;
 Energy Investments|Electricity|*       ;Energy Investments|Elec|*
-#
-# map MAGICC6 variables to new MAGICC7 names
+#;
+# map MAGICC6 variables to new MAGICC7 names;
 MAGICC7 AR6|Surface Temperature (GSAT)|50.0th Percentile     ;Temperature|Global Mean
 MAGICC7 AR6|Atmospheric Concentrations|CH4|50.0th Percentile ;Concentration|CH4
 MAGICC7 AR6|Atmospheric Concentrations|CO2|50.0th Percentile ;Concentration|CO2
 MAGICC7 AR6|Atmospheric Concentrations|N2O|50.0th Percentile ;Concentration|N2O
-#
-# changed magpie4 reporting variables
+#;
+# changed magpie4 reporting variables;
 Resources|Nitrogen|Cropland Budget|Inputs|+|Manure Recycled from Confinements;Resources|Nitrogen|Cropland Budget|Inputs|Manure
 Income PPP;Total income
-#
-# magpie4 SOM
+#;
+# magpie4 SOM;
 Emissions|CO2|Land|Land-use Change|+|Soil;Emissions|CO2|Land|Land-use Change|+|SOM
-# magpie4 CO2 carbon stored in Harvested Wood Products (HWP)
+# magpie4 CO2 carbon stored in Harvested Wood Products (HWP);
 Emissions|CO2|Land|Land-use Change|Timber|Storage in HWP|+|Industrial Roundwood;Emissions|CO2|Long-Lived Material|Timber|Industrial Roundwood|+|Inflow
 Emissions|CO2|Land|Land-use Change|Timber|Storage in HWP|+|Buildings;Emissions|CO2|Long-Lived Material|Timber|Buildings|+|Inflow
 Emissions|CO2|Land|Land-use Change|+|Wood Harvest;Emissions|CO2|Land|Land-use Change|Timber|+|Wood Harvest
-# magpie4 timber
+# magpie4 timber;
 Timber|Volumetric|Demand|Roundwood|+|Industrial roundwood;Timber|Volumetric|Demand|Industrial roundwood
 Timber|Volumetric|Demand|Roundwood|+|Timber for construction;Timber|Volumetric|Demand|Timber for construction
 Timber|Volumetric|Demand|Roundwood|+|Wood fuel;Timber|Volumetric|Demand|Wood fuel
 Timber|Volumetric|Production|Roundwood|+|Industrial roundwood;Timber|Volumetric|Production|Industrial roundwood
 Timber|Volumetric|Production|Roundwood|+|Timber for construction;Timber|Volumetric|Production|Timber for construction
 Timber|Volumetric|Production|Roundwood|+|Wood fuel;Timber|Volumetric|Production|Wood fuel
-#
-# magpie4 forest
+#;
+# magpie4 forest;
 Resources|Land Cover|Forest|Planted Forest|Natural|+|CO2-price AR;Resources|Land Cover|Forest|Managed Forest|+|Afforestation
 Resources|Land Cover|Forest|Planted Forest|Natural|+|NPI_NDC AR;Resources|Land Cover|Forest|Managed Forest|+|NPI/NDC
 Resources|Land Cover|Forest|Planted Forest|Plantations|+|Timber;Resources|Land Cover|Forest|Managed Forest|+|Plantations
-#
-# magpie4 reporting variables for cropland changed with magpie4 2.3.2
+#;
+# magpie4 reporting variables for cropland changed with magpie4 2.3.2;
 Resources|Land Cover|Cropland|Croparea|Bioenergy crops* ;Resources|Land Cover|Cropland|Bioenergy crops*
 Resources|Land Cover|Cropland|Croparea|Crops*           ;Resources|Land Cover|Cropland|Crops*
 Resources|Land Cover|Cropland|Croparea|Fallow Cropland* ;Resources|Land Cover|Cropland|Fallow Cropland*
 Resources|Land Cover|Cropland|Croparea|Forage*          ;Resources|Land Cover|Cropland|Forage*
-#
-# https://github.com/pik-piam/magpie4/commit/2847a13e5c171b9dc78dccdc7d6a085e8c8d74d3
+#;
+# https://github.com/pik-piam/magpie4/commit/2847a13e5c171b9dc78dccdc7d6a085e8c8d74d3;
 Prices|Index2020|Agriculture|Producer*                  ;Prices|Producer Price Index*
-#
-# Changes from edgeT refactoring v2.0, see also /p/projects/edget/Refactoring/remind/output/variableMappingOldNew.csv
+#;
+# Changes from edgeT refactoring v2.0; see also /p/projects/edget/Refactoring/remind/output/variableMappingOldNew.csv
 Emi|CO2|Energy|Demand|Transport|Bunkers|Freight|International Shipping;Emi|CO2|Transport|Freight|International Shipping|Demand
 Emi|CO2|Energy|Demand|Transport|Bunkers|Pass|International Aviation;Emi|CO2|Transport|Pass|Aviation|International|Demand
 Emi|CO2|Energy|Demand|Transport|Freight|Domestic Shipping;Emi|CO2|Transport|Freight|Navigation|Demand
@@ -142,10 +142,10 @@ Stock|Transport|Pass|Road|LDV|Four Wheelers|Small|Subcompact Car|BEV;Stock|Trans
 Stock|Transport|Pass|Road|LDV|Four Wheelers|Small|Subcompact Car|FCEV;Stock|Transport|LDV|Subcompact Car|FCEV
 Stock|Transport|Pass|Road|LDV|Four Wheelers|Small|Subcompact Car|Hybrid electric;Stock|Transport|LDV|Subcompact Car|Hybrid Electric
 Stock|Transport|Pass|Road|LDV|Four Wheelers|Small|Subcompact Car|Liquids;Stock|Transport|LDV|Subcompact Car|Liquids
-#
-# https://github.com/remindmodel/remind/pull/1829
+#;
+# https://github.com/remindmodel/remind/pull/1829;
 Emi|CO2|CDR|Synthetic Fuels CCS;Emi|CO2|CDR|Industry CCS|Synthetic Fuels
-#
+#;
 # https://github.com/pik-piam/remind2/pull/696;
 Carbon Management|Carbon Capture|Energy|Pe2Se|+|Biomass;Carbon Management|Carbon Capture|+|Biomass|Pe2Se
 Carbon Management|Carbon Capture|Energy|Pe2Se|Biomass|+|Heat w/ couple prod;Carbon Management|Carbon Capture|Biomass|Pe2Se|Heat w/ couple prod
@@ -169,7 +169,7 @@ Carbon Management|Carbon Capture|Energy|Pe2Se|Fossil|+|Hydrogen w/ couple prod;C
 Carbon Management|Carbon Capture|Energy|Pe2Se|Fossil|+|Liquids w/ couple prod;Carbon Management|Carbon Capture|Fossil|Pe2Se|+|Liquids w/ couple prod
 Carbon Management|Carbon Capture|+|Waste;Carbon Management|Carbon Capture|Waste|Plastics Incineration
 Carbon Management|Carbon Capture|Waste|+|Synfuel;Carbon Management|Carbon Capture|Waste|Synfuels
-#
+#;
 Carbon Management|Storage|Energy|Pe2Se|+|Biomass;Carbon Management|Storage|+|Biomass|Pe2Se
 Carbon Management|Storage|Energy|Pe2Se|+|Fossil;Carbon Management|Storage|+|Fossil|Pe2Se
 Carbon Management|Storage|Energy|+|CDR Sector;Carbon Management|Storage|+|CDR energy
@@ -189,12 +189,12 @@ Carbon Management|Storage|Energy|Pe2Se|Fossil|+|Hydrogen w/ couple prod;Carbon M
 Carbon Management|Storage|Energy|Pe2Se|Fossil|+|Liquids w/ couple prod;Carbon Management|Storage|Fossil|Pe2Se|+|Liquids w/ couple prod
 Carbon Management|Storage|+|Waste;Carbon Management|Storage|Waste|Plastics Incineration
 Carbon Management|Storage|Waste|+|Synfuel;Carbon Management|Storage|Waste|Synfuels
-#
+#;
 Emi|CO2|Industrial Processes|Industry|+|Cement;Emi|CO2|Industrial Processes|+|Cement
 Emi|CO2|Industrial Processes|Industry|+|Chemicals;Emi|CO2|Industrial Processes|+|Chemicals
 Emi|GHG|+++|non-ES CDR;Emi|GHG|+++|non-BECCS CDR
 Emi|CO2|Energy|Demand|+|CDR Sector;Emi|CO2|Energy|Demand|+|CDR
-# https://github.com/pik-piam/remind2/pull/709
+# https://github.com/pik-piam/remind2/pull/709;
 # To make it more understandable, always use the explict version 'w/ Bunkers' or 'w/o Bunkers'
 # This part makes sure that if the 'w/o Bunkers' variable does not yet exist, it uses the main variable
 # because before of PR #709 was merged, this contained bunkers only at the global level
@@ -225,8 +225,24 @@ Emi|GHG|w/o Bunkers|LULUCF national accounting           ;Emi|GHG|LULUCF nationa
 Emi|GHG|w/o Bunkers|Outside ETS and ESR                  ;Emi|GHG|Outside ETS and ESR
 Emi|GHG|w/o Bunkers|Outside ETS and ESR|Transport        ;Emi|GHG|Outside ETS and ESR|Transport
 Emi|GHG|w/o Bunkers|w/o Land-Use Change                  ;Emi|GHG|w/o Land-Use Change
-#
-# https://github.com/pik-piam/remind2/pull/714
+#;
+# https://github.com/pik-piam/remind2/pull/714;
 Tech|Liquids|Biomass|Biodiesel|Capital Costs;Tech|Liquids|Biomass|Biodiesel|w/o CC|Capital Costs
 SE|Liquids|Biomass|Cellulosic|+|Energy Crops;SE|Liquids|Biomass|Energy Crops
 SE|Liquids|Biomass|Cellulosic|+|Residues;SE|Liquids|Biomass|Residues
+#;
+# renaming of monogastric meat;
+Demand|Bioenergy|Livestock products|Pig meat;Demand|Bioenergy|Livestock products|Monogastric meat
+Demand|Feed|Feed for Pig meat|*;Demand|Feed|Feed for Monogastric meat|*
+Demand|Food|Livestock products|+|Pig meat;Demand|Food|Livestock products|+|Monogastric meat
+Demand|Material|Livestock products|Pig meat;Demand|Material|Livestock products|Monogastric meat
+Demand|Seed|Livestock products|Pig meat;Demand|Seed|Livestock products|Monogastric meat
+Nutrition|Calorie Supply|Livestock products|+|Pig meat;Nutrition|Calorie Supply|Livestock products|+|Monogastric meat
+Nutrition|Calorie Intake|Livestock products|+|Pig meat;Nutrition|Calorie Intake|Livestock products|+|Monogastric meat
+Trade|Net-Trade|Livestock products|+|Pig meat;Trade|Net-Trade|Livestock products|+|Monogastric meat
+Trade|Imports|Livestock products|Pig meat;Trade|Imports|Livestock products|Monogastric meat
+Trade|Exports|Livestock products|Pig meat;Trade|Exports|Livestock products|Monogastric meat
+Productivity|Feed protein conversion|Pig meat;Productivity|Feed protein conversion|Monogastric meat
+Production Nr|Livestock products|+|Pig meat;Production Nr|Livestock products|+|Monogastric meat
+Production|Livestock products|+|Pig meat;Production|Livestock products|+|Monogastric meat
+Prices|Index2020|Agriculture|Producer|Pig meat;Prices|Index2020|Agriculture|Producer|Monogastric meat
