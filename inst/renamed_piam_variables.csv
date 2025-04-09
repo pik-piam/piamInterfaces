@@ -17,7 +17,7 @@ Income PPP;Total income
 #
 # magpie4 SOM
 Emissions|CO2|Land|Land-use Change|+|Soil;Emissions|CO2|Land|Land-use Change|+|SOM
-# magpie4 CO2 carbon stored in Harvested Wood Products (HWP);
+# magpie4 CO2 carbon stored in Harvested Wood Products (HWP)
 Emissions|CO2|Land|Land-use Change|Timber|Storage in HWP|+|Industrial Roundwood;Emissions|CO2|Long-Lived Material|Timber|Industrial Roundwood|+|Inflow
 Emissions|CO2|Land|Land-use Change|Timber|Storage in HWP|+|Buildings;Emissions|CO2|Long-Lived Material|Timber|Buildings|+|Inflow
 Emissions|CO2|Land|Land-use Change|+|Wood Harvest;Emissions|CO2|Land|Land-use Change|Timber|+|Wood Harvest
@@ -43,7 +43,7 @@ Resources|Land Cover|Cropland|Croparea|Forage*          ;Resources|Land Cover|Cr
 # https://github.com/pik-piam/magpie4/commit/2847a13e5c171b9dc78dccdc7d6a085e8c8d74d3
 Prices|Index2020|Agriculture|Producer*                  ;Prices|Producer Price Index*
 #
-# Changes from edgeT refactoring v2.0; see also /p/projects/edget/Refactoring/remind/output/variableMappingOldNew.csv
+# Changes from edgeT refactoring v2.0, see also /p/projects/edget/Refactoring/remind/output/variableMappingOldNew.csv
 Emi|CO2|Energy|Demand|Transport|Bunkers|Freight|International Shipping;Emi|CO2|Transport|Freight|International Shipping|Demand
 Emi|CO2|Energy|Demand|Transport|Bunkers|Pass|International Aviation;Emi|CO2|Transport|Pass|Aviation|International|Demand
 Emi|CO2|Energy|Demand|Transport|Freight|Domestic Shipping;Emi|CO2|Transport|Freight|Navigation|Demand
