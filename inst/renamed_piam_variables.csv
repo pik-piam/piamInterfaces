@@ -146,7 +146,7 @@ Stock|Transport|Pass|Road|LDV|Four Wheelers|Small|Subcompact Car|Liquids;Stock|T
 # https://github.com/remindmodel/remind/pull/1829
 Emi|CO2|CDR|Synthetic Fuels CCS;Emi|CO2|CDR|Industry CCS|Synthetic Fuels
 #
-# https://github.com/pik-piam/remind2/pull/696;
+# https://github.com/pik-piam/remind2/pull/696
 Carbon Management|Carbon Capture|Energy|Pe2Se|+|Biomass;Carbon Management|Carbon Capture|+|Biomass|Pe2Se
 Carbon Management|Carbon Capture|Energy|Pe2Se|Biomass|+|Heat w/ couple prod;Carbon Management|Carbon Capture|Biomass|Pe2Se|Heat w/ couple prod
 Carbon Management|Carbon Capture|Energy|Pe2Se|+|Fossil;Carbon Management|Carbon Capture|+|Fossil|Pe2Se
@@ -230,3 +230,19 @@ Emi|GHG|w/o Bunkers|w/o Land-Use Change                  ;Emi|GHG|w/o Land-Use C
 Tech|Liquids|Biomass|Biodiesel|Capital Costs;Tech|Liquids|Biomass|Biodiesel|w/o CC|Capital Costs
 SE|Liquids|Biomass|Cellulosic|+|Energy Crops;SE|Liquids|Biomass|Energy Crops
 SE|Liquids|Biomass|Cellulosic|+|Residues;SE|Liquids|Biomass|Residues
+#
+# renaming of monogastric meat
+Demand|Bioenergy|Livestock products|Pig meat;Demand|Bioenergy|Livestock products|Monogastric meat
+Demand|Feed|Feed for Pig meat|*;Demand|Feed|Feed for Monogastric meat|*
+Demand|Food|Livestock products|+|Pig meat;Demand|Food|Livestock products|+|Monogastric meat
+Demand|Material|Livestock products|Pig meat;Demand|Material|Livestock products|Monogastric meat
+Demand|Seed|Livestock products|Pig meat;Demand|Seed|Livestock products|Monogastric meat
+Nutrition|Calorie Supply|Livestock products|+|Pig meat;Nutrition|Calorie Supply|Livestock products|+|Monogastric meat
+Nutrition|Calorie Intake|Livestock products|+|Pig meat;Nutrition|Calorie Intake|Livestock products|+|Monogastric meat
+Trade|Net-Trade|Livestock products|+|Pig meat;Trade|Net-Trade|Livestock products|+|Monogastric meat
+Trade|Imports|Livestock products|Pig meat;Trade|Imports|Livestock products|Monogastric meat
+Trade|Exports|Livestock products|Pig meat;Trade|Exports|Livestock products|Monogastric meat
+Productivity|Feed protein conversion|Pig meat;Productivity|Feed protein conversion|Monogastric meat
+Production Nr|Livestock products|+|Pig meat;Production Nr|Livestock products|+|Monogastric meat
+Production|Livestock products|+|Pig meat;Production|Livestock products|+|Monogastric meat
+Prices|Index2020|Agriculture|Producer|Pig meat;Prices|Index2020|Agriculture|Producer|Monogastric meat
