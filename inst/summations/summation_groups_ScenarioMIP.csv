@@ -5511,6 +5511,7 @@ Land Cover;Land Cover|Other Land;1
 Land Cover;Land Cover|Other Natural;1
 Land Cover;Land Cover|Pasture;1
 ;;
+# Agroforestry / Treecover on cropland missing in common-definitions template -> todo FH add
 Land Cover|Cropland;Land Cover|Cropland|Cereals;1
 Land Cover|Cropland;Land Cover|Cropland|Energy Crops;1
 Land Cover|Cropland;Land Cover|Cropland|Oil Crops;1
