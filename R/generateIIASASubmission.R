@@ -190,10 +190,6 @@ generateIIASASubmission <- function(mifs = ".", # nolint: cyclocomp_linter
     na.action = naAction
   )
 
-  if (any(mapData$interpolation == "linear", na.rm = TRUE)) {
-    submission <- .interpolate(submission, mapData, timesteps)
-  }
-
   # apply corrections using IIASA template ----
 
   if (!is.null(iiasatemplate) && (file.exists(iiasatemplate) ||
@@ -218,6 +214,12 @@ generateIIASASubmission <- function(mifs = ".", # nolint: cyclocomp_linter
                                 dataDumpFile = paste0(prefix, "_checkSummations.csv"),
                                 plotprefix = paste0(prefix, "_")))
     }
+  }
+
+  # apply interpolation ----
+
+  if (any(mapData$interpolation == "linear", na.rm = TRUE)) {
+    submission <- .interpolate(submission, mapData, timesteps)
   }
 
   # write or return data ----
