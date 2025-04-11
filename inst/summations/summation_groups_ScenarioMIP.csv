@@ -4611,11 +4611,13 @@ Final Energy|Other Sector;Final Energy|Other Sector|Other;1
 Final Energy|Other Sector;Final Energy|Other Sector|Solids;1
 ;;
 Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Biomass;1
-Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Coal;1
 Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Electricity;1
-Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Gas;1
+Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Fossil;1
 Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Hydrogen;1
 Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Other;1
+;;
+Final Energy|Other Sector|Gases|Fossil;Final Energy|Other Sector|Gases|Coal;1
+Final Energy|Other Sector|Gases|Fossil;Final Energy|Other Sector|Gases|Gas;1
 ;;
 Final Energy|Other Sector|Heat;Final Energy|Other Sector|Heat|Biomass;1
 Final Energy|Other Sector|Heat;Final Energy|Other Sector|Heat|Coal;1
@@ -4818,11 +4820,13 @@ Final Energy|Transportation|Bus;Final Energy|Transportation|Bus|Other;1
 Final Energy|Transportation|Bus;Final Energy|Transportation|Bus|Solids;1
 ;;
 Final Energy|Transportation|Bus|Gases;Final Energy|Transportation|Bus|Gases|Biomass;1
-Final Energy|Transportation|Bus|Gases;Final Energy|Transportation|Bus|Gases|Coal;1
+Final Energy|Transportation|Bus|Gases;Final Energy|Transportation|Bus|Gases|Fossil;1
 Final Energy|Transportation|Bus|Gases;Final Energy|Transportation|Bus|Gases|Electricity;1
-Final Energy|Transportation|Bus|Gases;Final Energy|Transportation|Bus|Gases|Gas;1
 Final Energy|Transportation|Bus|Gases;Final Energy|Transportation|Bus|Gases|Hydrogen;1
 Final Energy|Transportation|Bus|Gases;Final Energy|Transportation|Bus|Gases|Other;1
+;;
+Final Energy|Transportation|Bus|Gases|Fossil;Final Energy|Transportation|Bus|Gases|Coal;1
+Final Energy|Transportation|Bus|Gases|Fossil;Final Energy|Transportation|Bus|Gases|Gas;1
 ;;
 Final Energy|Transportation|Bus|Heat;Final Energy|Transportation|Bus|Heat|Biomass;1
 Final Energy|Transportation|Bus|Heat;Final Energy|Transportation|Bus|Heat|Coal;1
@@ -4941,12 +4945,14 @@ Final Energy|Transportation|Domestic Shipping|Hydrogen;Final Energy|Transportati
 Final Energy|Transportation|Domestic Shipping|Hydrogen;Final Energy|Transportation|Domestic Shipping|Hydrogen|Solar;1
 ;;
 Final Energy|Transportation|Domestic Shipping|Liquids;Final Energy|Transportation|Domestic Shipping|Liquids|Biomass;1
-Final Energy|Transportation|Domestic Shipping|Liquids;Final Energy|Transportation|Domestic Shipping|Liquids|Coal;1
+Final Energy|Transportation|Domestic Shipping|Liquids;Final Energy|Transportation|Domestic Shipping|Liquids|Fossil;1
 Final Energy|Transportation|Domestic Shipping|Liquids;Final Energy|Transportation|Domestic Shipping|Liquids|Electricity;1
-Final Energy|Transportation|Domestic Shipping|Liquids;Final Energy|Transportation|Domestic Shipping|Liquids|Gas;1
 Final Energy|Transportation|Domestic Shipping|Liquids;Final Energy|Transportation|Domestic Shipping|Liquids|Hydrogen;1
-Final Energy|Transportation|Domestic Shipping|Liquids;Final Energy|Transportation|Domestic Shipping|Liquids|Oil;1
 Final Energy|Transportation|Domestic Shipping|Liquids;Final Energy|Transportation|Domestic Shipping|Liquids|Other;1
+;;
+Final Energy|Transportation|Domestic Shipping|Liquids|Fossil;Final Energy|Transportation|Domestic Shipping|Liquids|Coal;1
+Final Energy|Transportation|Domestic Shipping|Liquids|Fossil;Final Energy|Transportation|Domestic Shipping|Liquids|Gas;1
+Final Energy|Transportation|Domestic Shipping|Liquids|Fossil;Final Energy|Transportation|Domestic Shipping|Liquids|Oil;1
 ;;
 Final Energy|Transportation|Domestic Shipping|Solids;Final Energy|Transportation|Domestic Shipping|Solids|Biomass;1
 Final Energy|Transportation|Domestic Shipping|Solids;Final Energy|Transportation|Domestic Shipping|Solids|Coal;1
@@ -4960,11 +4966,13 @@ Final Energy|Transportation|Freight;Final Energy|Transportation|Freight|Other;1
 Final Energy|Transportation|Freight;Final Energy|Transportation|Freight|Solids;1
 ;;
 Final Energy|Transportation|Freight|Gases;Final Energy|Transportation|Freight|Gases|Biomass;1
-Final Energy|Transportation|Freight|Gases;Final Energy|Transportation|Freight|Gases|Coal;1
+Final Energy|Transportation|Freight|Gases;Final Energy|Transportation|Freight|Gases|Fossil;1
 Final Energy|Transportation|Freight|Gases;Final Energy|Transportation|Freight|Gases|Electricity;1
-Final Energy|Transportation|Freight|Gases;Final Energy|Transportation|Freight|Gases|Gas;1
 Final Energy|Transportation|Freight|Gases;Final Energy|Transportation|Freight|Gases|Hydrogen;1
 Final Energy|Transportation|Freight|Gases;Final Energy|Transportation|Freight|Gases|Other;1
+;;
+Final Energy|Transportation|Freight|Gases|Fossil;Final Energy|Transportation|Freight|Gases|Coal;1
+Final Energy|Transportation|Freight|Gases|Fossil;Final Energy|Transportation|Freight|Gases|Gas;1
 ;;
 Final Energy|Transportation|Freight|Heat;Final Energy|Transportation|Freight|Heat|Biomass;1
 Final Energy|Transportation|Freight|Heat;Final Energy|Transportation|Freight|Heat|Coal;1
@@ -5037,11 +5045,13 @@ Final Energy|Transportation|Light-Duty Vehicle;Final Energy|Transportation|Light
 Final Energy|Transportation|Light-Duty Vehicle;Final Energy|Transportation|Light-Duty Vehicle|Solids;1
 ;;
 Final Energy|Transportation|Light-Duty Vehicle|Gases;Final Energy|Transportation|Light-Duty Vehicle|Gases|Biomass;1
-Final Energy|Transportation|Light-Duty Vehicle|Gases;Final Energy|Transportation|Light-Duty Vehicle|Gases|Coal;1
 Final Energy|Transportation|Light-Duty Vehicle|Gases;Final Energy|Transportation|Light-Duty Vehicle|Gases|Electricity;1
-Final Energy|Transportation|Light-Duty Vehicle|Gases;Final Energy|Transportation|Light-Duty Vehicle|Gases|Gas;1
+Final Energy|Transportation|Light-Duty Vehicle|Gases;Final Energy|Transportation|Light-Duty Vehicle|Gases|Fossil;1
 Final Energy|Transportation|Light-Duty Vehicle|Gases;Final Energy|Transportation|Light-Duty Vehicle|Gases|Hydrogen;1
 Final Energy|Transportation|Light-Duty Vehicle|Gases;Final Energy|Transportation|Light-Duty Vehicle|Gases|Other;1
+;;
+Final Energy|Transportation|Light-Duty Vehicle|Gases|Fossil;Final Energy|Transportation|Light-Duty Vehicle|Gases|Coal;1
+Final Energy|Transportation|Light-Duty Vehicle|Gases|Fossil;Final Energy|Transportation|Light-Duty Vehicle|Gases|Gas;1
 ;;
 Final Energy|Transportation|Light-Duty Vehicle|Heat;Final Energy|Transportation|Light-Duty Vehicle|Heat|Biomass;1
 Final Energy|Transportation|Light-Duty Vehicle|Heat;Final Energy|Transportation|Light-Duty Vehicle|Heat|Coal;1
@@ -5064,12 +5074,14 @@ Final Energy|Transportation|Light-Duty Vehicle|Hydrogen;Final Energy|Transportat
 Final Energy|Transportation|Light-Duty Vehicle|Hydrogen;Final Energy|Transportation|Light-Duty Vehicle|Hydrogen|Solar;1
 ;;
 Final Energy|Transportation|Light-Duty Vehicle|Liquids;Final Energy|Transportation|Light-Duty Vehicle|Liquids|Biomass;1
-Final Energy|Transportation|Light-Duty Vehicle|Liquids;Final Energy|Transportation|Light-Duty Vehicle|Liquids|Coal;1
 Final Energy|Transportation|Light-Duty Vehicle|Liquids;Final Energy|Transportation|Light-Duty Vehicle|Liquids|Electricity;1
-Final Energy|Transportation|Light-Duty Vehicle|Liquids;Final Energy|Transportation|Light-Duty Vehicle|Liquids|Gas;1
+Final Energy|Transportation|Light-Duty Vehicle|Liquids;Final Energy|Transportation|Light-Duty Vehicle|Liquids|Fossil;1
 Final Energy|Transportation|Light-Duty Vehicle|Liquids;Final Energy|Transportation|Light-Duty Vehicle|Liquids|Hydrogen;1
-Final Energy|Transportation|Light-Duty Vehicle|Liquids;Final Energy|Transportation|Light-Duty Vehicle|Liquids|Oil;1
 Final Energy|Transportation|Light-Duty Vehicle|Liquids;Final Energy|Transportation|Light-Duty Vehicle|Liquids|Other;1
+;;
+Final Energy|Transportation|Light-Duty Vehicle|Liquids|Fossil;Final Energy|Transportation|Light-Duty Vehicle|Liquids|Coal;1
+Final Energy|Transportation|Light-Duty Vehicle|Liquids|Fossil;Final Energy|Transportation|Light-Duty Vehicle|Liquids|Gas;1
+Final Energy|Transportation|Light-Duty Vehicle|Liquids|Fossil;Final Energy|Transportation|Light-Duty Vehicle|Liquids|Oil;1
 ;;
 Final Energy|Transportation|Light-Duty Vehicle|Solids;Final Energy|Transportation|Light-Duty Vehicle|Solids|Biomass;1
 Final Energy|Transportation|Light-Duty Vehicle|Solids;Final Energy|Transportation|Light-Duty Vehicle|Solids|Coal;1
@@ -5501,7 +5513,7 @@ Land Cover;Land Cover|Other Land;1
 Land Cover;Land Cover|Other Natural;1
 Land Cover;Land Cover|Pasture;1
 ;;
-# Agroforestry / Treecover on cropland missing in common-definitions template -> todo FH add
+# Agroforestry / Treecover on cropland missing in common-definitions template -> todo FH add;;
 Land Cover|Cropland;Land Cover|Cropland|Cereals;1
 Land Cover|Cropland;Land Cover|Cropland|Energy Crops;1
 Land Cover|Cropland;Land Cover|Cropland|Oil Crops;1
@@ -6188,9 +6200,8 @@ Secondary Energy|Electricity|Wind;Secondary Energy|Electricity|Wind|Offshore;1
 Secondary Energy|Electricity|Wind;Secondary Energy|Electricity|Wind|Onshore;1
 ;;
 Secondary Energy|Gases;Secondary Energy|Gases|Biomass;1
-Secondary Energy|Gases;Secondary Energy|Gases|Coal;1
 Secondary Energy|Gases;Secondary Energy|Gases|Electricity;1
-Secondary Energy|Gases;Secondary Energy|Gases|Gas;1
+Secondary Energy|Gases;Secondary Energy|Gases|Fossil;1
 Secondary Energy|Gases;Secondary Energy|Gases|Hydrogen;1
 Secondary Energy|Gases;Secondary Energy|Gases|Other;1
 ;;
