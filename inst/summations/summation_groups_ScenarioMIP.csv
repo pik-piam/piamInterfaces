@@ -4611,11 +4611,13 @@ Final Energy|Other Sector;Final Energy|Other Sector|Other;1
 Final Energy|Other Sector;Final Energy|Other Sector|Solids;1
 ;;
 Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Biomass;1
-Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Coal;1
 Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Electricity;1
-Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Gas;1
+Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Fossil;1
 Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Hydrogen;1
 Final Energy|Other Sector|Gases;Final Energy|Other Sector|Gases|Other;1
+;;
+Final Energy|Other Sector|Gases|Fossil;Final Energy|Other Sector|Gases|Coal;1
+Final Energy|Other Sector|Gases|Fossil;Final Energy|Other Sector|Gases|Gas;1
 ;;
 Final Energy|Other Sector|Heat;Final Energy|Other Sector|Heat|Biomass;1
 Final Energy|Other Sector|Heat;Final Energy|Other Sector|Heat|Coal;1
@@ -5511,7 +5513,7 @@ Land Cover;Land Cover|Other Land;1
 Land Cover;Land Cover|Other Natural;1
 Land Cover;Land Cover|Pasture;1
 ;;
-# Agroforestry / Treecover on cropland missing in common-definitions template -> todo FH add
+# Agroforestry / Treecover on cropland missing in common-definitions template -> todo FH add;;
 Land Cover|Cropland;Land Cover|Cropland|Cereals;1
 Land Cover|Cropland;Land Cover|Cropland|Energy Crops;1
 Land Cover|Cropland;Land Cover|Cropland|Oil Crops;1
@@ -6198,9 +6200,8 @@ Secondary Energy|Electricity|Wind;Secondary Energy|Electricity|Wind|Offshore;1
 Secondary Energy|Electricity|Wind;Secondary Energy|Electricity|Wind|Onshore;1
 ;;
 Secondary Energy|Gases;Secondary Energy|Gases|Biomass;1
-Secondary Energy|Gases;Secondary Energy|Gases|Coal;1
 Secondary Energy|Gases;Secondary Energy|Gases|Electricity;1
-Secondary Energy|Gases;Secondary Energy|Gases|Gas;1
+Secondary Energy|Gases;Secondary Energy|Gases|Fossil;1
 Secondary Energy|Gases;Secondary Energy|Gases|Hydrogen;1
 Secondary Energy|Gases;Secondary Energy|Gases|Other;1
 ;;
