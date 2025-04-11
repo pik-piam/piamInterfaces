@@ -3004,7 +3004,7 @@ Final Energy|Carbon Management|Hydrogen|Nuclear;EJ/yr;3;Use of hydrogen from nuc
 Final Energy|Carbon Management|Hydrogen|Oil;EJ/yr;3;Use of hydrogen from refined crude oil for carbon management;;;;;;;;
 Final Energy|Carbon Management|Hydrogen|Other;EJ/yr;3;Use of hydrogen from other sources for carbon management;;;;;;;;
 Final Energy|Carbon Management|Hydrogen|Solar;EJ/yr;3;Use of hydrogen from solar energy (e.g. thermochemical water splitting with solar heat) for carbon management;;;;;;;;
-Final Energy|Carbon Management|Liquids;EJ/yr;2;Use of refined liquid fuels including oil products, fuels from gas and coal, synthetic fuels and biofuels for carbon management;;;FE|CDR|EW|+|Diesel;EJ/yr;;additional mapping taken from additional_NAVIGATE, additional_NAVIGATE category: energy (final);R;
+Final Energy|Carbon Management|Liquids;EJ/yr;2;Use of refined liquid fuels including oil products, fuels from gas and coal, synthetic fuels and biofuels for carbon management;;;FE|CDR|+|Liquids;EJ/yr;;additional mapping taken from additional_NAVIGATE, additional_NAVIGATE category: energy (final);R;
 Final Energy|Carbon Management|Liquids|Biomass;EJ/yr;3;Use of liquid fuels from biomass for carbon management;;;;;;;;
 Final Energy|Carbon Management|Liquids|Coal;EJ/yr;3;Use of liquid fuels from coal for carbon management;;;;;;;;
 Final Energy|Carbon Management|Liquids|Electricity;EJ/yr;3;Use of liquid synthetic fuels from electricity, i.e., e-fuels (if hydrogen is not explicitly modeled as an intermediate product) for carbon management;;;;;;;;
