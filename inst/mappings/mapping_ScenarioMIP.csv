@@ -768,8 +768,8 @@ Carbon Removal|Land Use|Re/Afforestation;Mt CO2/yr;2;Gross removals of carbon di
 Carbon Removal|Land Use|Re/Afforestation|Natural Forest;Mt CO2/yr;2;Gross removals of carbon dioxide (CO2) through reforestation and/or afforestation for carbon sequestration with native tree species resembling natural vegetation;Values should be reported as positive numbers.;;Emissions|CO2|Land RAW|Land-use Change|Regrowth|CO2-price AR|+|Natural Forest;Mt CO2/yr;-1;;M;
 Carbon Removal|Land Use|Re/Afforestation|Natural Forest;Mt CO2/yr;2;Gross removals of carbon dioxide (CO2) through reforestation and/or afforestation for carbon sequestration with native tree species resembling natural vegetation;Values should be reported as positive numbers.;;Emissions|CO2|Land RAW|Land-use Change|Regrowth|+|NPI_NDC AR;Mt CO2/yr;-1;;M;
 Carbon Removal|Land Use|Re/Afforestation|Plantation;Mt CO2/yr;2;Gross removals of carbon dioxide (CO2) through reforestation and/or afforestation for carbon sequestration with non-native species and/or as monoculture plantation;Values should be reported as positive numbers.;;Emissions|CO2|Land RAW|Land-use Change|Regrowth|CO2-price AR|+|Plantation;Mt CO2/yr;-1;;M;
-Carbon Removal|Land Use|Soil Carbon Management;Mt CO2/yr;2;Gross removals of carbon dioxide (CO2) through enhancing the carbon content of soils;Values should be reported as positive numbers.;;;;;not represented yet;;
-Carbon Removal|Land Use|Soil Carbon Management|Cropland;Mt CO2/yr;2;Gross removals of carbon dioxide (CO2) through enhancing the carbon content of cropland soils;Values should be reported as positive numbers.;;;;;not represented yet;;
+Carbon Removal|Land Use|Soil Carbon Management;Mt CO2/yr;2;Gross removals of carbon dioxide (CO2) through enhancing the carbon content of soils;Values should be reported as positive numbers.;;Emissions|CO2|Land RAW|Land-use Change|Soil|Soil Carbon Management|+|Withdrawals;Mt CO2/yr;-1;;M;
+Carbon Removal|Land Use|Soil Carbon Management|Cropland;Mt CO2/yr;2;Gross removals of carbon dioxide (CO2) through enhancing the carbon content of cropland soils;Values should be reported as positive numbers.;;Emissions|CO2|Land RAW|Land-use Change|Soil|Soil Carbon Management|+|Withdrawals;Mt CO2/yr;-1;;M;
 Carbon Removal|Land Use|Soil Carbon Management|Grassland;Mt CO2/yr;2;Gross removals of carbon dioxide (CO2) through enhancing the carbon content of grassland soils;Values should be reported as positive numbers.;;;;;not represented yet;;
 Carbon Removal|Long-Lived Materials;Mt CO2/yr;1;Gross removals of carbon dioxide (CO2) through long-lived materials;Values should be reported as positive numbers.;;Emi|CO2|CDR|+|Materials;Mt CO2/yr;-1;;R;
 Carbon Removal|Long-Lived Materials;Mt CO2/yr;1;Gross removals of carbon dioxide (CO2) through long-lived materials;Values should be reported as positive numbers.;;Emissions|CO2|Land RAW|Land-use Change|Timber|Storage in HWP|+|Industrial Roundwood;Mt CO2/yr;-1;;M;
@@ -8107,7 +8107,8 @@ Water Ecosystems|Wetlands|Peatlands|Intact;million ha;2;Area of intact peatlands
 Water Ecosystems|Wetlands|Peatlands|Rewetted;million ha;2;Area of rewetted peatlands;;;Resources|Peatland|+|Rewetted;million ha;;;M;
 Water Quality|Nitrogen Concentration;mg N/l;;Concentration of nitrogen in water at river mouths;;;;;;;;
 Water Quality|Phosphorus Concentration;mg P/l;;Concentration of phosphorus in water at river mouths;;;;;;;;
-Water Withdrawal;km3/yr;;Total water withdrawals;;;;;;;;
+Water Withdrawal;km3/yr;;Total water withdrawals;;;Water Withdrawal|Electricity;km3/yr;;;Rx;
+Water Withdrawal;km3/yr;;Total water withdrawals;;;SDG|SDG06|Agricultural water use;km3/yr;;;M;
 Water Withdrawal|Electricity;km3/yr;2;Total water withdrawals for total electricity generation;;;Water Withdrawal|Electricity;km3/yr;;;Rx;
 Water Withdrawal|Electricity|Ammonia;km3/yr;2;Total water withdrawals for electricity generation from ammonia;;;;;;;;
 Water Withdrawal|Electricity|Biomass;km3/yr;2;Total water withdrawals for electricity generation from purpose-grown bioenergy crops, biogas, crop and forestry residue, municipal solid waste bioenergy and traditional biomass;;;Water Withdrawal|Electricity|Biomass;km3/yr;;;Rx;
