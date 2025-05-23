@@ -8059,7 +8059,6 @@ Value Added|Agriculture;billion USD_2010/yr;1;Value added by the the aggregated 
 Value Added|Industry;billion USD_2010/yr;1;Value added by the the aggregated industrial sector (ISIC Rev.4 B-F);;;;;;;;
 Value Added|Services;billion USD_2010/yr;1;Value added by the the aggregated services sector (ISIC Rev.4 G-X);;;;;;;;
 Water Consumption;km3/yr;;Total water consumption;;;Water Consumption|Electricity;km3/yr;;;Rx;
-Water Consumption;km3/yr;;Total water consumption;;;Planetary Boundary|Freshwater|Water consumption;km3/yr;;;M;
 Water Consumption|Electricity;km3/yr;2;Total water withdrawals for total electricity generation;;;Water Consumption|Electricity;km3/yr;;;Rx;
 Water Consumption|Electricity|Ammonia;km3/yr;2;Total water withdrawals for electricity generation from ammonia;;;;;;;;
 Water Consumption|Electricity|Biomass;km3/yr;2;Total water withdrawals for electricity generation from purpose-grown bioenergy crops, biogas, crop and forestry residue, municipal solid waste bioenergy and traditional biomass;;;Water Consumption|Electricity|Biomass;km3/yr;;;Rx;
@@ -8097,7 +8096,7 @@ Water Consumption|Electricity|Wind;km3/yr;2;Total water withdrawals for electric
 Water Consumption|Electricity|Wind|Offshore;km3/yr;2;Total water withdrawals for electricity generation from offshore wind power;;;;;;;;
 Water Consumption|Electricity|Wind|Onshore;km3/yr;2;Total water withdrawals for electricity generation from onshore wind power;;;;;;;;
 Water Consumption|Industrial Water;km3/yr;;Water consumption for the industrial and manufacturing sector;;;;;;;;
-Water Consumption|Irrigation;km3/yr;2;Water consumption for irrigation;;;Planetary Boundary|Freshwater|Water consumption;km3/yr;;;M;
+Water Consumption|Irrigation;km3/yr;2;Water consumption for irrigation;;;;;;;;
 Water Consumption|Livestock;km3/yr;3;Water consumption for livestock;;;;;;;;
 Water Consumption|Municipal Water;km3/yr;;Water consumption for the municipal sector including for residential and commercial buildings and municipal irrigation;;;;;;;;
 Water Ecosystems;million ha;2;Area of all water ecosystems;;;;;;;;
