@@ -55,6 +55,7 @@
 #' @param naAction a function which indicates what should happen when the data contain NA values.
 #' @importFrom quitte as.quitte reportDuplicates write.IAMCxlsx write.mif quitteSort
 #' @importFrom dplyr filter mutate distinct inner_join bind_rows tibble
+#' @importFrom tidyr replace_na
 #' @importFrom gms chooseFromList
 #' @importFrom piamutils deletePlus
 #' @importFrom stringr str_trim
@@ -120,10 +121,10 @@ generateIIASASubmission <- function(mifs = ".", # nolint: cyclocomp_linter
       mutate(
         "piam_weight" = .data$weight
       ) %>%
-      # add interpolation column if not existing
-      bind_rows(tibble(interpolation = NA)) %>%
+      bind_rows(tibble(interpolation = NA)) %>% # add interpolation column if not existing
+      bind_rows(tibble(start_period = NA)) %>% # add interpolation column if not existing
       select("variable", "unit", "piam_variable", "piam_unit",
-             "piam_factor", "piam_weight", "interpolation")
+             "piam_factor", "piam_weight", "interpolation", "start_period")
     checkUnitFactor(t, logFile = logFile, failOnUnitMismatch = FALSE)
     mapData <- rbind(mapData, t)
   }
@@ -177,6 +178,23 @@ generateIIASASubmission <- function(mifs = ".", # nolint: cyclocomp_linter
     warning("Unit mismatches between data and mapping found for some variables: \n",
             paste0(utils::capture.output(unitMismatches), collapse = "\n"))
   }
+
+  # Assign NA to years before start_period, if defined
+  if (any(! is.na(mapData$start_period))) {
+    submission <- submission %>%
+      inner_join(
+        submission %>%
+          group_by(.data$model, .data$scenario, .data$region, .data$variable, .data$unit) %>%
+          summarize(minimum_period = min(.data$period), .groups = "drop"),
+        by = c("model", "scenario", "region", "variable", "unit"),
+        relationship = "many-to-many"
+        ) %>%
+      mutate(start_period =
+               ifelse(is.na(as.integer(.data$start_period)), .data$minimum_period, as.integer(.data$start_period))) %>%
+      mutate(value = ifelse(.data$period < .data$start_period, NA, .data$value)) %>%
+      select(-c("minimum_period", "start_period"))
+  }
+
   submission <- submission %>%
     .resolveWeights(weightSource = mifdata) %>%
     mutate("value" = .data$piam_factor * .data$value) %>%
@@ -191,7 +209,6 @@ generateIIASASubmission <- function(mifs = ".", # nolint: cyclocomp_linter
   )
 
   # apply corrections using IIASA template ----
-
   if (!is.null(iiasatemplate) && (file.exists(iiasatemplate) ||
       grepl("^https:\\/\\/files\\.ece\\.iiasa\\.ac\\.at\\/.*\\.xlsx$", iiasatemplate))) {
     submission <- priceIndicesIIASA(submission, iiasatemplate, scenBase = NULL)
