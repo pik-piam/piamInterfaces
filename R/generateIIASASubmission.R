@@ -122,7 +122,7 @@ generateIIASASubmission <- function(mifs = ".", # nolint: cyclocomp_linter
         "piam_weight" = .data$weight
       ) %>%
       bind_rows(tibble(interpolation = NA)) %>% # add interpolation column if not existing
-      bind_rows(tibble(start_period = NA)) %>% # add interpolation column if not existing
+      bind_rows(tibble(start_period = NA)) %>% # add start_period column if not existing
       select("variable", "unit", "piam_variable", "piam_unit",
              "piam_factor", "piam_weight", "interpolation", "start_period")
     checkUnitFactor(t, logFile = logFile, failOnUnitMismatch = FALSE)
