@@ -5043,6 +5043,7 @@ Final Energy|Transportation|Truck|Solids|Coal;EJ/yr;3;Final energy consumption b
 Final Energy|Waste;EJ/yr;1;Final energy consumption of non-renewable waste;;;;;;;;
 Food Availability [per capita];kcal/cap/day;1;Amount of crops and livestock products available per capita for consumption;;Population;Nutrition|Calorie Supply;kcal/capita/day;;;M;
 Food Availability|Crops [per capita];kcal/cap/day;1;Amount of crops available per capita for consumption;;Population;Nutrition|Calorie Supply|+|Crops;kcal/capita/day;;;M;
+Food Availability|Crops [per capita];kcal/cap/day;1;Amount of crops available per capita for consumption;;Population;Nutrition|Calorie Supply|+|Secondary products;kcal/capita/day;;;M;
 Food Availability|Crops|Cereals [per capita];kcal/cap/day;3;Amount of cereals (maize, rice, temperate cereals and tropical cereals) available per capita for consumption;;Population;Nutrition|Calorie Supply|Crops|+|Cereals;kcal/capita/day;;;M;
 Food Availability|Crops|Oil Crops [per capita];kcal/cap/day;3;Amount of oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl rapeseed, soybean, sunflower) available per capita for consumption;;Population;Nutrition|Calorie Supply|Crops|+|Oil crops;kcal/capita/day;;;M;
 Food Availability|Crops|Other Crops [per capita];kcal/cap/day;3;Amount of other crops (fruits, vegetables, nuts, potatoes, pulses, tropical roots) available per capita for consumption;;Population;Nutrition|Calorie Supply|Crops|+|Other crops;kcal/capita/day;;;M;
@@ -5061,6 +5062,7 @@ Food Availability|Livestock|Ruminant|Dairy [per capita];kcal/cap/day;3;Amount of
 Food Availability|Livestock|Ruminant|Meat [per capita];kcal/cap/day;3;Amount of ruminant meat (cattle, goat, sheep) available per capita for consumption;;Population;;;;;;
 Food Intake [per capita];kcal/cap/day;2;Amount of crops and livestock products consumed per capita;;Population;Nutrition|Calorie Intake;kcal/capita/day;;;M;
 Food Intake|Crops [per capita];kcal/cap/day;2;Amount of crops consumed per capita;;Population;Nutrition|Calorie Intake|+|Crops;kcal/capita/day;;;M;
+Food Intake|Crops [per capita];kcal/cap/day;2;Amount of crops consumed per capita;;Population;Nutrition|Calorie Intake|+|Secondary products;kcal/capita/day;;;M;
 Food Intake|Crops|Cereals [per capita];kcal/cap/day;3;Amount of cereals (maize, rice, temperate cereals and tropical cereals) consumed per capita;;Population;Nutrition|Calorie Intake|Crops|+|Cereals;kcal/capita/day;;;M;
 Food Intake|Crops|Oil Crops [per capita];kcal/cap/day;3;Amount of oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl rapeseed, soybean, sunflower) consumed per capita;;Population;Nutrition|Calorie Intake|Crops|+|Oil crops;kcal/capita/day;;;M;
 Food Intake|Crops|Other Crops [per capita];kcal/cap/day;3;Amount of other crops (fruits, vegetables, nuts, potatoes, pulses, tropical roots) consumed per capita;;Population;Nutrition|Calorie Intake|Crops|+|Other crops;kcal/capita/day;;;M;
