@@ -5272,9 +5272,6 @@ Forestry Demand|Roundwood|Industrial Roundwood;Forestry Demand|Roundwood|Industr
 Forestry Production|Roundwood;Forestry Production|Roundwood|Industrial Roundwood;1
 Forestry Production|Roundwood;Forestry Production|Roundwood|Wood Fuel;1
 ;;
-Gross Emissions|CO2;Gross Emissions|CO2|AFOLU;1
-Gross Emissions|CO2;Gross Emissions|CO2|Energy and Industrial Processes;1
-;;
 Gross Emissions|CO2|Energy and Industrial Processes;Gross Emissions|CO2|Energy;1
 Gross Emissions|CO2|Energy and Industrial Processes;Gross Emissions|CO2|Industrial Processes;1
 ;;
