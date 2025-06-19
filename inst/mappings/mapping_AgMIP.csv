@@ -1,4 +1,4 @@
-variable;unit;piam_variable;piam_unit;piam_factor;weight;comment;source
+variable;unit;piam_variable;piam_unit;piam_factor;piam_weight;comment;source
 CONS.AGR;1000 t dm;Demand|Bioenergy;Mt DM/yr;1000;NULL;;M
 OTHU.AGR;1000 t dm;Demand|Bioenergy;Mt DM/yr;1000;NULL;;M
 CONS.AGR;1000 t dm;Demand|Food;Mt DM/yr;1000;NULL;;M

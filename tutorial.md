@@ -36,7 +36,7 @@ Additionally, some mappings use those columns:
 - `tier`: importance of variable, with 1 being most important
 - `comment`: place for internal comments
 - `interpolation`: sets the interpolation method for the `variable` (i.e. not `piam_variable`) (currently only supports `linear`). When set to `linear`, adds yearly values between 2005 and 2100 through linear interpolation for the selected output variables.
-- `weight`: calculates a weighted average of multiple entries of `piam_variable`. Provide a different `piam_variable` in this column, and `generateIIASASubmission()` will split the data on the rows which contain weight pointers, resolve these weights into numerical values (via a join operation between the submission and the input data) and then modify the value based on the weighting. This takes place in the private .resolveWeights method.
+- `piam_weight`: calculates a weighted average of multiple entries of `piam_variable`. Provide a different `piam_variable` in this column, and `generateIIASASubmission()` will split the data on the rows which contain weight pointers, resolve these weights into numerical values (via a join operation between the submission and the input data) and then modify the value based on the weighting. This takes place in the private .resolveWeights method.
 
 ### Editing a mapping
 

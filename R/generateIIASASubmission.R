@@ -116,10 +116,7 @@ generateIIASASubmission <- function(mifs = ".", # nolint: cyclocomp_linter
         "piam_variable" = removePlus(.data$piam_variable),
         "piam_factor" = ifelse(is.na(.data$piam_factor), 1, as.numeric(.data$piam_factor))
       ) %>%
-      dplyr::bind_rows(tibble("weight" = "NULL")) %>% # add the optional weight column if not present
-      mutate(
-        "piam_weight" = .data$weight
-      ) %>%
+      dplyr::bind_rows(tibble("piam_weight" = "NULL")) %>% # add the optional piam_weight column if not present
       # add interpolation column if not existing
       bind_rows(tibble(interpolation = NA)) %>%
       select("variable", "unit", "piam_variable", "piam_unit",
