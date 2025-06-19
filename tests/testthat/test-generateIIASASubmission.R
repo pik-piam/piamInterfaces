@@ -139,10 +139,10 @@ test_that("interpolation for ScenarioMIP works as expected", {
       piam_variable = piamVariables,
       piam_unit = rep("PiamUnit", 2),
       piam_factor = c("1", "1000"),
-      weight = piamWeights,
+      piam_weight = piamWeights,
       comment = rep("", 2)
     )
-    if (includeWeightColumn == FALSE) mapping <- mapping %>% select(- "weight")
+    if (includeWeightColumn == FALSE) mapping <- mapping %>% select(- "piam_weight")
     write.csv2(mapping, quote = FALSE, file = file.path(tempdir(), "test_mappings.csv"), row.names = FALSE)
     return(file.path(tempdir(), "test_mappings.csv"))
   }
