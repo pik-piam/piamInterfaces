@@ -29,8 +29,8 @@ Agricultural Demand|Crops|Feed|Other Crops;million t DM/yr;3;Demand for feed cro
 Agricultural Demand|Crops|Feed|Sugar Crops;million t DM/yr;3;Demand for feed crops - sugar crops (sugar beet, sugar cane);;Demand|Feed|Crops|+|Sugar crops;Mt DM/yr;;;M;
 Agricultural Demand|Crops|Feed|Sugar Crops;million t DM/yr;3;Demand for feed crops - sugar crops (sugar beet, sugar cane);;Demand|Feed|Secondary products|+|Molasses;Mt DM/yr;;;M;
 Agricultural Demand|Crops|Feed|Sugar Crops;million t DM/yr;3;Demand for feed crops - sugar crops (sugar beet, sugar cane);;Demand|Feed|Secondary products|+|Sugar;Mt DM/yr;;;M;
-Agricultural Demand|Crops|Food;million t DM/yr;2;Demand for food crops;;Demand|Food|+|Crops;Mt DM/yr;;mapping taken from AR6_MAgPIE;M;
-Agricultural Demand|Crops|Food;million t DM/yr;2;Demand for food crops;;Demand|Food|+|Secondary products;Mt DM/yr;;mapping taken from AR6_MAgPIE;M;
+Agricultural Demand|Crops|Food;million t DM/yr;2;Demand for food crops (primary and processed);;Demand|Food|+|Crops;Mt DM/yr;;mapping taken from AR6_MAgPIE;M;
+Agricultural Demand|Crops|Food;million t DM/yr;2;Demand for food crops (primary and processed);;Demand|Food|+|Secondary products;Mt DM/yr;;mapping taken from AR6_MAgPIE;M;
 Agricultural Demand|Crops|Food|Cereals;million t DM/yr;3;Demand for food crops - cereals (maize, rice, temperate cereals and tropical cereals);;Demand|Food|Crops|+|Cereals;Mt DM/yr;;;M;
 Agricultural Demand|Crops|Food|Cereals;million t DM/yr;3;Demand for food crops - cereals (maize, rice, temperate cereals and tropical cereals);;Demand|Food|Secondary products|+|Alcoholic beverages;Mt DM/yr;;;M;
 Agricultural Demand|Crops|Food|Cereals;million t DM/yr;3;Demand for food crops - cereals (maize, rice, temperate cereals and tropical cereals);;Demand|Food|Secondary products|+|Brans;Mt DM/yr;;;M;
@@ -828,7 +828,7 @@ Consumption|Transport|Energy|D7 [Share];%;2;Share of total consumption of fuels 
 Consumption|Transport|Energy|D8 [Share];%;2;Share of total consumption of fuels for personal transport equipment (Diesel 07.2.2.1 - Petrol 07.2.2.3 - Other fuels 07.2.2.4), for the eighth decile;;;;;;;
 Consumption|Transport|Energy|D9 [Share];%;2;Share of total consumption of fuels for personal transport equipment (Diesel 07.2.2.1 - Petrol 07.2.2.3 - Other fuels 07.2.2.4), for the ninth decile;;;;;;;
 Debt;billion USD_2010/yr;2;Total net external debt;;;;;;;
-Debt|Public;billion USD_2010/yr;2;Total net external public debt;;;;;;;
+Debt|Government;billion USD_2010/yr;2;Total net external public debt;;;;;;;
 Efficiency|Electricity|Ammonia;%;2;Conversion efficiency per unit of primary energy of a newly installed plant to generate electricity from ammonia;;;;;;;
 Efficiency|Electricity|Ammonia|*;%;2;Conversion efficiency per unit of primary energy of a newly installed plant to generate electricity from ammonia for a specific technology;;;;;;;
 Efficiency|Electricity|Biomass;%;2;Conversion efficiency per unit of primary energy of a newly installed plant to generate electricity from purpose-grown bioenergy crops, biogas, crop and forestry residue, municipal solid waste bioenergy and traditional biomass;;;;;;;
@@ -2655,9 +2655,9 @@ Emissions|VOC|Product Use|Solvents;Mt VOC/yr;3;Emissions of volatile organic com
 Emissions|VOC|Waste;Mt VOC/yr;2;Emissions of volatile organic compound from waste of fossil-based products through incineration or decomposition (IPCC 1996 category 6 - IPCC 2006 category 4), not including emissions from organic waste handling and decay;;Emi|VOC|Waste;Mt VOC/yr;;mapping taken from NAVIGATE, NAVIGATE category: emissions (non-CO2);R;linear
 Energy Service|Commercial|Floor Space;billion m2;2;Energy service demand for conditioned floor space in commercial buildings;;ES|Buildings|Commercial|Floor Space;bn m2;;;Rx;
 Energy Service|Residential and Commercial|Floor Space;billion m2;2;Energy service demand for conditioned floor space in all buildings;;ES|Buildings|Floor Space;bn m2;;;R;
-Energy Service|Residential|Cooling Degree Days;°C-days;;Measure of how hot the temperature was over a given period indicating higher energy needs for cooling;;;;;;;
+Energy Service|Residential|Cooling Degree Days;°C-days;2;Measure of how hot the temperature was over a given period indicating higher energy needs for cooling;;;;;;;
 Energy Service|Residential|Floor Space;billion m2;2;Energy service demand for conditioned floor space in residential buildings;;ES|Buildings|Residential|Floor Space;bn m2;;;Rx;
-Energy Service|Residential|Heating Degree Days;°C-days;;Measure of how cold the temperature was over a given period indicating higher energy needs for heating;;;;;;;
+Energy Service|Residential|Heating Degree Days;°C-days;2;Measure of how cold the temperature was over a given period indicating higher energy needs for heating;;;;;;;
 Energy Service|Transportation|Freight;billion tkm/yr;;Energy service demand for freight transport;;ES|Transport|Freight|Road;billion tkm/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (service);T;
 Energy Service|Transportation|Freight;billion tkm/yr;;Energy service demand for freight transport;;ES|Transport|Freight|Rail;billion tkm/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (service);T;
 Energy Service|Transportation|Freight;billion tkm/yr;;Energy service demand for freight transport;;ES|Transport|Freight|Domestic Shipping;billion tkm/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (service);T;
@@ -2667,10 +2667,10 @@ Energy Service|Transportation|Freight|Truck|Fuel-Cell-Electric;billion tkm/yr;2;
 Energy Service|Transportation|Freight|Truck|Internal Combustion;billion tkm/yr;2;Energy service demand for freight transport on roads in trucks with internal combustion engine drive not including plug-in hybrids (ICE);;ES|Transport|Freight|Road|Liquids;billion tkm/yr;;added manually;T;
 Energy Service|Transportation|Freight|Truck|Internal Combustion;billion tkm/yr;2;Energy service demand for freight transport on roads in trucks with internal combustion engine drive not including plug-in hybrids (ICE);;ES|Transport|Freight|Road|Gases;billion tkm/yr;;added manually;T;
 Energy Service|Transportation|Freight|Truck|Plug-in Hybrid;billion tkm/yr;2;Energy service demand for freight transport on roads in trucks with plug-in hybrid drive (PHEV);;;;;;;
-Energy Service|Transportation|Passenger;billion pkm/yr;;Energy service demand for passenger transport;;ES|Transport|Pass|Road|Bus;billion pkm/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (service);T;
-Energy Service|Transportation|Passenger;billion pkm/yr;;Energy service demand for passenger transport;;ES|Transport|Pass|Road|LDV;billion pkm/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (service);T;
-Energy Service|Transportation|Passenger;billion pkm/yr;;Energy service demand for passenger transport;;ES|Transport|Pass|Rail;billion pkm/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (service);T;
-Energy Service|Transportation|Passenger;billion pkm/yr;;Energy service demand for passenger transport;;ES|Transport|Pass|Domestic Aviation;billion pkm/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (service);T;
+Energy Service|Transportation|Passenger;billion pkm/yr;1;Energy service demand for passenger transport;;ES|Transport|Pass|Road|Bus;billion pkm/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (service);T;
+Energy Service|Transportation|Passenger;billion pkm/yr;1;Energy service demand for passenger transport;;ES|Transport|Pass|Road|LDV;billion pkm/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (service);T;
+Energy Service|Transportation|Passenger;billion pkm/yr;1;Energy service demand for passenger transport;;ES|Transport|Pass|Rail;billion pkm/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (service);T;
+Energy Service|Transportation|Passenger;billion pkm/yr;1;Energy service demand for passenger transport;;ES|Transport|Pass|Domestic Aviation;billion pkm/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (service);T;
 Energy Service|Transportation|Passenger|Active Transport [Share];%;;Share of walking and cycling in passenger transport;;;;;;;
 Energy Service|Transportation|Passenger|Public Transport [Share];%;;Share of public transit in passenger transport;;;;;;;
 Energy Service|Transportation|Passenger|Road;billion pkm/yr;;Energy service demand for passenger transport on roads;;ES|Transport|Pass|Road;billion pkm/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (service);T;
@@ -2681,7 +2681,8 @@ Energy Service|Transportation|Passenger|Road|Light-Duty Vehicle|Internal Combust
 Energy Service|Transportation|Passenger|Road|Light-Duty Vehicle|Plug-in Hybrid;billion pkm/yr;2;Energy service demand for passenger transport on roads in light duty vehicles with plug-in hybrid drive (PHEV);;;;;;;
 Expenditure|Government;billion USD_2010/yr;1;Total expenditure by governments;;;;;;;
 Expenditure|Households;billion USD_2010/yr;1;Total expenditure by households;;;;;;;
-Expenditure|Households|Food [Share];%;;Share of food expenditure in total income;;SDG|SDG02|Food expenditure share;income;100;additional mapping taken from additional_SHAPE;M;
+Expenditure|Households|Food [Share];%;;Share of food expenditure in total income (including value added from food processing chain);;SDG|SDG02|Food expenditure share;income;100;additional mapping taken from additional_SHAPE;M;
+Expenditure|Households|Food|Agriculture [Share];%;;Expenditure share for agricultural products in total income based on farm-gate prices (without value added from food processing chain);;;;;;;
 Fertilizer Use|Nitrogen;Tg N/yr;1;Nitrogen fertilizer use on cropland (synthetic and organic);;Resources|Nitrogen|Cropland Budget|Inputs|+|Manure Recycled from Confinements;Mt Nr/yr;;;M;
 Fertilizer Use|Nitrogen;Tg N/yr;1;Nitrogen fertilizer use on cropland (synthetic and organic);;Resources|Nitrogen|Cropland Budget|Inputs|+|Manure From Stubble Grazing;Mt Nr/yr;;;M;
 Fertilizer Use|Nitrogen;Tg N/yr;1;Nitrogen fertilizer use on cropland (synthetic and organic);;Resources|Nitrogen|Cropland Budget|Inputs|+|Fertilizer;Mt Nr/yr;;;M;
@@ -3495,13 +3496,13 @@ Final Energy|Industry|Iron and Steel|Solids|Biomass;EJ/yr;3;Final energy consump
 Final Energy|Industry|Iron and Steel|Solids|Coal;EJ/yr;3;Final energy consumption by the iron and steel sector excluding feedstocks of coal, lignite, and derived products (e.g., coke, briquettes);;;;;;;
 Final Energy|Industry|Liquids;EJ/yr;1;Final energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks) of refined liquid fuels including oil products, fuels from gas and coal, synthetic fuels and biofuels;;FE|w/o Non-energy Use|Industry|Liquids;EJ/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (final);Rx;
 Final Energy|Industry|Liquids|Biomass;EJ/yr;2;Final energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks) of liquid fuels from biomass;;FE|w/o Non-energy Use|Industry|Liquids|+|Biomass;EJ/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (final);Rx;
-Final Energy|Industry|Liquids|Electricity;EJ/yr;2;Final energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks) of liquid synthetic fuels from electricity, i.e., e-fuels (if hydrogen is not explicitly modeled as an intermediate product);;;;;;;
-Final Energy|Industry|Liquids|Hydrogen;EJ/yr;2;Final energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks) of liquid fuels from hydrogen (if hydrogen is explicitly modeled as a commodity and not an implicit intermediate product of the transformation technologies);;FE|w/o Non-energy Use|Industry|Liquids|+|Hydrogen;EJ/yr;;;Rx;
-Final Energy|Industry|Liquids|Other;EJ/yr;2;Final energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks) of sources that do not fit any other category;;;;;;;
-Final Energy|Industry|Liquids|Fossil;EJ/yr;2;Final energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks) of liquid fuels from fossil fuels including coal, natural gas and conventional/unconventional oil;;FE|w/o Non-energy Use|Industry|Liquids|+|Fossil;EJ/yr;;;Rx;
 Final Energy|Industry|Liquids|Coal;EJ/yr;2;Final energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks) of liquid fuels from coal;;;;;;;
+Final Energy|Industry|Liquids|Electricity;EJ/yr;2;Final energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks) of liquid synthetic fuels from electricity, i.e., e-fuels (if hydrogen is not explicitly modeled as an intermediate product);;;;;;;
+Final Energy|Industry|Liquids|Fossil;EJ/yr;2;Final energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks) of liquid fuels from fossil fuels including coal, natural gas and conventional/unconventional oil;;FE|w/o Non-energy Use|Industry|Liquids|+|Fossil;EJ/yr;;;Rx;
 Final Energy|Industry|Liquids|Gas;EJ/yr;2;Final energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks) of liquid fuels from fossil methane ('natural gas');;;;;;;
+Final Energy|Industry|Liquids|Hydrogen;EJ/yr;2;Final energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks) of liquid fuels from hydrogen (if hydrogen is explicitly modeled as a commodity and not an implicit intermediate product of the transformation technologies);;FE|w/o Non-energy Use|Industry|Liquids|+|Hydrogen;EJ/yr;;;Rx;
 Final Energy|Industry|Liquids|Oil;EJ/yr;2;Final energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks) of liquid fuels from refined crude oil;;;;;;;
+Final Energy|Industry|Liquids|Other;EJ/yr;2;Final energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks) of sources that do not fit any other category;;;;;;;
 Final Energy|Industry|Non-Ferrous Metals;EJ/yr;2;Final energy consumption by the non-ferrous metals sector;;;;;;;
 Final Energy|Industry|Non-Ferrous Metals|Aluminum;EJ/yr;2;Final energy consumption by the aluminum;;;;;;;
 Final Energy|Industry|Non-Ferrous Metals|Aluminum|Electricity;EJ/yr;2;Final energy consumption by the aluminum of electricity;;;;;;;
@@ -4786,7 +4787,7 @@ Final Energy|Transportation|Domestic Shipping|Solids|Coal;EJ/yr;3;Final energy c
 Final Energy|Transportation|Electricity;EJ/yr;1;Final energy consumption by the transportation sector excluding international aviation and shipping (see 'Bunkers') of electricity;;FE|Transport|w/o Bunkers|+|Electricity;EJ/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (final);R;
 Final Energy|Transportation|Freight;EJ/yr;2;Final energy consumption by the freight transportation sector excluding international aviation and shipping;;FE|Transport|Freight;EJ/yr;;To be replaced by FE|Transport|Freight with bunkers once REMIND and EDGE-T are consistent;R;
 Final Energy|Transportation|Freight;EJ/yr;2;Final energy consumption by the freight transportation sector excluding international aviation and shipping;;FE|Transport|Bunkers|Freight;EJ/yr;-1;;T;
-Final Energy|Transportation|Freight|Electricity;EJ/yr;2;Final energy consumption by the freight transportation sector excluding international aviation and shipping of electricity;Remind has no electricity in Bunkers freight;FE|Transport|Freight|Electricity;EJ/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (final);R;
+Final Energy|Transportation|Freight|Electricity;EJ/yr;2;Final energy consumption by the freight transportation sector excluding international aviation and shipping of electricity;;FE|Transport|Freight|Electricity;EJ/yr;;Remind has no electricity in Bunkers freight;R;
 Final Energy|Transportation|Freight|Gases;EJ/yr;2;Final energy consumption by the freight transportation sector excluding international aviation and shipping of gaseous fuels including natural gas and biogas, not including hydrogen;;FE|Transport|Freight|Gases;EJ/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (final);R;
 Final Energy|Transportation|Freight|Gases|Biomass;EJ/yr;3;Final energy consumption by the freight transportation sector excluding international aviation and shipping of gaseous fuels from biogenic sources, mainly biogas;;FE|Transport|Freight|Gases|Biomass;EJ/yr;;;T;
 Final Energy|Transportation|Freight|Gases|Coal;EJ/yr;3;Final energy consumption by the freight transportation sector excluding international aviation and shipping of gaseous fuels from fossil coal gasification;;;;;;;
@@ -5063,44 +5064,46 @@ Final Energy|Transportation|Truck|Solids;EJ/yr;2;Final energy consumption by the
 Final Energy|Transportation|Truck|Solids|Biomass;EJ/yr;3;Final energy consumption by the trucking sector of solid biomass (e.g., commercial charcoal, wood chips, wood pellets), not including traditional bioenergy;;;;;;;
 Final Energy|Transportation|Truck|Solids|Coal;EJ/yr;3;Final energy consumption by the trucking sector of coal, lignite, and derived products (e.g., coke, briquettes);;;;;;;
 Final Energy|Waste;EJ/yr;1;Final energy consumption of non-renewable waste;;;;;;;
-Food Availability [per capita];kcal/cap/day;1;Amount of crops and livestock products available per capita for consumption;;Nutrition|Calorie Supply;kcal/capita/day;;;M;
-Food Availability|Crops [per capita];kcal/cap/day;1;Amount of crops available per capita for consumption;;Nutrition|Calorie Supply|+|Crops;kcal/capita/day;;;M;
-Food Availability|Crops [per capita];kcal/cap/day;1;Amount of crops available per capita for consumption;;Nutrition|Calorie Supply|+|Secondary products;kcal/capita/day;;;M;
-Food Availability|Crops|Cereals [per capita];kcal/cap/day;3;Amount of cereals (maize, rice, temperate cereals and tropical cereals) available per capita for consumption;;Nutrition|Calorie Supply|Crops|+|Cereals;kcal/capita/day;;;M;
-Food Availability|Crops|Oil Crops [per capita];kcal/cap/day;3;Amount of oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl rapeseed, soybean, sunflower) available per capita for consumption;;Nutrition|Calorie Supply|Crops|+|Oil crops;kcal/capita/day;;;M;
-Food Availability|Crops|Other Crops [per capita];kcal/cap/day;3;Amount of other crops (fruits, vegetables, nuts, potatoes, pulses, tropical roots) available per capita for consumption;;Nutrition|Calorie Supply|Crops|+|Other crops;kcal/capita/day;;;M;
-Food Availability|Crops|Sugar Crops [per capita];kcal/cap/day;3;Amount of sugar crops (sugar beet, sugar cane) available per capita for consumption;;Nutrition|Calorie Supply|Crops|+|Sugar crops;kcal/capita/day;;;M;
-Food Availability|Livestock [per capita];kcal/cap/day;1;Amount of livestock products available per capita for consumption;;Nutrition|Calorie Supply|+|Livestock products;kcal/capita/day;;;M;
-Food Availability|Livestock|Non-Ruminant [per capita];kcal/cap/day;3;Amount of monogastric meat (pig, poultry) and eggs available per capita for consumption;;Nutrition|Calorie Supply|Livestock products|+|Pig meat;kcal/capita/day;;;M;
-Food Availability|Livestock|Non-Ruminant [per capita];kcal/cap/day;3;Amount of monogastric meat (pig, poultry) and eggs available per capita for consumption;;Nutrition|Calorie Supply|Livestock products|+|Poultry meat;kcal/capita/day;;;M;
-Food Availability|Livestock|Non-Ruminant [per capita];kcal/cap/day;3;Amount of monogastric meat (pig, poultry) and eggs available per capita for consumption;;Nutrition|Calorie Supply|Livestock products|+|Eggs;kcal/capita/day;;;M;
-Food Availability|Livestock|Non-Ruminant|Eggs [per capita];kcal/cap/day;3;Amount of eggs available per capita for consumption;;;;;;;
-Food Availability|Livestock|Non-Ruminant|Meat [per capita];kcal/cap/day;3;Amount of monogastric meat (pig, poultry) available per capita for consumption;;;;;;;
-Food Availability|Livestock|Non-Ruminant|Meat|Pig [per capita];kcal/cap/day;3;Amount of pig meat available per capita for consumption;;;;;;;
-Food Availability|Livestock|Non-Ruminant|Meat|Poultry [per capita];kcal/cap/day;3;Amount of poultry meat available per capita for consumption;;;;;;;
-Food Availability|Livestock|Ruminant [per capita];kcal/cap/day;3;Amount of ruminant meat (cattle, goat, sheep) and dairy products (milk, cheese) available per capita for consumption;;Nutrition|Calorie Supply|Livestock products|+|Ruminant meat;kcal/capita/day;;;M;
-Food Availability|Livestock|Ruminant [per capita];kcal/cap/day;3;Amount of ruminant meat (cattle, goat, sheep) and dairy products (milk, cheese) available per capita for consumption;;Nutrition|Calorie Supply|Livestock products|+|Dairy;kcal/capita/day;;;M;
-Food Availability|Livestock|Ruminant|Dairy [per capita];kcal/cap/day;3;Amount of dairy products (milk, cheese) available per capita for consumption;;;;;;;
-Food Availability|Livestock|Ruminant|Meat [per capita];kcal/cap/day;3;Amount of ruminant meat (cattle, goat, sheep) available per capita for consumption;;;;;;;
-Food Intake [per capita];kcal/cap/day;2;Amount of crops and livestock products consumed per capita;;Nutrition|Calorie Intake;kcal/capita/day;;;M;
-Food Intake|Crops [per capita];kcal/cap/day;2;Amount of crops consumed per capita;;Nutrition|Calorie Intake|+|Crops;kcal/capita/day;;;M;
-Food Intake|Crops [per capita];kcal/cap/day;2;Amount of crops consumed per capita;;Nutrition|Calorie Intake|+|Secondary products;kcal/capita/day;;;M;
-Food Intake|Crops|Cereals [per capita];kcal/cap/day;3;Amount of cereals (maize, rice, temperate cereals and tropical cereals) consumed per capita;;Nutrition|Calorie Intake|Crops|+|Cereals;kcal/capita/day;;;M;
-Food Intake|Crops|Oil Crops [per capita];kcal/cap/day;3;Amount of oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl rapeseed, soybean, sunflower) consumed per capita;;Nutrition|Calorie Intake|Crops|+|Oil crops;kcal/capita/day;;;M;
-Food Intake|Crops|Other Crops [per capita];kcal/cap/day;3;Amount of other crops (fruits, vegetables, nuts, potatoes, pulses, tropical roots) consumed per capita;;Nutrition|Calorie Intake|Crops|+|Other crops;kcal/capita/day;;;M;
-Food Intake|Crops|Sugar Crops [per capita];kcal/cap/day;3;Amount of sugar crops (sugar beet, sugar cane) consumed per capita;;Nutrition|Calorie Intake|Crops|+|Sugar crops;kcal/capita/day;;;M;
-Food Intake|Livestock [per capita];kcal/cap/day;2;Amount of livestock products consumed per capita;;Nutrition|Calorie Intake|+|Livestock products;kcal/capita/day;;;M;
-Food Intake|Livestock|Non-Ruminant [per capita];kcal/cap/day;3;Amount of monogastric meat (pig, poultry) and eggs consumed per capita;;Nutrition|Calorie Intake|Livestock products|+|Pig meat;kcal/capita/day;;;M;
-Food Intake|Livestock|Non-Ruminant [per capita];kcal/cap/day;3;Amount of monogastric meat (pig, poultry) and eggs consumed per capita;;Nutrition|Calorie Intake|Livestock products|+|Poultry meat;kcal/capita/day;;;M;
-Food Intake|Livestock|Non-Ruminant [per capita];kcal/cap/day;3;Amount of monogastric meat (pig, poultry) and eggs consumed per capita;;Nutrition|Calorie Intake|Livestock products|+|Eggs;kcal/capita/day;;;M;
-Food Intake|Livestock|Non-Ruminant|Eggs [per capita];kcal/cap/day;3;Amount of eggs consumed per capita;;;;;;;
-Food Intake|Livestock|Non-Ruminant|Meat [per capita];kcal/cap/day;3;Amount of monogastric meat (pig, poultry) consumed per capita;;;;;;;
-Food Intake|Livestock|Non-Ruminant|Meat|Pig [per capita];kcal/cap/day;3;Amount of pig meat consumed per capita;;;;;;;
-Food Intake|Livestock|Non-Ruminant|Meat|Poultry [per capita];kcal/cap/day;3;Amount of poultry meat consumed per capita;;;;;;;
-Food Intake|Livestock|Ruminant [per capita];kcal/cap/day;3;Amount of ruminant meat (cattle, goat, sheep) and dairy products (milk, cheese) consumed per capita;;Nutrition|Calorie Intake|Livestock products|+|Ruminant meat;kcal/capita/day;;;M;
-Food Intake|Livestock|Ruminant [per capita];kcal/cap/day;3;Amount of ruminant meat (cattle, goat, sheep) and dairy products (milk, cheese) consumed per capita;;Nutrition|Calorie Intake|Livestock products|+|Dairy;kcal/capita/day;;;M;
-Food Intake|Livestock|Ruminant|Dairy [per capita];kcal/cap/day;3;Amount of dairy products (milk, cheese) consumed per capita;;;;;;;
-Food Intake|Livestock|Ruminant|Meat [per capita];kcal/cap/day;3;Amount of ruminant meat (cattle, goat, sheep) consumed per capita;;;;;;;
+Food Availability [per capita];kcal/cap/day;1;Amount of food available from crops, secondary products and livestock products;;Nutrition|Calorie Supply;kcal/capita/day;;;M;
+Food Availability|Crops [per capita];kcal/cap/day;1;Amount of food available from crops and secondary products;;Nutrition|Calorie Supply|+|Crops;kcal/capita/day;;;M;
+Food Availability|Crops [per capita];kcal/cap/day;1;Amount of food available from crops and secondary products;;Nutrition|Calorie Supply|+|Secondary products;kcal/capita/day;;;M;
+Food Availability|Crops|Cereals [per capita];kcal/cap/day;3;Amount of food available from cereals (maize, rice, temperate cereals and tropical cereals);;Nutrition|Calorie Supply|Crops|+|Cereals;kcal/capita/day;;;M;
+Food Availability|Crops|Oil Crops [per capita];kcal/cap/day;3;Amount of food available from oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl rapeseed, soybean, sunflower);;Nutrition|Calorie Supply|Crops|+|Oil crops;kcal/capita/day;;;M;
+Food Availability|Crops|Other Crops [per capita];kcal/cap/day;3;Amount of food available from other crops (fruits, vegetables, nuts, potatoes, pulses, tropical roots);;Nutrition|Calorie Supply|Crops|+|Other crops;kcal/capita/day;;;M;
+Food Availability|Crops|Secondary Products [per capita];kcal/cap/day;2;Amount of food available from secondary products (e.g. oils and sugar);;;;;;;
+Food Availability|Crops|Sugar Crops [per capita];kcal/cap/day;3;Amount of food available from sugar crops (sugar beet, sugar cane);;Nutrition|Calorie Supply|Crops|+|Sugar crops;kcal/capita/day;;;M;
+Food Availability|Livestock [per capita];kcal/cap/day;1;Amount of food available from livestock products;;Nutrition|Calorie Supply|+|Livestock products;kcal/capita/day;;;M;
+Food Availability|Livestock|Non-Ruminant [per capita];kcal/cap/day;3;Amount of food available from monogastric meat (pig, poultry) and eggs;;Nutrition|Calorie Supply|Livestock products|+|Pig meat;kcal/capita/day;;;M;
+Food Availability|Livestock|Non-Ruminant [per capita];kcal/cap/day;3;Amount of food available from monogastric meat (pig, poultry) and eggs;;Nutrition|Calorie Supply|Livestock products|+|Poultry meat;kcal/capita/day;;;M;
+Food Availability|Livestock|Non-Ruminant [per capita];kcal/cap/day;3;Amount of food available from monogastric meat (pig, poultry) and eggs;;Nutrition|Calorie Supply|Livestock products|+|Eggs;kcal/capita/day;;;M;
+Food Availability|Livestock|Non-Ruminant|Eggs [per capita];kcal/cap/day;3;Amount of food available from eggs;;;;;;;
+Food Availability|Livestock|Non-Ruminant|Meat [per capita];kcal/cap/day;3;Amount of food available from monogastric meat (pig, poultry);;;;;;;
+Food Availability|Livestock|Non-Ruminant|Meat|Pig [per capita];kcal/cap/day;3;Amount of food available from pig meat;;;;;;;
+Food Availability|Livestock|Non-Ruminant|Meat|Poultry [per capita];kcal/cap/day;3;Amount of food available from poultry meat;;;;;;;
+Food Availability|Livestock|Ruminant [per capita];kcal/cap/day;3;Amount of food available from ruminant meat (cattle, goat, sheep) and dairy products (milk, cheese);;Nutrition|Calorie Supply|Livestock products|+|Ruminant meat;kcal/capita/day;;;M;
+Food Availability|Livestock|Ruminant [per capita];kcal/cap/day;3;Amount of food available from ruminant meat (cattle, goat, sheep) and dairy products (milk, cheese);;Nutrition|Calorie Supply|Livestock products|+|Dairy;kcal/capita/day;;;M;
+Food Availability|Livestock|Ruminant|Dairy [per capita];kcal/cap/day;3;Amount of food available from dairy products (milk, cheese);;;;;;;
+Food Availability|Livestock|Ruminant|Meat [per capita];kcal/cap/day;3;Amount of food available from ruminant meat (cattle, goat, sheep);;;;;;;
+Food Intake [per capita];kcal/cap/day;2;Amount of food intake from crops, secondary products and livestock products;;Nutrition|Calorie Intake;kcal/capita/day;;;M;
+Food Intake|Crops [per capita];kcal/cap/day;2;Amount of food intake from crops and secondary products;;Nutrition|Calorie Intake|+|Crops;kcal/capita/day;;;M;
+Food Intake|Crops [per capita];kcal/cap/day;2;Amount of food intake from crops and secondary products;;Nutrition|Calorie Intake|+|Secondary products;kcal/capita/day;;;M;
+Food Intake|Crops|Cereals [per capita];kcal/cap/day;3;Amount of food intake from cereals (maize, rice, temperate cereals and tropical cereals);;Nutrition|Calorie Intake|Crops|+|Cereals;kcal/capita/day;;;M;
+Food Intake|Crops|Oil Crops [per capita];kcal/cap/day;3;Amount of food intake from oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl rapeseed, soybean, sunflower);;Nutrition|Calorie Intake|Crops|+|Oil crops;kcal/capita/day;;;M;
+Food Intake|Crops|Other Crops [per capita];kcal/cap/day;3;Amount of food intake from other crops (fruits, vegetables, nuts, potatoes, pulses, tropical roots);;Nutrition|Calorie Intake|Crops|+|Other crops;kcal/capita/day;;;M;
+Food Intake|Crops|Secondary Products [per capita];kcal/cap/day;2;Amount of food intake from secondary products (e.g. oils and sugar);;;;;;;
+Food Intake|Crops|Sugar Crops [per capita];kcal/cap/day;3;Amount of food intake from sugar crops (sugar beet, sugar cane);;Nutrition|Calorie Intake|Crops|+|Sugar crops;kcal/capita/day;;;M;
+Food Intake|Livestock [per capita];kcal/cap/day;2;Amount of food intake from livestock products;;Nutrition|Calorie Intake|+|Livestock products;kcal/capita/day;;;M;
+Food Intake|Livestock|Non-Ruminant [per capita];kcal/cap/day;3;Amount of food intake from monogastric meat (pig, poultry) and eggs;;Nutrition|Calorie Intake|Livestock products|+|Pig meat;kcal/capita/day;;;M;
+Food Intake|Livestock|Non-Ruminant [per capita];kcal/cap/day;3;Amount of food intake from monogastric meat (pig, poultry) and eggs;;Nutrition|Calorie Intake|Livestock products|+|Poultry meat;kcal/capita/day;;;M;
+Food Intake|Livestock|Non-Ruminant [per capita];kcal/cap/day;3;Amount of food intake from monogastric meat (pig, poultry) and eggs;;Nutrition|Calorie Intake|Livestock products|+|Eggs;kcal/capita/day;;;M;
+Food Intake|Livestock|Non-Ruminant|Eggs [per capita];kcal/cap/day;3;Amount of food intake from eggs;;;;;;;
+Food Intake|Livestock|Non-Ruminant|Meat [per capita];kcal/cap/day;3;Amount of food intake from monogastric meat (pig, poultry);;;;;;;
+Food Intake|Livestock|Non-Ruminant|Meat|Pig [per capita];kcal/cap/day;3;Amount of food intake from pig meat;;;;;;;
+Food Intake|Livestock|Non-Ruminant|Meat|Poultry [per capita];kcal/cap/day;3;Amount of food intake from poultry meat;;;;;;;
+Food Intake|Livestock|Ruminant [per capita];kcal/cap/day;3;Amount of food intake from ruminant meat (cattle, goat, sheep) and dairy products (milk, cheese);;Nutrition|Calorie Intake|Livestock products|+|Ruminant meat;kcal/capita/day;;;M;
+Food Intake|Livestock|Ruminant [per capita];kcal/cap/day;3;Amount of food intake from ruminant meat (cattle, goat, sheep) and dairy products (milk, cheese);;Nutrition|Calorie Intake|Livestock products|+|Dairy;kcal/capita/day;;;M;
+Food Intake|Livestock|Ruminant|Dairy [per capita];kcal/cap/day;3;Amount of food intake from dairy products (milk, cheese);;;;;;;
+Food Intake|Livestock|Ruminant|Meat [per capita];kcal/cap/day;3;Amount of food intake from ruminant meat (cattle, goat, sheep);;;;;;;
 Food Waste [per capita];kcal/cap/day;2;Amount of food (crops and livestock) per capita that is disposed and not consumed (difference between food availability and food intake), including food losses and food waste;;SDG|SDG12|Food waste;kcal/cap/day;;;M;
 Forest Area Change;million ha/yr;3;Annual net change in total forest area;This variable should be computed as yearly average change between the previous and the current reported time step.;Resources|NetForestChange;Mha/yr;;;M;
 Forest Area Change|Deforestation;million ha/yr;3;Annual gross deforested area;This variable should be computed as yearly average change between the previous and the current reported time step.;;;;;;
@@ -5144,7 +5147,7 @@ GDP|PPP [Growth Rate per capita];%;2;Annual growth rate of GDP-per-capita (PPP);
 GDP|PPP [per capita relative to OECD];%;;Ratio of GDP-per-capita (PPP) relative to OECD average;;GDP|PPP|Per capita ratio to OECD;percent;;additional mapping taken from additional_SHAPE;S;
 Gender Inequality Index;unitless;;Geometric average of reproductive health, empowerment and labor market force participation rate (see Andrijevic et al., 2020);;;;;;;
 Gross Emissions|CO2;Mt CO2/yr;1;Gross emissions of carbon dioxide (CO2), not accounting for negative emissions, for example from bioenergy with CCS (BECCS), direct air carbon capture or agriculture, forestry and other land use (AFOLU);Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.;Emi|CO2|w/ Bunkers|Gross;Mt CO2/yr;;;R;linear
-Gross Emissions|CO2;Mt CO2/yr;1;;;Emissions|CO2|Land|Biomass Burning|+|Burning of Crop Residues;Mt CO2/yr;;;M;linear
+Gross Emissions|CO2;Mt CO2/yr;1;Gross emissions of carbon dioxide (CO2), not accounting for negative emissions, for example from bioenergy with CCS (BECCS), direct air carbon capture or agriculture, forestry and other land use (AFOLU);Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.;Emissions|CO2|Land|Biomass Burning|+|Burning of Crop Residues;Mt CO2/yr;;;M;linear
 Gross Emissions|CO2;Mt CO2/yr;1;Gross emissions of carbon dioxide (CO2), not accounting for negative emissions, for example from bioenergy with CCS (BECCS), direct air carbon capture or agriculture, forestry and other land use (AFOLU);Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.;Emi|CO2|CDR|+|Land-Use Change;Mt CO2/yr;;;R;linear
 Gross Emissions|CO2;Mt CO2/yr;1;Gross emissions of carbon dioxide (CO2), not accounting for negative emissions, for example from bioenergy with CCS (BECCS), direct air carbon capture or agriculture, forestry and other land use (AFOLU);Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.;Emissions|CO2|Land RAW|Land-use Change|+|Regrowth;Mt CO2/yr;-1;;M;linear
 Gross Emissions|CO2;Mt CO2/yr;1;Gross emissions of carbon dioxide (CO2), not accounting for negative emissions, for example from bioenergy with CCS (BECCS), direct air carbon capture or agriculture, forestry and other land use (AFOLU);Net emissions 'Emissions|CO2' = 'Gross Emissions|CO2' + 'Gross Removals|CO2'.;Emissions|CO2|Land RAW|Land-use Change|Timber|+|Storage in HWP;Mt CO2/yr;-1;;M;linear
@@ -5159,7 +5162,7 @@ Gross Emissions|CO2|AFOLU;Mt CO2/yr;1;Gross emissions of carbon dioxide (CO2) fr
 Gross Emissions|CO2|AFOLU;Mt CO2/yr;1;Gross emissions of carbon dioxide (CO2) from agriculture, forestry and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3), not including any removals from the atmosphere (e.g., biochar);Emissions reported in this category represent fluxes from the land pool to the atmosphere. Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.;Emissions|CO2|Land RAW|Land-use Change|Timber|+|Release from HWP;Mt CO2/yr;;;M;linear
 Gross Emissions|CO2|AFOLU;Mt CO2/yr;1;Gross emissions of carbon dioxide (CO2) from agriculture, forestry and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3), not including any removals from the atmosphere (e.g., biochar);Emissions reported in this category represent fluxes from the land pool to the atmosphere. Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.;Emissions|CO2|Land RAW|Land-use Change|Soil|++|Emissions;Mt CO2/yr;;;M;linear
 Gross Emissions|CO2|AFOLU;Mt CO2/yr;1;Gross emissions of carbon dioxide (CO2) from agriculture, forestry and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3), not including any removals from the atmosphere (e.g., biochar);Emissions reported in this category represent fluxes from the land pool to the atmosphere. Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.;Emissions|CO2|Land RAW|Land-use Change|Residual|+|Positive;Mt CO2/yr;;;M;linear
-Gross Emissions|CO2|AFOLU;Mt CO2/yr;1;;;Emissions|CO2|Land|Biomass Burning|+|Burning of Crop Residues;Mt CO2/yr;;;M;linear
+Gross Emissions|CO2|AFOLU;Mt CO2/yr;1;Gross emissions of carbon dioxide (CO2) from agriculture, forestry and other land use (IPCC 1996 category 4, 5 - IPCC 2006 category 3), not including any removals from the atmosphere (e.g., biochar);Emissions reported in this category represent fluxes from the land pool to the atmosphere. Net emissions 'Emissions|CO2|AFOLU' = 'Gross Emissions|CO2|AFOLU' + 'Gross Removals|CO2|AFOLU'.;Emissions|CO2|Land|Biomass Burning|+|Burning of Crop Residues;Mt CO2/yr;;;M;linear
 Gross Emissions|CO2|Energy;Mt CO2/yr;1;Gross emissions of carbon dioxide (CO2) from energy use, including fugitive emissions from fuels (IPCC category 1A, 1B), not accounting for removals from the atmosphere;;Emi|CO2|w/ Bunkers|Gross|Energy;Mt CO2/yr;;mapping taken from NAVIGATE, NAVIGATE category: emissions (CO2);R;linear
 Gross Emissions|CO2|Energy and Industrial Processes;Mt CO2/yr;2;Gross emissions of carbon dioxide (CO2) from energy use in supply and demand sectors (IPCC category 1A, 1B) and from industrial processes (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E), including emissions from international bunker fuels, not accounting for removals from the atmosphere;;Emi|CO2|w/ Bunkers|Gross|Energy and Industrial Processes;Mt CO2/yr;1;mapping taken from NAVIGATE, NAVIGATE category: emissions (CO2);R;linear
 Gross Emissions|CO2|Energy and Industrial Processes;Mt CO2/yr;2;Gross emissions of carbon dioxide (CO2) from energy use in supply and demand sectors (IPCC category 1A, 1B) and from industrial processes (IPCC categories 1A2, 1A5, 2A, 2B, 2C, 2E), including emissions from international bunker fuels, not accounting for removals from the atmosphere;;Emi|CO2|Industrial Processes|+|CDR Sector;Mt CO2/yr;-1;For now we report Net-OAE, so process emissions shall not show up here as well as they are included in the net effect;R;linear
@@ -5426,7 +5429,17 @@ Investment|Energy Supply|Solids|Coal|w/ CCS;billion USD_2010/yr;2;Investments fo
 Investment|Energy Supply|Solids|Coal|w/o CCS;billion USD_2010/yr;2;Investments for the production of coal, lignite, and derived products (e.g., coke, briquettes) without carbon capture and storage (CCS);For plants equipped with CCS, the investment in the capturing equipment should be included but not the costs related to CO2 transport and storage.;;;;;;
 Investment|Energy Supply|Solids|w/ CCS;billion USD_2010/yr;1;Investments for the production of solid energy carriers, including coal, briquettes, coke, and wood pellets in combination with carbon capture and storage (CCS);For plants equipped with CCS, the investment in the capturing equipment should be included but not the costs related to CO2 transport and storage.;;;;;;
 Investment|Energy Supply|Solids|w/o CCS;billion USD_2010/yr;1;Investments for the production of solid energy carriers, including coal, briquettes, coke, and wood pellets without carbon capture and storage (CCS);For plants equipped with CCS, the investment in the capturing equipment should be included but not the costs related to CO2 transport and storage.;;;;;;
+Labor Force|Active;million;1;Inhabitants which are part of the labor force.;;;;;;;
 Labor Force|Employed;million;1;Working-age inhabitants which are employed (part of the active labor force);;;;;;;
+Labor Force|Employed|Agriculture;million full-time equivalent workers;1;Employment by the the aggregated agricultural sectors (ISIC Rev.4 - Section A);;;;;;;
+Labor Force|Employed|Industry;million full-time equivalent workers;1;Employment by the the aggregated industrial sector (ISIC Rev.4 - Section B-F);;;;;;;
+Labor Force|Employed|Industry|Construction;million full-time equivalent workers;2;Employment by the construction (ISIC Rev.4 - Section F, equivalent to Div. 41-43);;;;;;;
+Labor Force|Employed|Industry|Energy;million full-time equivalent workers;2;Employment by the electricity, gas, steam and air conditioning supply (ISIC Rev.4 - Section D, equivalent to Div. 35);;;;;;;
+Labor Force|Employed|Industry|Energy All Supply Chains;million full-time equivalent workers;2;Employment by the all energy related activities along supply chains (ISIC Rev.4 - Div. 05, 06, 19, 35, Group 091 and Classes 0892, 0721). Mix of parts of ISIC Section B, C, D.;;;;;;;
+Labor Force|Employed|Industry|Manufacturing;million full-time equivalent workers;2;Employment by the manufacturing (ISIC Rev.4 - Section C, equivalent to Div. 10-33);;;;;;;
+Labor Force|Employed|Industry|Mining;million full-time equivalent workers;2;Employment by the mining and quarrying (ISIC Rev.4 - Section B, equivalent to Div. 05-09);;;;;;;
+Labor Force|Employed|Industry|Water Supply;million full-time equivalent workers;2;Employment by the water supply - sewerage, waste management and remediation activities (ISIC Rev.4 - Section E, equivalent to Div. 35);;;;;;;
+Labor Force|Employed|Services;million full-time equivalent workers;1;Employment by the the aggregated services sector (ISIC Rev.4 - Section G-X);;;;;;;
 Labor Force|Inactive;million;1;Inhabitants which are not part of the labor force, including working-age people neither employed nor unemployed, and people not in a working-age cohort (e.g., children, retirees);;;;;;;
 Labor Force|Unemployed;million;1;Working-age inhabitants which are unemployed (part of the active labor force);;;;;;;
 Labor Force|Unemployment [Rate];%;;Fraction of unemployed inhabitants (based on ILO classification);;;;;;;
@@ -5439,6 +5452,7 @@ Land Cover|Cropland|Cereals|Rainfed;million ha;3;Rainfed cropland (physical area
 Land Cover|Cropland|Energy Crops;million ha;2;Cropland for second-generation bioenergy crops (short rotation grasses, short rotation trees);;Resources|Land Cover|Cropland|Croparea|+|Bioenergy crops;million ha;;mapping taken from NAVIGATE, NAVIGATE category: land cover;M;
 Land Cover|Cropland|Energy Crops|Irrigated;million ha;3;Irrigated cropland (physical area) for second-generation bioenergy crops (short rotation grasses, short rotation trees);;Resources|Land Cover|Cropland|Croparea|Bioenergy crops|++|irrigated;million ha;;;M;
 Land Cover|Cropland|Energy Crops|Rainfed;million ha;3;Rainfed cropland (physical area) for second-generation bioenergy crops (short rotation grasses, short rotation trees);;Resources|Land Cover|Cropland|Croparea|Bioenergy crops|++|rainfed;million ha;;;M;
+Land Cover|Cropland|Fallow;million ha;2;Fallow cropland;;;;;;;
 Land Cover|Cropland|Irrigated;million ha;1;Irrigated cropland (physical area);;Resources|Land Cover|Cropland|Croparea|++|Irrigated;million ha;;;M;
 Land Cover|Cropland|Oil Crops;million ha;2;Cropland for oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl rapeseed, soybean, sunflower);;Resources|Land Cover|Cropland|Croparea|Crops|+|Oil crops;million ha;;;M;
 Land Cover|Cropland|Oil Crops|Irrigated;million ha;3;Irrigated cropland (physical area) for oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl rapeseed, soybean, sunflower);;Resources|Land Cover|Cropland|Croparea|Crops|Oil crops|++|irrigated;million ha;;;M;
@@ -5450,6 +5464,7 @@ Land Cover|Cropland|Rainfed;million ha;1;Rainfed cropland (physical area);;Resou
 Land Cover|Cropland|Sugar Crops;million ha;2;Cropland for sugar crops (sugar beet, sugar cane);;Resources|Land Cover|Cropland|Croparea|Crops|+|Sugar crops;million ha;;;M;
 Land Cover|Cropland|Sugar Crops|Irrigated;million ha;3;Irrigated cropland (physical area) for sugar crops (sugar beet, sugar cane);;Resources|Land Cover|Cropland|Croparea|Crops|Sugar crops|++|irrigated;million ha;;;M;
 Land Cover|Cropland|Sugar Crops|Rainfed;million ha;3;Rainfed cropland (physical area) for sugar crops (sugar beet, sugar cane);;Resources|Land Cover|Cropland|Croparea|Crops|Sugar crops|++|rainfed;million ha;;;M;
+Land Cover|Cropland|Trees;million ha;2;Trees on cropland for agroforesty;To prevent double-counting, this variable should include only the actual crop area specifically covered by trees, not the entire agroforestry landscape;;;;;;
 Land Cover|Forest;million ha;1;Sum of primary, secondary and planted forest (FAO definition);;Resources|Land Cover|+|Forest;million ha;;mapping taken from NAVIGATE, NAVIGATE category: land cover;M;
 Land Cover|Forest|Planted;million ha;2;Forest predominantly composed of trees established through planting and/or deliberate seeding (FAO definition);;Resources|Land Cover|Forest|+|Planted Forest;million ha;;;M;
 Land Cover|Forest|Planted|Natural;million ha;2;Planted forest which is not classified as plantation forest, in particular re/afforestation for carbon sequestration with native tree species;;Resources|Land Cover|Forest|Planted Forest|+|Natural;million ha;;;M;
@@ -7785,6 +7800,7 @@ Production|Chemicals|Nitrogen Fertilizer;Mt/yr;3;Production of single-nutrient n
 Production|Chemicals|Plastics;Mt/yr;2;Production of plastics;;;;;;;
 Production|Chemicals|Plastics|Primary;Mt/yr;3;Production of plastics, produced from virgin feedstocks;;;;;;;
 Production|Chemicals|Plastics|Secondary;Mt/yr;3;Production of plastics, produced in recycling processes;;;;;;;
+Production|Iron and Steel;Mt/yr;2;Production of Iron and Steel;;;;;;;
 Production|Iron and Steel|Iron;Mt/yr;3;Production of raw iron, used in the iron industry for the production of steel;;;;;;;
 Production|Iron and Steel|Iron Ore;Mt/yr;3;Production of ores, from which metallic iron can be economically extracted;;;;;;;
 Production|Iron and Steel|Iron|Pig Iron;Mt/yr;4;Production of pig iron, an intermediate good used in the iron industry for the production of steel produced by smelting iron in a blast furnace;;;;;;;
@@ -7806,6 +7822,7 @@ Production|Non-Ferrous Metals|Lithium|Primary;Mt/yr;3;Production of lithium extr
 Production|Non-Ferrous Metals|Lithium|Secondary;Mt/yr;3;Production of lithium that does not directly originate from a primary mineral but from a recycling process or from the processing of waste streams from primary production;;;;;;;
 Production|Non-Ferrous Metals|Manganese;Mt/yr;3;Production of manganese;;;;;;;
 Production|Non-Ferrous Metals|Nickel;Mt/yr;3;Production of nickel;;;;;;;
+Production|Non-Metallic Minerals;Mt/yr;2;Production of Non-Metallic Minerals;;;;;;;
 Production|Non-Metallic Minerals|Bricks;Mt/yr;4;Production of bricks, made from clay;;;;;;;
 Production|Non-Metallic Minerals|Cement;Mt/yr;2;Production of cement, a binder substance used for construction;;Production|Industry|Cement;Mt/yr;1;;R;
 Production|Non-Metallic Minerals|Cement Clinker;Mt/yr;2;Production of cement clinker, produced in the manufacture of portland cement as an intermediary product;;;;;;;
@@ -8082,15 +8099,29 @@ Trade|Secondary Energy|Hydrogen [Value];billion USD_2010/yr;;Net exports of hydr
 Trade|Secondary Energy|Hydrogen [Volume];EJ/yr;;Net exports of hydrogen measured in physical energy quantities;Negative values indicate that imports exceed exports. At the global level these should add up to the trade losses.;;;;;;
 Trade|Secondary Energy|Liquids [Value];billion USD_2010/yr;;Net exports of liquids measured in monetary quantities;Negative values indicate that imports exceed exports. At the global level these should add up to the trade losses.;;;;;;
 Trade|Secondary Energy|Liquids [Volume];EJ/yr;;Net exports of liquids measured in physical energy quantities;Negative values indicate that imports exceed exports. At the global level these should add up to the trade losses.;;;;;;
-Useful Energy|Commercial [per capita];GJ/cap/yr;;Useful energy per capita for buildings;;;;;;;
-Useful Energy|Industry [per capita];GJ/cap/yr;;Useful energy per capita for industry;;;;;;;
-Useful Energy|Residential [per capita];GJ/cap/yr;;Useful energy per capita for buildings;;;;;;;
-Useful Energy|Residential and Commercial [per capita];GJ/cap/yr;;Useful energy per capita for buildings;;;;;;;
-Useful Energy|Transportation|Passenger [per capita];GJ/cap/yr;;Useful energy per capita for passenger transport;;;;;;;
+Useful Energy;EJ/yr;1;Useful energy consumption by all end-use sectors and all fuels, including non-energy use, excluding transmission/distribution losses;;;;;;;
+Useful Energy (w/o bunkers);EJ/yr;2;Useful energy consumption by all end-use sectors and all fuels including non-energy use, excluding international aviation and shipping (see 'Useful Energy|Bunkers|*') and excluding transmission/distribution losses;;;;;;;
+Useful Energy|Agriculture;EJ/yr;2;Useful energy consumption by the agriculture sector including fishing;;;;;;;
+Useful Energy|Bunkers;EJ/yr;2;Useful energy consumption by the international aviation and shipping;;;;;;;
+Useful Energy|Carbon Management;EJ/yr;3;Total energy use for carbon management, i.e., capture and/or removal of CO2;;;;;;;
+Useful Energy|Commercial;EJ/yr;2;Useful energy consumption by the commercial sector;;;;;;;
+Useful Energy|Industry;EJ/yr;1;Useful energy consumption by the industrial sector excluding non-energy use (e.g.feedstocks);;;;;;;
+Useful Energy|Other Sector;EJ/yr;2;Useful energy consumption by the other sectors;;;;;;;
+Useful Energy|Residential;EJ/yr;2;Useful energy consumption by the residential sector;;;;;;;
+Useful Energy|Residential and Commercial;EJ/yr;1;Useful energy consumption by the residential and commercial sector;;;;;;;
+Useful Energy|Transportation;EJ/yr;1;Useful energy consumption by the transportation sector excluding international aviation and shipping (see 'Bunkers');;;;;;;
+Useful Energy|Transportation (w/ bunkers);EJ/yr;2;Useful energy consumption by the transportation sector including international aviation and shipping;;;;;;;
+Useful Energy|Transportation|Passenger;EJ/yr;2;Useful energy for passenger transport;;;;;;;
 Value Added;billion USD_2010/yr;1;Total value added;;;;;;;
-Value Added|Agriculture;billion USD_2010/yr;1;Value added by the the aggregated agricultural sectors (ISIC Rev.4 A);;;;;;;
-Value Added|Industry;billion USD_2010/yr;1;Value added by the the aggregated industrial sector (ISIC Rev.4 B-F);;;;;;;
-Value Added|Services;billion USD_2010/yr;1;Value added by the the aggregated services sector (ISIC Rev.4 G-X);;;;;;;
+Value Added|Agriculture;billion USD_2010/yr;1;Value added by the the aggregated agricultural sectors (ISIC Rev.4 - Section A);;;;;;;
+Value Added|Industry;billion USD_2010/yr;1;Value added by the the aggregated industrial sector (ISIC Rev.4 - Section B-F);;;;;;;
+Value Added|Industry|Construction;billion USD_2010/yr;2;Value added by the construction (ISIC Rev.4 - Section F, equivalent to Div. 41-43);;;;;;;
+Value Added|Industry|Energy;billion USD_2010/yr;2;Value added by the electricity, gas, steam and air conditioning supply (ISIC Rev.4 - Section D, equivalent to Div. 35);;;;;;;
+Value Added|Industry|Energy All Supply Chains;billion USD_2010/yr;2;Value added by the all energy related activities along supply chains (ISIC Rev.4 - Div. 05, 06, 19, 35, Group 091 and Classes 0892, 0721). Mix of parts of ISIC Section B, C, D.;;;;;;;
+Value Added|Industry|Manufacturing;billion USD_2010/yr;2;Value added by the manufacturing (ISIC Rev.4 - Section C, equivalent to Div. 10-33);;;;;;;
+Value Added|Industry|Mining;billion USD_2010/yr;2;Value added by the mining and quarrying (ISIC Rev.4 - Section B, equivalent to Div. 05-09);;;;;;;
+Value Added|Industry|Water Supply;billion USD_2010/yr;2;Value added by the water supply - sewerage, waste management and remediation activities (ISIC Rev.4 - Section E, equivalent to Div. 35);;;;;;;
+Value Added|Services;billion USD_2010/yr;1;Value added by the the aggregated services sector (ISIC Rev.4 - Section G-X);;;;;;;
 Water Consumption;km3/yr;;Total water consumption;;Water Consumption|Electricity;km3/yr;;;Rx;
 Water Consumption;km3/yr;;Total water consumption;;Resources|Water|Consumption|Agriculture;km3/yr;;;M;
 Water Consumption;km3/yr;;Total water consumption;;Resources|Water|Consumption|Non-agriculture|+|manufacturing;km3/yr;;;M;
@@ -8193,9 +8224,14 @@ Water Withdrawal|Irrigation;km3/yr;2;Water withdrawal for irrigation;;Resources|
 Water Withdrawal|Irrigation;km3/yr;2;Water withdrawal for irrigation;;Resources|Water|Withdrawal|Agriculture|Crops|+|Bioenergy crops;km3/yr;;;M;
 Water Withdrawal|Livestock;km3/yr;3;Water withdrawals for livestock;;Resources|Water|Withdrawal|Agriculture|Livestock|+|Livestock products;km3/yr;;;M;
 Water Withdrawal|Municipal Water;km3/yr;;Water withdrawals for the municipal sector including for residential and commercial buildings and municipal irrigation;;Resources|Water|Withdrawal|Non-agriculture|+|domestic;km3/yr;;;M;
-Yield|Cropland|Cereals;t DM/ha/yr;2;Yield of cropland with cereals (maize, rice, temperate cereals and tropical cereals);;Productivity|Yield|Crops|Cereals;t DM/ha;;;M;
-Yield|Cropland|Energy Crops;t DM/ha/yr;2;Yield of cropland with second-generation bioenergy crops (short rotation grasses, short rotation trees);;Productivity|Yield|Bioenergy crops;t DM/ha;;;M;
-Yield|Cropland|Oil Crops;t DM/ha/yr;2;Yield of cropland with oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl rapeseed, soybean, sunflower);;Productivity|Yield|Crops|Oil crops;t DM/ha;;;M;
-Yield|Cropland|Other Crops;t DM/ha/yr;2;Yield of cropland with other crops (fruits, vegetables, nuts, potatoes, pulses, tropical roots);;Productivity|Yield|Crops|Other crops;t DM/ha;;;M;
-Yield|Cropland|Sugar Crops;t DM/ha/yr;2;Yield of cropland with sugar crops (sugar beet, sugar cane);;Productivity|Yield|Crops|Sugar crops;t DM/ha;;;M;
+Yield|Cropland|Cereals;t DM/ha/yr;2;Yield of cereals (maize, rice, temperate cereals and tropical cereals), calculated as production (dry matter) divided by physical cropland area;Yields in FAOSTAT are reported on wet matter basis for harvested cropland area;Productivity|Yield|Crops|Cereals;t DM/ha;;;M;
+Yield|Cropland|Cereals [Harvested Area];t DM/ha/yr;2;Yield of cereals (maize, rice, temperate cereals and tropical cereals), calculated as production (dry matter) divided by harvested cropland area;Yields in FAOSTAT are reported on wet matter basis for harvested cropland area;;;;;;
+Yield|Cropland|Energy Crops;t DM/ha/yr;2;Yield of second-generation bioenergy crops (short rotation grasses, short rotation trees), calculated as production (dry matter) divided by physical cropland area;Yields in FAOSTAT are reported on wet matter basis for harvested cropland area;Productivity|Yield|Bioenergy crops;t DM/ha;;;M;
+Yield|Cropland|Energy Crops [Harvested Area];t DM/ha/yr;2;Yield of second-generation bioenergy crops (short rotation grasses, short rotation trees), calculated as production (dry matter) divided by harvested cropland area;Yields in FAOSTAT are reported on wet matter basis for harvested cropland area;;;;;;
+Yield|Cropland|Oil Crops;t DM/ha/yr;2;Yield of oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl rapeseed, soybean, sunflower), calculated as production (dry matter) divided by physical cropland area;Yields in FAOSTAT are reported on wet matter basis for harvested cropland area;Productivity|Yield|Crops|Oil crops;t DM/ha;;;M;
+Yield|Cropland|Oil Crops [Harvested Area];t DM/ha/yr;2;Yield of oil crops (cotton seed, groundnuts, oilpalms, other oil crops incl rapeseed, soybean, sunflower), calculated as production (dry matter) divided by harvested cropland area;Yields in FAOSTAT are reported on wet matter basis for harvested cropland area;;;;;;
+Yield|Cropland|Other Crops;t DM/ha/yr;2;Yield of other crops (fruits, vegetables, nuts, potatoes, pulses, tropical roots), calculated as production (dry matter) divided by physical cropland area;Yields in FAOSTAT are reported on wet matter basis for harvested cropland area;Productivity|Yield|Crops|Other crops;t DM/ha;;;M;
+Yield|Cropland|Other Crops [Harvested Area];t DM/ha/yr;2;Yield of other crops (fruits, vegetables, nuts, potatoes, pulses, tropical roots), calculated as production (dry matter) divided by harvested cropland area;Yields in FAOSTAT are reported on wet matter basis for harvested cropland area;;;;;;
+Yield|Cropland|Sugar Crops;t DM/ha/yr;2;Yield of sugar crops (sugar beet, sugar cane), calculated as production (dry matter) divided by physical cropland area;Yields in FAOSTAT are reported on wet matter basis for harvested cropland area;Productivity|Yield|Crops|Sugar crops;t DM/ha;;;M;
+Yield|Cropland|Sugar Crops [Harvested Area];t DM/ha/yr;2;Yield of sugar crops (sugar beet, sugar cane), calculated as production (dry matter) divided by harvested cropland area;Yields in FAOSTAT are reported on wet matter basis for harvested cropland area;;;;;;
 Yield|Forestry|Timber Production;m3/ha;2;Actual timber yield, average on productive forest land. Equals to harvested biomass volume divided by forest area used for timber production;;Timber Yields|Harvest|Total;m3 per ha;;;M;
