@@ -5245,7 +5245,7 @@ Final Energy|Transportation|Truck|Liquids|Fossil;Final Energy|Transportation|Tru
 Final Energy|Transportation|Truck|Solids;Final Energy|Transportation|Truck|Solids|Biomass;1
 Final Energy|Transportation|Truck|Solids;Final Energy|Transportation|Truck|Solids|Coal;1
 ;;
-Forest Area Change;Forest Area Change|Deforestation;1
+Forest Area Change;Forest Area Change|Deforestation;-1
 Forest Area Change;Forest Area Change|Forest Expansion;1
 ;;
 Forest Area Change|Deforestation;Forest Area Change|Deforestation|Primary;1
@@ -5510,12 +5510,13 @@ Land Cover;Land Cover|Other Land;1
 Land Cover;Land Cover|Other Natural;1
 Land Cover;Land Cover|Pasture;1
 ;;
-# Agroforestry / Treecover on cropland missing in common-definitions template -> todo FH add;;
 Land Cover|Cropland;Land Cover|Cropland|Cereals;1
 Land Cover|Cropland;Land Cover|Cropland|Energy Crops;1
+Land Cover|Cropland;Land Cover|Cropland|Fallow;1
 Land Cover|Cropland;Land Cover|Cropland|Oil Crops;1
 Land Cover|Cropland;Land Cover|Cropland|Other Crops;1
 Land Cover|Cropland;Land Cover|Cropland|Sugar Crops;1
+Land Cover;Land Cover|Cropland|Trees;1
 ;;
 Land Cover|Cropland 2;Land Cover|Cropland|Irrigated;1
 Land Cover|Cropland 2;Land Cover|Cropland|Rainfed;1
