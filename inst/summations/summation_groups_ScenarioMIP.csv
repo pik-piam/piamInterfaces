@@ -2702,8 +2702,6 @@ Emissions|VOC|Product Use;Emissions|VOC|Product Use|ODS Substitutes;1
 Emissions|VOC|Product Use;Emissions|VOC|Product Use|Other;1
 Emissions|VOC|Product Use;Emissions|VOC|Product Use|Solvents;1
 ;;
-# Energy Service|Transportation|Freight;Energy Service|Transportation|Freight|Truck;1
-;;
 Energy Service|Transportation|Freight|Truck;Energy Service|Transportation|Freight|Truck|Battery-Electric;1
 Energy Service|Transportation|Freight|Truck;Energy Service|Transportation|Freight|Truck|Fuel-Cell-Electric;1
 Energy Service|Transportation|Freight|Truck;Energy Service|Transportation|Freight|Truck|Internal Combustion;1
@@ -5248,6 +5246,7 @@ Final Energy|Transportation|Truck|Solids;Final Energy|Transportation|Truck|Solid
 Forest Area Change;Forest Area Change|Deforestation;-1
 Forest Area Change;Forest Area Change|Forest Expansion;1
 ;;
+# Forest Area Change|Deforestation|Planted currently missing in common-definitions. FH will try to add it.;;
 Forest Area Change|Deforestation;Forest Area Change|Deforestation|Primary;1
 Forest Area Change|Deforestation;Forest Area Change|Deforestation|Secondary;1
 ;;
@@ -5516,10 +5515,12 @@ Land Cover|Cropland;Land Cover|Cropland|Fallow;1
 Land Cover|Cropland;Land Cover|Cropland|Oil Crops;1
 Land Cover|Cropland;Land Cover|Cropland|Other Crops;1
 Land Cover|Cropland;Land Cover|Cropland|Sugar Crops;1
-Land Cover;Land Cover|Cropland|Trees;1
+Land Cover|Cropland;Land Cover|Cropland|Trees;1
 ;;
 Land Cover|Cropland 2;Land Cover|Cropland|Irrigated;1
 Land Cover|Cropland 2;Land Cover|Cropland|Rainfed;1
+Land Cover|Cropland 2;Land Cover|Cropland|Fallow;1
+Land Cover|Cropland 2;Land Cover|Cropland|Trees;1
 ;;
 Land Cover|Cropland|Cereals;Land Cover|Cropland|Cereals|Irrigated;1
 Land Cover|Cropland|Cereals;Land Cover|Cropland|Cereals|Rainfed;1
@@ -5557,7 +5558,6 @@ Population;Population|Female;1
 Population;Population|Male;1
 ;;
 Population 2;Population|Prevalence of Normal Weight;1
-# Population 2;Population|Prevalence of Obesity;1 # taken out because it is a sub-category of Overweight
 Population 2;Population|Prevalence of Overweight;1
 Population 2;Population|Prevalence of Underweight;1
 ;;
