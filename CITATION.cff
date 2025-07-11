@@ -3,7 +3,7 @@ message: If you use this software, please cite it using the metadata from this f
 type: software
 title: 'piamInterfaces: Project specific interfaces to REMIND / MAgPIE'
 version: 0.53.7
-date-released: '2025-07-09'
+date-released: '2025-07-10'
 abstract: Project specific interfaces to REMIND / MAgPIE.
 authors:
 - family-names: Benke

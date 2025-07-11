@@ -200,7 +200,7 @@ A BibTeX entry for LaTeX users is
 @Misc{,
   title = {piamInterfaces: Project specific interfaces to REMIND / MAgPIE},
   author = {Falk Benke and Oliver Richters},
-  date = {2025-07-09},
+  date = {2025-07-10},
   year = {2025},
   url = {https://github.com/pik-piam/piamInterfaces},
   note = {Version: 0.53.7},
