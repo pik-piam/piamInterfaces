@@ -310,7 +310,6 @@ Energy Service|Transportation|Passenger|Domestic Shipping;Gpkm/yr;;;;;;;
 Energy Service|Transportation|Passenger|LDV;Gpkm/yr;;;;;;;
 Energy Service|Transportation|Passenger|Rail;Gpkm/yr;;;;;;;
 Energy Service|Transportation|Passenger|Truck;Gpkm/yr;;;;;;;
-Energy System Cost;billion EUR_2020/yr;Energy system costs;billion US$2017/yr;0.9502;;;;R
 Energy System Cost|Supply;billion EUR_2020/yr;Energy system costs;billion US$2017/yr;0.9502;;;;R
 Energy System Cost|Supply|Fuel Cost;billion EUR_2020/yr;Energy System Cost|Supply|Fuel Cost;billion US$2017/yr;0.9502;;;;R
 Energy System Cost|Supply|Investments;billion EUR_2020/yr;Energy System Cost|Supply|Investments;billion US$2017/yr;0.9502;;;;R
