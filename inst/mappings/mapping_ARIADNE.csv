@@ -2865,3 +2865,4 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 1;policy;Fiscal Spending|Residential and Commercial|Reduced taxes|Base;billion EUR2020/yr;Fiscal spending for tax reductions base/low/high case;;;;;0;;
 1;policy;Fiscal Spending|Residential and Commercial|Reduced taxes|High;billion EUR2020/yr;Fiscal spending for tax reductions base/low/high case;;;;;0;;
 1;policy;Fiscal Spending|Residential and Commercial|Reduced taxes|Low;billion EUR2020/yr;Fiscal spending for tax reductions base/low/high case;;;;;0;;
+2;energy (transport);Energy Service|Transportation|Passenger|Road|2W and 3W;bn pkm/yr;energy service demand for passenger transport on roads (two- and three-wheel vehicles);ES|Transport|Pass|Road|LDV|Three Wheelers;billion pkm/yr;1;;0;;T
