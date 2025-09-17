@@ -2111,3 +2111,4 @@ idx;tier;category;variable;unit;piam_variable;piam_unit;piam_factor;internal_com
 2002;2;energy (final);Final Energy|Transportation|Passenger|Bus|Electricity;EJ/yr;FE|Transport|Pass|Road|Bus|Electricity;EJ/yr;;;;final energy demand for passenger busses running on electricity;T
 2003;2;energy (final);Final Energy|Bunkers|Passenger|International Aviation|Hydrogen;EJ/yr;;;;;;;
 2004;2;energy (final);Final Energy|Transportation|Passenger|Domestic Aviation|Electricity;EJ/yr;;;;;;;
+1268;2;energy (service);Energy Service|Transportation|Passenger|Road|2W and 3W;bn pkm/yr;ES|Transport|Pass|Road|LDV|Three Wheelers;billion pkm/yr;;;;energy service demand for passenger transport on roads (two- and three-wheel vehicles);T

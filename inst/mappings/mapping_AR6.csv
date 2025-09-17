@@ -1984,3 +1984,4 @@ idx;variable;unit;piam_variable;piam_unit;piam_factor;piam_spatial;internal_comm
 ;Primary Energy|Biomass|Heat;EJ/yr;PE|Biomass|Heat;EJ/yr;;;;;biomass primary energy input to heat generation;R
 ;Primary Energy|Coal|Heat;EJ/yr;PE|Coal|Heat;EJ/yr;;;;;coal primary energy input to heat generation;R
 ;Primary Energy|Gas|Heat;EJ/yr;PE|Gas|Heat;EJ/yr;;;;;gas primary energy input to heat generation;R
+1044;Final Energy|Transportation|Road|Passenger|2W&3W;EJ/yr;FE|Transport|Pass|Road|LDV|Three Wheelers;EJ/yr;;;;;Final energy consumed in the transport sector by road passenger transport by 2W and 3W vehicles;T
