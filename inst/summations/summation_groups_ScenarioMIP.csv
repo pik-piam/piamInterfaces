@@ -5247,9 +5247,9 @@ Final Energy|Transportation|Truck|Solids;Final Energy|Transportation|Truck|Solid
 Forest Area Change;Forest Area Change|Deforestation;-1
 Forest Area Change;Forest Area Change|Forest Expansion;1
 ;;
-# Forest Area Change|Deforestation|Planted currently missing in common-definitions. FH will try to add it.;;
 Forest Area Change|Deforestation;Forest Area Change|Deforestation|Primary;1
 Forest Area Change|Deforestation;Forest Area Change|Deforestation|Secondary;1
+Forest Area Change|Deforestation;Forest Area Change|Deforestation|Planted;1
 ;;
 Forest Area Change|Forest Expansion;Forest Area Change|Forest Expansion|Planted;1
 Forest Area Change|Forest Expansion;Forest Area Change|Forest Expansion|Secondary;1
