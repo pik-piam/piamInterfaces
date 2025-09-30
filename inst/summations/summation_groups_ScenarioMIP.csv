@@ -874,6 +874,7 @@ Emissions|BC|Energy|Demand|Residential and Commercial;Emissions|BC|Energy|Demand
 Emissions|BC|Energy|Demand|Bunkers;Emissions|BC|Energy|Demand|Bunkers|International Aviation;1
 Emissions|BC|Energy|Demand|Bunkers;Emissions|BC|Energy|Demand|Bunkers|International Shipping;1
 ;;
+# Summation check currently fails since disaggregation of air pollutant emissions from transportation beyond domestic aviation is currently not available;;
 Emissions|BC|Energy|Demand|Transportation;Emissions|BC|Energy|Demand|Transportation|Bus;1
 Emissions|BC|Energy|Demand|Transportation;Emissions|BC|Energy|Demand|Transportation|Domestic Aviation;1
 Emissions|BC|Energy|Demand|Transportation;Emissions|BC|Energy|Demand|Transportation|Domestic Shipping;1
@@ -1336,6 +1337,7 @@ Emissions|CO|Energy|Demand|Residential and Commercial;Emissions|CO|Energy|Demand
 Emissions|CO|Energy|Demand|Bunkers;Emissions|CO|Energy|Demand|Bunkers|International Aviation;1
 Emissions|CO|Energy|Demand|Bunkers;Emissions|CO|Energy|Demand|Bunkers|International Shipping;1
 ;;
+# Summation check currently fails since disaggregation of air pollutant emissions from transportation beyond domestic aviation is currently not available;;
 Emissions|CO|Energy|Demand|Transportation;Emissions|CO|Energy|Demand|Transportation|Bus;1
 Emissions|CO|Energy|Demand|Transportation;Emissions|CO|Energy|Demand|Transportation|Domestic Aviation;1
 Emissions|CO|Energy|Demand|Transportation;Emissions|CO|Energy|Demand|Transportation|Domestic Shipping;1
@@ -1981,6 +1983,7 @@ Emissions|NH3|Energy|Demand|Residential and Commercial;Emissions|NH3|Energy|Dema
 Emissions|NH3|Energy|Demand|Bunkers;Emissions|NH3|Energy|Demand|Bunkers|International Aviation;1
 Emissions|NH3|Energy|Demand|Bunkers;Emissions|NH3|Energy|Demand|Bunkers|International Shipping;1
 ;;
+# Summation check currently fails since disaggregation of air pollutant emissions from transportation beyond domestic aviation is currently not available;;
 Emissions|NH3|Energy|Demand|Transportation;Emissions|NH3|Energy|Demand|Transportation|Bus;1
 Emissions|NH3|Energy|Demand|Transportation;Emissions|NH3|Energy|Demand|Transportation|Domestic Aviation;1
 Emissions|NH3|Energy|Demand|Transportation;Emissions|NH3|Energy|Demand|Transportation|Domestic Shipping;1
@@ -2135,6 +2138,7 @@ Emissions|NOx|Energy|Demand|Residential and Commercial;Emissions|NOx|Energy|Dema
 Emissions|NOx|Energy|Demand|Bunkers;Emissions|NOx|Energy|Demand|Bunkers|International Aviation;1
 Emissions|NOx|Energy|Demand|Bunkers;Emissions|NOx|Energy|Demand|Bunkers|International Shipping;1
 ;;
+# Summation check currently fails since disaggregation of air pollutant emissions from transportation beyond domestic aviation is currently not available;;
 Emissions|NOx|Energy|Demand|Transportation;Emissions|NOx|Energy|Demand|Transportation|Bus;1
 Emissions|NOx|Energy|Demand|Transportation;Emissions|NOx|Energy|Demand|Transportation|Domestic Aviation;1
 Emissions|NOx|Energy|Demand|Transportation;Emissions|NOx|Energy|Demand|Transportation|Domestic Shipping;1
@@ -2289,6 +2293,7 @@ Emissions|OC|Energy|Demand|Residential and Commercial;Emissions|OC|Energy|Demand
 Emissions|OC|Energy|Demand|Bunkers;Emissions|OC|Energy|Demand|Bunkers|International Aviation;1
 Emissions|OC|Energy|Demand|Bunkers;Emissions|OC|Energy|Demand|Bunkers|International Shipping;1
 ;;
+# Summation check currently fails since disaggregation of air pollutant emissions from transportation beyond domestic aviation is currently not available;;
 Emissions|OC|Energy|Demand|Transportation;Emissions|OC|Energy|Demand|Transportation|Bus;1
 Emissions|OC|Energy|Demand|Transportation;Emissions|OC|Energy|Demand|Transportation|Domestic Aviation;1
 Emissions|OC|Energy|Demand|Transportation;Emissions|OC|Energy|Demand|Transportation|Domestic Shipping;1
@@ -2443,6 +2448,7 @@ Emissions|Sulfur|Energy|Demand|Residential and Commercial;Emissions|Sulfur|Energ
 Emissions|Sulfur|Energy|Demand|Bunkers;Emissions|Sulfur|Energy|Demand|Bunkers|International Aviation;1
 Emissions|Sulfur|Energy|Demand|Bunkers;Emissions|Sulfur|Energy|Demand|Bunkers|International Shipping;1
 ;;
+# Summation check currently fails since disaggregation of air pollutant emissions from transportation beyond domestic aviation is currently not available;;
 Emissions|Sulfur|Energy|Demand|Transportation;Emissions|Sulfur|Energy|Demand|Transportation|Bus;1
 Emissions|Sulfur|Energy|Demand|Transportation;Emissions|Sulfur|Energy|Demand|Transportation|Domestic Aviation;1
 Emissions|Sulfur|Energy|Demand|Transportation;Emissions|Sulfur|Energy|Demand|Transportation|Domestic Shipping;1
@@ -2597,6 +2603,7 @@ Emissions|VOC|Energy|Demand|Residential and Commercial;Emissions|VOC|Energy|Dema
 Emissions|VOC|Energy|Demand|Bunkers;Emissions|VOC|Energy|Demand|Bunkers|International Aviation;1
 Emissions|VOC|Energy|Demand|Bunkers;Emissions|VOC|Energy|Demand|Bunkers|International Shipping;1
 ;;
+# Summation check currently fails since disaggregation of air pollutant emissions from transportation beyond domestic aviation is currently not available;;
 Emissions|VOC|Energy|Demand|Transportation;Emissions|VOC|Energy|Demand|Transportation|Bus;1
 Emissions|VOC|Energy|Demand|Transportation;Emissions|VOC|Energy|Demand|Transportation|Domestic Aviation;1
 Emissions|VOC|Energy|Demand|Transportation;Emissions|VOC|Energy|Demand|Transportation|Domestic Shipping;1
@@ -5328,6 +5335,7 @@ Gross Emissions|CO2|Energy|Supply|Solids;Gross Emissions|CO2|Energy|Supply|Solid
 Gross Removals|CO2|AFOLU;Gross Removals|CO2|AFOLU|Intentional;1
 Gross Removals|CO2|AFOLU;Gross Removals|CO2|AFOLU|Unintentional;1
 ;;
+# Summation check currently fails since not all components of Energy Investments|Supply have a counterpart in the ScenarioMIP variable template;;
 Investment|Energy Supply;Investment|Energy Supply|Electricity;1
 Investment|Energy Supply;Investment|Energy Supply|Gases;1
 Investment|Energy Supply;Investment|Energy Supply|Heat;1
@@ -5510,6 +5518,8 @@ Land Cover;Land Cover|Other Land;1
 Land Cover;Land Cover|Other Natural;1
 Land Cover;Land Cover|Pasture;1
 ;;
+# Land Cover Cropland - Summation Check currently fails since there is currently no variable;;
+# in the ScenarioMIP template on which Resources|Land Cover|Cropland|Croparea|+|Forage could be mapped;;
 Land Cover|Cropland;Land Cover|Cropland|Cereals;1
 Land Cover|Cropland;Land Cover|Cropland|Energy Crops;1
 Land Cover|Cropland;Land Cover|Cropland|Fallow;1
