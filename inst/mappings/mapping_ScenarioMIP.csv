@@ -112,8 +112,8 @@ Building Stock|Commercial|Floor Space|Gross;billion m2;2;Standing stock of floor
 Building Stock|Commercial|Floor Space|Useful;billion m2;2;Standing stock of floor space in residential and commercial buildings;;;;;;;
 Building Stock|Commercial|Renovation Rate;%/yr;2;Percentage of residential and commercial buildings undergoing renovation;;;;;;;
 Building Stock|Commercial|U-value;W/m^2/K;2;Thermal conductivity of outer building shell, as a measure of thermal energy efficiency;;;;;;;
-Building Stock|Residential and Commercial|Floor Space|Gross;billion m2;2;Standing stock of floor space in residential and commercial buildings;;;;;;;
-Building Stock|Residential and Commercial|Floor Space|Useful;billion m2;2;Standing stock of floor space in residential and commercial buildings;;;;;;;
+Building Stock|Residential and Commercial|Floor Space|Gross;billion m2;2;Standing stock of floor space in residential and commercial buildings;;ES|Buildings|Floor Space;bn m2;1;Currently, we do not differentiate between Gross and Useful.;R;
+Building Stock|Residential and Commercial|Floor Space|Useful;billion m2;2;Standing stock of floor space in residential and commercial buildings;;ES|Buildings|Floor Space;bn m2;1;Currently, we do not differentiate between Gross and Useful.;R;
 Building Stock|Residential and Commercial|Renovation Rate;%/yr;2;Percentage of residential and commercial buildings undergoing renovation;;;;;;;
 Building Stock|Residential and Commercial|U-value;W/m^2/K;2;Thermal conductivity of outer building shell, as a measure of thermal energy efficiency;;;;;;;
 Building Stock|Residential|Floor Space|Gross;billion m2;2;Standing stock of floor space in residential and commercial buildings;;;;;;;
