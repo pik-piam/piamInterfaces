@@ -44,7 +44,8 @@ areUnitsIdentical <- function(vec1, vec2 = NULL) {
     c("t DM/ha", "t DM/ha/yr", "dm t/ha"),
     # for 'Water|Environmental flow violation volume'
     c("km3/yr", "km3"),
-    c("mha per yr", "million ha/yr"),
+    c("mha per yr", "Mha per yr"),
+    c("Mha per yr", "million ha/yr"),
     c("m3 per ha", "m3/ha"),
     c("t DM/cap/yr", "tDM/capita/yr"),
     NULL)
