@@ -68,8 +68,8 @@ Production|Iron and Steel [per capita];kg/cap/yr;;Per-capita production of iron 
 Production|Non-Metallic Minerals|Cement [per capita];kg/cap/yr;;Per-capita production of cement;;;;;;;
 Terrestrial Biodiversity|Land Meeting Local Functional Integrity Threshold [Share];%;;;;Planetary Boundary|Biosphere|Share of land area that satisfies landscape target;unitless;100;;Mx;
 Terrestrial Biodiversity|Natural Ecosystem Area [Share];%;;;;Planetary Boundary|Biosphere|Share of intact land relative to total land area;unitless;100;;Mx;
-Useful Energy|Industry [per capita];GJ/cap/yr;;;;;;;;;
-Useful Energy|Residential and Commercial [per capita];GJ/cap/yr;;;;;;;;;
+Useful Energy|Industry [per capita];GJ/cap/yr;;;;UE|per capita|Industry;GJ/cap/yr;;;;
+Useful Energy|Residential and Commercial [per capita];GJ/cap/yr;;;;UE|per capita|Buildings;GJ/cap/yr;;;;
 Useful Energy|Transportation|Passenger [per capita];GJ/cap/yr;;;;;;;;;
 Water Extraction|Groundwater;km3/yr;;;;;;;;;
 Water Extraction|Surface Water;km3/yr;;;;;;;;;
