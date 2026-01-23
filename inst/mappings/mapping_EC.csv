@@ -34,7 +34,7 @@ Nutrients|Nitrogen|Pasture Budget|Inputs|Manure;Tg N/yr;;;;Resources|Nitrogen|Pa
 Nutrients|Nitrogen|Pasture Budget|Inputs|Manure|Grazing;Tg N/yr;;;;Resources|Nitrogen|Pasture Budget|Inputs|+|Manure From Grazing;Mt Nr/yr;;;Mx;
 Nutrients|Nitrogen|Pasture Budget|Inputs|Manure|Recycled from Confinements;Tg N/yr;;;;;;;;;
 Nutrients|Nitrogen|Pasture Budget|Inputs|Other;Tg N/yr;;;;;;;;;
-Nutrients|Nitrogen|Pasture Budget|Withdrawals;Tg N/yr;;;;Resources|Nitrogen|Pasture Budget|Withdrawals;Mt Nr/yr;;;;
+Nutrients|Nitrogen|Pasture Budget|Withdrawals;Tg N/yr;;;;Resources|Nitrogen|Pasture Budget|Withdrawals;Mt Nr/yr;;;Mx;
 Nutrients|Nitrogen|Surplus|Agricultural Land;Tg N/yr;;;;Resources|Nitrogen|Pollution|Surplus|+|Cropland;Mt Nr/yr;;;Mx;
 Nutrients|Nitrogen|Surplus|Agricultural Land;Tg N/yr;;;;Resources|Nitrogen|Pollution|Surplus|+|Pasture;Mt Nr/yr;;;Mx;
 Nutrients|Nitrogen|Surplus|Agricultural Land|Cropland;Tg N/yr;;;;Resources|Nitrogen|Pollution|Surplus|+|Cropland;Mt Nr/yr;;;M;
@@ -68,8 +68,8 @@ Production|Iron and Steel [per capita];kg/cap/yr;;Per-capita production of iron 
 Production|Non-Metallic Minerals|Cement [per capita];kg/cap/yr;;Per-capita production of cement;;;;;;;
 Terrestrial Biodiversity|Land Meeting Local Functional Integrity Threshold [Share];%;;;;Planetary Boundary|Biosphere|Share of land area that satisfies landscape target;unitless;100;;Mx;
 Terrestrial Biodiversity|Natural Ecosystem Area [Share];%;;;;Planetary Boundary|Biosphere|Share of intact land relative to total land area;unitless;100;;Mx;
-Useful Energy|Industry [per capita];GJ/cap/yr;;;;UE|per capita|Industry;GJ/cap/yr;;;;
-Useful Energy|Residential and Commercial [per capita];GJ/cap/yr;;;;UE|per capita|Buildings;GJ/cap/yr;;;;
+Useful Energy|Industry [per capita];GJ/cap/yr;;;;UE|per capita|Industry;GJ/cap/yr;;;Rx;
+Useful Energy|Residential and Commercial [per capita];GJ/cap/yr;;;;UE|per capita|Buildings;GJ/cap/yr;;;Rx;
 Useful Energy|Transportation|Passenger [per capita];GJ/cap/yr;;;;;;;;;
 Water Extraction|Groundwater;km3/yr;;;;;;;;;
 Water Extraction|Surface Water;km3/yr;;;;;;;;;
