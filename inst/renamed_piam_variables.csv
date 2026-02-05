@@ -2,6 +2,74 @@ piam_variable                                 ;old_name
 # you are allowed to add a wildcard *, but only at the end of both columns simultaneously
 # after adding variables, you can automatically adjust all mappings, see README.md.
 #
+# Renaming of investment variables acording to the IAMC template
+Investment|Energy Supply|Electricity|++|Fossil;Energy Investments|Electricity|Fossil
+Investment|Energy Supply|Electricity|Fossil|+|w/o CCSS;Energy Investments|Electricity|Fossil|w/o CCS
+Investment|Energy Supply|Electricity|+|Coal;Energy Investments|Electricity|+|Coal
+Investment|Energy Supply|Electricity|Coal|+|CCS;Energy Investments|Electricity|Coal|+|w/ CC
+Investment|Energy Supply|Electricity|Coal|+|w/o CCS;Energy Investments|Electricity|Coal|+|w/o CC
+Investment|Energy Supply|Electricity|+|Gas;Energy Investments|Electricity|+|Gas
+Investment|Energy Supply|Electricity|Gas|+|CCS;Energy Investments|Electricity|Gas|+|w/ CC
+Investment|Energy Supply|Electricity|Gas|+|w/o CCS;Energy Investments|Electricity|Gas|+|w/o CC
+Investment|Energy Supply|Electricity|+|Hydrogen;Energy Investments|Electricity|+|Hydrogen
+Investment|Energy Supply|Electricity|+|Oil;Energy Investments|Electricity|+|Oil
+Investment|Energy Supply|Electricity|Oil|+|w/o CCS;Energy Investments|Electricity|Oil|+|w/o CC
+Investment|Energy Supply|Electricity|Oil|+|CCS;Energy Investments|Electricity|Oil|+|w/ CC
+Investment|Energy Supply|Electricity|+|Biomass;Energy Investments|Electricity|+|Biomass
+Investment|Energy Supply|Electricity|Biomass|+|CCS;Energy Investments|Electricity|Biomass|+|w/ CC
+Investment|Energy Supply|Electricity|Biomass|+|w/o CCS;Energy Investments|Electricity|Biomass|+|w/o CC
+Investment|Energy Supply|Electricity|+|Nuclear;Energy Investments|Electricity|+|Nuclear
+Investment|Energy Supply|Electricity|+|Solar;Energy Investments|Electricity|+|Solar
+Investment|Energy Supply|Electricity|Wind|+|Onshore;Energy Investments|Electricity|Wind|+|Onshore
+Investment|Energy Supply|Electricity|Wind|+|Offshore;Energy Investments|Electricity|Wind|+|Offshore
+Investment|Energy Supply|Electricity|+|Wind;Energy Investments|Electricity|+|Wind
+Investment|Energy Supply|Electricity|+|Hydro;Energy Investments|Electricity|+|Hydro
+Investment|Energy Supply|Electricity|+|Geothermal;Energy Investments|Electricity|+|Geothermal
+Investment|Energy Supply|Electricity|+|Storage;Energy Investments|Electricity|+|Storage
+Investment|Energy Supply|Electricity|+|Transmission and Distribution;Energy Investments|Electricity|+|Grid
+Investment|Energy Supply|Electricity|Transmission and Distribution|+|BEV Chargers;Energy Investments|Electricity|Grid|+|BEV Chargers
+Investment|Energy Supply|Electricity|Transmission and Distribution|+|Normal;Energy Investments|Electricity|Grid|+|Normal
+Investment|Energy Supply|Electricity|Transmission and Distribution|+|VRE support;Energy Investments|Electricity|Grid|+|VRE support
+Investment|Energy Supply|Electricity|++|Non-Fossil;Energy Investments|Electricity|Non-Fossil
+Investment|Energy Supply|Electricity|Non-Fossil|++|Non-Bio Re;Energy Investments|Electricity|Non-Bio Re
+Investment|Energy Supply|+|Electricity;Energy Investments|Electricity
+Investment|Energy Supply|Electricity|+++|Generation;Energy Investments|Electricity Generation
+Investment|Energy Supply|+|Hydrogen;Energy Investments|Hydrogen
+Investment|Energy Supply|Hydrogen|++|PE;Energy Investments|Hydrogen|PE
+Investment|Energy Supply|Hydrogen|++|se2se;Energy Investments|Hydrogen|se2se
+Investment|Energy Supply|Hydrogen|++|se2fe;Energy Investments|Hydrogen|se2fe
+Investment|Energy Supply|Hydrogen|+|Fossil;Energy Investments|Hydrogen|+|Fossil
+Investment|Energy Supply|Hydrogen|+|RE;Energy Investments|Hydrogen|+|RE
+Investment|Energy Supply|Hydrogen|Bio;Energy Investments|Hydrogen|Bio
+Investment|Energy Supply|Hydrogen|+|Electrolysis;Energy Investments|Hydrogen|+|Electrolysis
+Investment|Energy Supply|Hydrogen|+|Transmission and Distribution;Energy Investments|Hydrogen|+|Transmission and Distribution
+Investment|Energy Supply|Liquids|Fossil|+|Oil Ref;Energy Investments|Liquids|Oil Ref
+Investment|Energy Supply|Liquids|+|Fossil;Energy Investments|Liquids|+|Fossil
+Investment|Energy Supply|Liquids|Fossil|+|w/o oil;Energy Investments|Liquids|Fossil|w/o oil
+Investment|Energy Supply|Liquids|+|Bio;Energy Investments|Liquids|+|Bio
+Investment|Energy Supply|Liquids|+|Hydrogen;Energy Investments|Liquids|+|Hydrogen
+Investment|Energy Supply|Liquids|+|Transport and Distribution;Energy Investments|Liquids|Transport and Distribution including gas stations
+Investment|Energy Supply|+|Liquids;Energy Investments|Liquids including gas stations
+Investment|Energy Supply|+|CO2 Trans&Stor;Energy Investments|CO2 Trans&Stor
+Investment|Energy Supply|+|DAC;Energy Investments|DAC
+Investment|+|Energy Supply;Energy Investments|Supply
+Investment|Energy Supply|+|Solids;Energy Investments|Solids
+Investment|Energy Supply|+|Gases;Energy Investments|Gases
+Investment|Energy Supply|Gases|+|Fossil;Energy Investments|Gases|+|Fossil
+Investment|Energy Supply|Gases|+|Hydrogen;Energy Investments|Gases|+|Hydrogen
+Investment|Energy Supply|Gases|+|Biomass;Energy Investments|Gases|+|Biomass
+Investment|Energy Supply|Gases|Biomass|+|CCS;Energy Investments|Gases|Biomass|+|w/ CC
+Investment|Energy Supply|Gases|Biomass|+|w/o CCS;Energy Investments|Gases|Biomass|+|w/o CC
+Investment|Energy Supply|Gases|+|Transmission and Distribution;Energy Investments|Gases|+|Transmission and Distribution
+Investment|Energy Supply|+|Heat;Energy Investments|Heat
+Investment|Energy Supply|Heat|+|Heat Pump;Energy Investments|Heat|+|Heat Pump
+Investment|Energy Supply|Heat|+|Gas;Energy Investments|Heat|+|Gas
+Investment|Energy Supply|Heat|+|Coal;Energy Investments|Heat|+|Coal
+Investment|Energy Supply|Heat|Fossil;Energy Investments|Heat|Fossil
+Investment|Energy Supply|Heat|+|Biomass;Energy Investments|Heat|+|Biomass
+Investment|Energy Supply|Heat|+|Transmission and Distribution;Energy Investments|Heat|+|Grid
+Investment|Energy Supply|+|Biochar;Energy Investments|Biochar
+Investment|+|Macroeconomy;Investments|Non-ESM
 # renamed in https://github.com/pik-piam/remind2/pull/579
 Energy Investments|Electricity|*       ;Energy Investments|Elec|*
 #
