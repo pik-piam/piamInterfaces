@@ -32,6 +32,7 @@ areUnitsIdentical <- function(vec1, vec2 = NULL) {
     c("mio", "mio people"),
     c("Mt Nr/yr", "Tg N/yr"),
     c("Mt NO2/yr", "Mt NOX/yr"),
+    c("Mt NO2/yr", "Mt NOx/yr"),
     c("unitless", "", "-", "1", "index", NA),
     c("W/m2", "W/m^2"),
     c("million vehicles", "million veh"),
