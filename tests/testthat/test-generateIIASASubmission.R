@@ -103,7 +103,7 @@ test_that("interpolation for ScenarioMIP works as expected", {
   # be interpolated as per the ScenarioMIP template
 
   data <- data.frame(
-    variable = "Emi|BC", unit = "Mt BC/yr",
+    variable = "Emi|BC|w/ Bunkers", unit = "Mt BC/yr",
     model = "REMIND", scenario = "default", region = "GLO",
     period = c(2005, 2010, 2020),
     value = c(1, 10, 15)

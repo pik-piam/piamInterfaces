@@ -221,23 +221,21 @@ idx;variable;unit;piam_variable;piam_unit;piam_factor;piam_spatial;internal_comm
 187;Value Added|Industry|Energy Intensive;billion US$2010/yr;;;;;;;value added by industry related to the energy-intensive industries;
 188;Value Added|Industry|Manufacturing;billion US$2010/yr;;;;;;;value added by industry related to maunfacturing;
 189;Value Added|Industry|Share of energy costs;%;;;;;;;share of energy costs to the total economic valuye added by Industry;
-190;Emissions|BC;Mt BC/yr;Emi|BC;Mt BC/yr;;;;;total black carbon emissions;R
-191;Emissions|BC|AFOLU;Mt BC/yr;Emi|BC|Land Use;Mt BC/yr;;;;;black carbon emissions from agriculture,forestry and other land use (IPCC category 3);R
-192;Emissions|BC|AFOLU|Agriculture;Mt BC/yr;Emi|BC|Land Use|Agriculture;Mt BC/yr;;;;;Black Carbon emissions from agriculture;R
-192;Emissions|BC|AFOLU|Agriculture;Mt BC/yr;Emi|BC|Land Use|Agricultural Waste Burning;Mt BC/yr;;;;;Black Carbon AFOLU emissions from agriculture;R
-193;Emissions|BC|AFOLU|Land;Mt BC/yr;Emi|BC|Land Use|Forest Burning;Mt BC/yr;;;;;Black Carbon AFOLU emissions from forestry and other land use;R
-193;Emissions|BC|AFOLU|Land;Mt BC/yr;Emi|BC|Land Use|Savannah Burning;Mt BC/yr;;;;;Black Carbon AFOLU emissions from forestry and other land use;R
-194;Emissions|BC|Energy;Mt BC/yr;Emi|BC|Energy Supply and Demand;Mt BC/yr;;;;;black carbon emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
-195;Emissions|BC|Energy|Demand|Residential and Commercial;Mt BC/yr;Emi|BC|Energy Demand|Buildings;Mt BC/yr;;;;;black carbon emissions from fuel combustion in residential,commercial,institutional sectors and agriculture (IPCC category 1A4a,1A4b);R
+190;Emissions|BC;Mt BC/yr;Emi|BC|w/ Bunkers;Mt BC/yr;;;Warning: The current remind2 version (2.0.10) does not yet include any MAgPIE-related air pollutant emissions.;;total black carbon emissions;R
+191;Emissions|BC|AFOLU;Mt BC/yr;;;;;Warning: Needs to be added once available in REMIND.;;black carbon emissions from agriculture,forestry and other land use (IPCC category 3);
+192;Emissions|BC|AFOLU|Agriculture;Mt BC/yr;;;;;Warning: Needs to be added once available in REMIND.;;Black Carbon emissions from agriculture;
+193;Emissions|BC|AFOLU|Land;Mt BC/yr;;;;;Warning: Needs to be added once available in REMIND.;;Black Carbon AFOLU emissions from forestry and other land use;
+194;Emissions|BC|Energy;Mt BC/yr;Emi|BC|w/ Bunkers|Energy;Mt BC/yr;;;;;black carbon emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
+195;Emissions|BC|Energy|Demand|Residential and Commercial;Mt BC/yr;Emi|BC|Energy|Demand|Buildings;Mt BC/yr;;;;;black carbon emissions from fuel combustion in residential,commercial,institutional sectors and agriculture (IPCC category 1A4a,1A4b);R
 196;Emissions|BC|Energy|Demand|Residential and Commercial|Commercial;Mt BC/yr;;;;;;;BC emissions from fuel combustion in commercial sector (IPCC category 1A4a,1A4b);
 197;Emissions|BC|Energy|Demand|Residential and Commercial|Residential;Mt BC/yr;;;;;;;BC emissions from fuel combustion in residential sector (IPCC category 1A4a,1A4b);
-199;Emissions|BC|Energy|Demand|Industry;Mt BC/yr;Emi|BC|Energy Demand|Industry;Mt BC/yr;;;;;black carbon emissions from fuel combustion in industry (IPCC category 1A2);R
-200;Emissions|BC|Energy|Demand|Transportation;Mt BC/yr;Emi|BC|Energy Demand|Transport;Mt BC/yr;;;;;black carbon emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);R
+199;Emissions|BC|Energy|Demand|Industry;Mt BC/yr;Emi|BC|Energy|Demand|Industry;Mt BC/yr;;;;;black carbon emissions from fuel combustion in industry (IPCC category 1A2);R
+200;Emissions|BC|Energy|Demand|Transportation;Mt BC/yr;Emi|BC|w/ Bunkers|Energy|Demand|Transport;Mt BC/yr;;;;;black carbon emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);R
 201;Emissions|BC|Energy|Demand|Transportation|Freight;Mt BC/yr;;;;;;;BC emissions from fuel combustion in Freight transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
 202;Emissions|BC|Energy|Demand|Transportation|Passenger;Mt BC/yr;;;;;;;BC emissions from fuel combustion in Passenger transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
-203;Emissions|BC|Energy|Supply;Mt BC/yr;Emi|BC|Energy Supply;Mt BC/yr;;;;;black carbon emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C);R
-204;Emissions|BC|Industrial Processes;Mt BC/yr;;;;;;;BC emissions from industrial processes;
-205;Emissions|BC|Other;Mt BC/yr;Emi|BC|Solvents;Mt BC/yr;;;;;black carbon emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);R
+203;Emissions|BC|Energy|Supply;Mt BC/yr;Emi|BC|Energy|Supply;Mt BC/yr;;;;;black carbon emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C);R
+204;Emissions|BC|Industrial Processes;Mt BC/yr;Emi|BC|Industrial Processes;Mt BC/yr;;;;;BC emissions from industrial processes;R
+205;Emissions|BC|Other;Mt BC/yr;Emi|BC|Product Use|Solvents;Mt BC/yr;;;;;black carbon emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);R
 206;Emissions|BC|Waste;Mt BC/yr;Emi|BC|Waste;Mt BC/yr;;;;;black carbon emissions from waste (IPCC category 6);R
 ;Emissions|C2F6;kt C2F6/yr;Emi|C2F6;kt C2F6/yr;;;;;total emissions of C2F6;R
 207;Emissions|C2F6|AFOLU;kt C2F6/yr;;;;;;;C2F6 emissions from agriculture,forestry and other land use (IPCC category 3);
@@ -297,7 +295,7 @@ idx;variable;unit;piam_variable;piam_unit;piam_factor;piam_spatial;internal_comm
 250;Emissions|CH4|Industrial Processes|Steel;Mt CH4/yr;;;;;;;CH4 emissions from industrial processes (excl. fuel combustion IPCC 1A2) in the steel sector  (IPCC categories 2A,B,C,E);
 251;Emissions|CH4|Other;Mt CH4/yr;;Mt CH4/yr;;;;;CH4 emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);
 252;Emissions|CH4|Waste;Mt CH4/yr;Emi|CH4|+|Waste;Mt CH4/yr;;;;;CH4 emissions from waste (IPCC category 6);R
-253;Emissions|CO;Mt CO/yr;Emi|CO;Mt CO/yr;;;;;total CO emissions;R
+253;Emissions|CO;Mt CO/yr;Emi|CO|w/ Bunkers;Mt CO/yr;;;Warning: The current remind2 version (2.0.10) does not yet include any MAgPIE-related air pollutant emissions.;;total CO emissions;R
 254;Emissions|CO2;Mt CO2/yr;Emi|CO2|w/ Bunkers;Mt CO2/yr;;;;;total net-CO2 emissions from all sources;R
 255;Emissions|CO2|AFOLU;Mt CO2/yr;Emi|CO2|+|Land-Use Change;Mt CO2/yr;;;;;CO2 emissions from agriculture,forestry and other land use (IPCC category 3);R
 256;Emissions|CO2|AFOLU|Agriculture;Mt CO2/yr;;;;;;;CO2|AFOLU|Agric emissions from agriculture;
@@ -385,20 +383,20 @@ idx;variable;unit;piam_variable;piam_unit;piam_factor;piam_spatial;internal_comm
 ;Emissions|CO2|Other;Mt CO2/yr;Emi|CO2|CDR|+|EW;Mt CO2/yr;;;;;CO2 emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);R
 ;Emissions|CO2|Other;Mt CO2/yr;Emi|CO2|CDR|+|OAE;Mt CO2/yr;;;;;CO2 emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);R
 338;Emissions|CO2|Waste;Mt CO2/yr;Emi|CO2|+|Waste;Mt CO2/yr;;;;;;R
-339;Emissions|CO|AFOLU;Mt CO/yr;Emi|CO|Land Use;Mt CO/yr;;;;;Land Use based carbon monoxide emissions;R
-340;Emissions|CO|AFOLU|Agriculture;Mt CO/yr;;;;;;;CO|AFOLU|Agric emissions from agriculture;
-341;Emissions|CO|AFOLU|Land;Mt CO/yr;;;;;;;CO|AFOL emissions from forestry and other land use;
-342;Emissions|CO|Energy;Mt CO/yr;Emi|CO|Energy Supply and Demand;Mt CO/yr;;;;;carbon monoxide emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
-343;Emissions|CO|Energy|Demand|Residential and Commercial;Mt CO/yr;Emi|CO|Energy Demand|Buildings;Mt CO/yr;;;;;carbon monoxide emissions from Combustion in Residential and Commercial/Institutional Sectors (IPCC 1A4A,1A4B);R
+339;Emissions|CO|AFOLU;Mt CO/yr;;;;;Warning: Needs to be added once available in REMIND.;;Land Use based carbon monoxide emissions;
+340;Emissions|CO|AFOLU|Agriculture;Mt CO/yr;;;;;Warning: Needs to be added once available in REMIND.;;CO|AFOLU|Agric emissions from agriculture;
+341;Emissions|CO|AFOLU|Land;Mt CO/yr;;;;;Warning: Needs to be added once available in REMIND.;;CO|AFOL emissions from forestry and other land use;
+342;Emissions|CO|Energy;Mt CO/yr;Emi|CO|w/ Bunkers|Energy;Mt CO/yr;;;;;carbon monoxide emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
+343;Emissions|CO|Energy|Demand|Residential and Commercial;Mt CO/yr;Emi|CO|Energy|Demand|Buildings;Mt CO/yr;;;;;carbon monoxide emissions from Combustion in Residential and Commercial/Institutional Sectors (IPCC 1A4A,1A4B);R
 344;Emissions|CO|Energy|Demand|Residential and Commercial|Commercial;Mt CO/yr;;;;;;;CO emissions from fuel combustion in commercial sector (IPCC category 1A4a,1A4b);
 345;Emissions|CO|Energy|Demand|Residential and Commercial|Residential;Mt CO/yr;;;;;;;CO emissions from fuel combustion in residential sector (IPCC category 1A4a,1A4b);
-347;Emissions|CO|Energy|Demand|Industry;Mt CO/yr;Emi|CO|Energy Demand|Industry;Mt CO/yr;;;;;carbon monoxide emissions from Combustion in industry (IPCC 1A2) and industrial processes (IPCC 2C1-2C5);R
-348;Emissions|CO|Energy|Demand|Transportation;Mt CO/yr;Emi|CO|Energy Demand|Transport;Mt CO/yr;;;;;carbon monoxide emissions from Combustion in Transportation Sector (IPCC category 1A3);R
+347;Emissions|CO|Energy|Demand|Industry;Mt CO/yr;Emi|CO|Energy|Demand|Industry;Mt CO/yr;;;;;carbon monoxide emissions from Combustion in industry (IPCC 1A2) and industrial processes (IPCC 2C1-2C5);R
+348;Emissions|CO|Energy|Demand|Transportation;Mt CO/yr;Emi|CO|w/ Bunkers|Energy|Demand|Transport;Mt CO/yr;;;;;carbon monoxide emissions from Combustion in Transportation Sector (IPCC category 1A3);R
 349;Emissions|CO|Energy|Demand|Transportation|Freight;Mt CO/yr;;;;;;;CO emissions from fuel combustion in Freight transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
 350;Emissions|CO|Energy|Demand|Transportation|Passenger;Mt CO/yr;;;;;;;CO emissions from fuel combustion in Passenger transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
-351;Emissions|CO|Energy|Supply;Mt CO/yr;Emi|CO|Energy Supply;Mt CO/yr;;;;;carbon monoxide emissions from Extraction and Distribution of Fossil Fuels (including fugitive emissions,IPCC category 1B);R
-352;Emissions|CO|Industrial Processes;Mt CO/yr;;;;;;;CO emissions from industrial processes;
-353;Emissions|CO|Other;Mt CO/yr;Emi|CO|Solvents;Mt CO/yr;;;;;carbon monoxide emissions from other energy end-use sectors that do not fit to any other category (please provide a definition of the sectors in this category in the 'comments' tab);R
+351;Emissions|CO|Energy|Supply;Mt CO/yr;Emi|CO|Energy|Supply;Mt CO/yr;;;;;carbon monoxide emissions from Extraction and Distribution of Fossil Fuels (including fugitive emissions,IPCC category 1B);R
+352;Emissions|CO|Industrial Processes;Mt CO/yr;Emi|CO|Industrial Processes;Mt CO/yr;;;;;CO emissions from industrial processes;R
+353;Emissions|CO|Other;Mt CO/yr;Emi|CO|Product Use|Solvents;Mt CO/yr;;;;;carbon monoxide emissions from other energy end-use sectors that do not fit to any other category (please provide a definition of the sectors in this category in the 'comments' tab);R
 354;Emissions|CO|Waste;Mt CO/yr;Emi|CO|Waste;Mt CO/yr;;;;;;R
 355;Emissions|F-Gases;Mt CO2-equiv/yr;Emi|GHG|+|F-Gases;Mt CO2eq/yr;;;;;total F-gas emissions,including sulfur hexafluoride (SF6),hydrofluorocarbons (HFCs),perfluorocarbons (PFCs) (preferably use 100-year GWPs from AR4 for aggregation of different F-gases;R
 356;Emissions|HFC;kt HFC134a-equiv/yr;Emi|HFC;kt HFC134a-equiv/yr;;;;;total emissions of hydrofluorocarbons (HFCs),provided as aggregate HFC134a-equivalents;R
@@ -447,53 +445,53 @@ idx;variable;unit;piam_variable;piam_unit;piam_factor;piam_spatial;internal_comm
 390;Emissions|N2O|Industrial Processes|Steel;kt N2O/yr;;;;;;;N2O emissions from industrial processes (excl. fuel combustion IPCC 1A2) in the steel sector  (IPCC categories 2A,B,C,E);
 391;Emissions|N2O|Other;kt N2O/yr;;kt N2O/yr;;;;;N2O emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);
 392;Emissions|N2O|Waste;kt N2O/yr;Emi|N2O|+|Waste;kt N2O/yr;;;;;N2O emissions from waste (IPCC category 6);R
-393;Emissions|NH3;Mt NH3/yr;Emi|NH3;Mt NH3/yr;;;;;total ammonium (NH3) emissions;R
-394;Emissions|NH3|AFOLU;Mt NH3/yr;Emi|NH3|Land Use;Mt NH3/yr;;;;;land use based ammonia Emissions;R
-395;Emissions|NH3|AFOLU|Agriculture;Mt NH3/yr;;;;;;;NH3|AFOLU|Agric emissions from agriculture;
-396;Emissions|NH3|AFOLU|Land;Mt NH3/yr;;;;;;;NH3|AFOL emissions from forestry and other land use;
-397;Emissions|NH3|Energy;Mt NH3/yr;Emi|NH3|Energy Supply and Demand;Mt NH3/yr;;;;;ammonia emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
-398;Emissions|NH3|Energy|Demand|Residential and Commercial;Mt NH3/yr;Emi|NH3|Energy Demand|Buildings;Mt NH3/yr;;;;;ammonia Emissions from Combustion in Residential and Commercial/Institutional Sectors (IPCC 1A4A,1A4B);R
+393;Emissions|NH3;Mt NH3/yr;Emi|NH3|w/ Bunkers;Mt NH3/yr;;;Warning: The current remind2 version (2.0.10) does not yet include any MAgPIE-related air pollutant emissions.;;total ammonium (NH3) emissions;R
+394;Emissions|NH3|AFOLU;Mt NH3/yr;;;;;Warning: Needs to be added once available in REMIND.;;land use based ammonia Emissions;
+395;Emissions|NH3|AFOLU|Agriculture;Mt NH3/yr;;;;;Warning: Needs to be added once available in REMIND.;;NH3|AFOLU|Agric emissions from agriculture;
+396;Emissions|NH3|AFOLU|Land;Mt NH3/yr;;;;;Warning: Needs to be added once available in REMIND.;;NH3|AFOL emissions from forestry and other land use;
+397;Emissions|NH3|Energy;Mt NH3/yr;Emi|NH3|w/ Bunkers|Energy;Mt NH3/yr;;;;;ammonia emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
+398;Emissions|NH3|Energy|Demand|Residential and Commercial;Mt NH3/yr;Emi|NH3|Energy|Demand|Buildings;Mt NH3/yr;;;;;ammonia Emissions from Combustion in Residential and Commercial/Institutional Sectors (IPCC 1A4A,1A4B);R
 399;Emissions|NH3|Energy|Demand|Residential and Commercial|Commercial;Mt NH3/yr;;;;;;;NH3 emissions from fuel combustion in commercial sector (IPCC category 1A4a,1A4b);
 400;Emissions|NH3|Energy|Demand|Residential and Commercial|Residential;Mt NH3/yr;;;;;;;NH3 emissions from fuel combustion in residential sector (IPCC category 1A4a,1A4b);
-402;Emissions|NH3|Energy|Demand|Industry;Mt NH3/yr;Emi|NH3|Energy Demand|Industry;Mt NH3/yr;;;;;ammonia Emissions from Combustion in industry (IPCC 1A2) and industrial processes (IPCC 2C1-2C5);R
-403;Emissions|NH3|Energy|Demand|Transportation;Mt NH3/yr;Emi|NH3|Energy Demand|Transport;Mt NH3/yr;;;;;ammonia Emissions from Combustion in Transportation Sector (IPCC category 1A3);R
+402;Emissions|NH3|Energy|Demand|Industry;Mt NH3/yr;Emi|NH3|Energy|Demand|Industry;Mt NH3/yr;;;;;ammonia Emissions from Combustion in industry (IPCC 1A2) and industrial processes (IPCC 2C1-2C5);R
+403;Emissions|NH3|Energy|Demand|Transportation;Mt NH3/yr;Emi|NH3|w/ Bunkers|Energy|Demand|Transport;Mt NH3/yr;;;;;ammonia Emissions from Combustion in Transportation Sector (IPCC category 1A3);R
 404;Emissions|NH3|Energy|Demand|Transportation|Freight;Mt NH3/yr;;;;;;;NH3 emissions from fuel combustion in Freight transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
 405;Emissions|NH3|Energy|Demand|Transportation|Passenger;Mt NH3/yr;;;;;;;NH3 emissions from fuel combustion in Passenger transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
-406;Emissions|NH3|Energy|Supply;Mt NH3/yr;Emi|NH3|Energy Supply;Mt NH3/yr;;;;;ammonia Emissions from Extraction and Distribution of Fossil Fuels (including fugitive Emissions,IPCC category 1B);R
-407;Emissions|NH3|Industrial Processes;Mt NH3/yr;;;;;;;NH3 emissions from industrial processes;
-408;Emissions|NH3|Other;Mt NH3/yr;Emi|NH3|Solvents;Mt NH3/yr;;;;;ammonia Emissions from other energy end-use sectors that do not fit to any other category (please provide a definition of the sectors in this category in the 'comments' tab);R
+406;Emissions|NH3|Energy|Supply;Mt NH3/yr;Emi|NH3|Energy|Supply;Mt NH3/yr;;;;;ammonia Emissions from Extraction and Distribution of Fossil Fuels (including fugitive Emissions,IPCC category 1B);R
+407;Emissions|NH3|Industrial Processes;Mt NH3/yr;Emi|NH3|Industrial Processes;Mt NH3/yr;;;;;NH3 emissions from industrial processes;R
+408;Emissions|NH3|Other;Mt NH3/yr;Emi|NH3|Product Use|Solvents;Mt NH3/yr;;;;;ammonia Emissions from other energy end-use sectors that do not fit to any other category (please provide a definition of the sectors in this category in the 'comments' tab);R
 409;Emissions|NH3|Waste;Mt NH3/yr;Emi|NH3|Waste;Mt NH3/yr;;;;;Ammonia emissions from waste;R
-410;Emissions|NOx;Mt NO2/yr;Emi|NOX;Mt NOX/yr;;;;;total NOx emissions;R
-411;Emissions|NOx|AFOLU;Mt NO2/yr;Emi|NOX|Land Use;Mt NOX/yr;;;;;NOx emissions from agriculture,forestry and other land use (IPCC category 3);R
-412;Emissions|NOx|AFOLU|Agriculture;Mt NO2/yr;;;;;;;NOx|AFOLU|Agric emissions from agriculture;
-413;Emissions|NOx|AFOLU|Land;Mt NO2/yr;;;;;;;NOx|AFOL emissions from forestry and other land use;
-414;Emissions|NOx|Energy;Mt NO2/yr;Emi|NOX|Energy Supply and Demand;Mt NOX/yr;;;;;NOx emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
-415;Emissions|NOx|Energy|Demand|Residential and Commercial;Mt NO2/yr;Emi|NOX|Energy Demand|Buildings;Mt NOX/yr;;;;;NOx emissions from fuel combustion in residential,commercial,institutional sectors (IPCC category 1A4a,1A4b);R
+410;Emissions|NOx;Mt NO2/yr;Emi|NOx;Mt NOx/yr;;;Warning: The current remind2 version (2.0.10) does not yet include any MAgPIE-related air pollutant emissions.;;total NOx emissions;R
+411;Emissions|NOx|AFOLU;Mt NO2/yr;;;;;Warning: Needs to be added once available in REMIND.;;NOx emissions from agriculture,forestry and other land use (IPCC category 3);
+412;Emissions|NOx|AFOLU|Agriculture;Mt NO2/yr;;;;;Warning: Needs to be added once available in REMIND.;;NOx|AFOLU|Agric emissions from agriculture;
+413;Emissions|NOx|AFOLU|Land;Mt NO2/yr;;;;;Warning: Needs to be added once available in REMIND.;;NOx|AFOL emissions from forestry and other land use;
+414;Emissions|NOx|Energy;Mt NO2/yr;Emi|NOx|w/ Bunkers|Energy;Mt NOx/yr;;;;;NOx emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
+415;Emissions|NOx|Energy|Demand|Residential and Commercial;Mt NO2/yr;Emi|NOx|Energy|Demand|Buildings;Mt NOx/yr;;;;;NOx emissions from fuel combustion in residential,commercial,institutional sectors (IPCC category 1A4a,1A4b);R
 416;Emissions|NOx|Energy|Demand|Residential and Commercial|Commercial;Mt NO2/yr;;;;;;;NOx emissions from fuel combustion in commercial sector (IPCC category 1A4a,1A4b);
 417;Emissions|NOx|Energy|Demand|Residential and Commercial|Residential;Mt NO2/yr;;;;;;;NOx emissions from fuel combustion in residential sector (IPCC category 1A4a,1A4b);
-419;Emissions|NOx|Energy|Demand|Industry;Mt NO2/yr;Emi|NOX|Energy Demand|Industry;Mt NOX/yr;;;;;NOx emissions from fuel combustion in industry (IPCC category 1A2);R
-420;Emissions|NOx|Energy|Demand|Transportation;Mt NO2/yr;Emi|NOX|Energy Demand|Transport;Mt NOX/yr;;;;;NOx emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);R
+419;Emissions|NOx|Energy|Demand|Industry;Mt NO2/yr;Emi|NOx|Energy|Demand|Industry;Mt NOx/yr;;;;;NOx emissions from fuel combustion in industry (IPCC category 1A2);R
+420;Emissions|NOx|Energy|Demand|Transportation;Mt NO2/yr;Emi|NOx|w/ Bunkers|Energy|Demand|Transport;Mt NOx/yr;;;;;NOx emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);R
 421;Emissions|NOx|Energy|Demand|Transportation|Freight;Mt NO2/yr;;;;;;;NOx emissions from fuel combustion in Freight transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
 422;Emissions|NOx|Energy|Demand|Transportation|Passenger;Mt NO2/yr;;;;;;;NOx emissions from fuel combustion in Passenger transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
-423;Emissions|NOx|Energy|Supply;Mt NO2/yr;Emi|NOX|Energy Supply;Mt NOX/yr;;;;;NOx emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C);R
-424;Emissions|NOx|Industrial Processes;Mt NO2/yr;;;;;;;NOx emissions from industrial processes;
-425;Emissions|NOx|Other;Mt NO2/yr;Emi|NOX|Solvents;Mt NOX/yr;;;;;NOx emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);R
-426;Emissions|NOx|Waste;Mt NO2/yr;Emi|NOX|Waste;Mt NOX/yr;;;;;NOx emissions from waste;R
-427;Emissions|OC;Mt OC/yr;Emi|OC;Mt OC/yr;;;;;total organic carbon emissions;R
-428;Emissions|OC|AFOLU;Mt OC/yr;Emi|OC|Land Use;Mt OC/yr;;;;;organic carbon emissions from agriculture,forestry and other land use (IPCC category 3);R
-429;Emissions|OC|AFOLU|Agriculture;Mt OC/yr;;;;;;;OC|AFOLU|Agric emissions from agriculture;
-430;Emissions|OC|AFOLU|Land;Mt OC/yr;;;;;;;OC|AFOL emissions from forestry and other land use;
-431;Emissions|OC|Energy;Mt OC/yr;Emi|OC|Energy Supply and Demand;Mt OC/yr;;;;;organic carbon emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
-432;Emissions|OC|Energy|Demand|Residential and Commercial;Mt OC/yr;Emi|OC|Energy Demand|Buildings;Mt OC/yr;;;;;organic carbon emissions from fuel combustion in residential,commercial,institutional sectors (IPCC category 1A4a,1A4b);R
+423;Emissions|NOx|Energy|Supply;Mt NO2/yr;Emi|NOx|Energy|Supply;Mt NOx/yr;;;;;NOx emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C);R
+424;Emissions|NOx|Industrial Processes;Mt NO2/yr;Emi|NOx|Industrial Processes;Mt NOx/yr;;;;;NOx emissions from industrial processes;R
+425;Emissions|NOx|Other;Mt NO2/yr;Emi|NOx|Product Use|Solvents;Mt NOx/yr;;;;;NOx emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);R
+426;Emissions|NOx|Waste;Mt NO2/yr;Emi|NOX|Waste;Mt NOx/yr;;;;;NOx emissions from waste;R
+427;Emissions|OC;Mt OC/yr;Emi|OC|w/ Bunkers;Mt OC/yr;;;Warning: The current remind2 version (2.0.10) does not yet include any MAgPIE-related air pollutant emissions.;;total organic carbon emissions;R
+428;Emissions|OC|AFOLU;Mt OC/yr;;;;;Warning: Needs to be added once available in REMIND.;;organic carbon emissions from agriculture,forestry and other land use (IPCC category 3);
+429;Emissions|OC|AFOLU|Agriculture;Mt OC/yr;;;;;Warning: Needs to be added once available in REMIND.;;OC|AFOLU|Agric emissions from agriculture;
+430;Emissions|OC|AFOLU|Land;Mt OC/yr;;;;;Warning: Needs to be added once available in REMIND.;;OC|AFOL emissions from forestry and other land use;
+431;Emissions|OC|Energy;Mt OC/yr;Emi|OC|w/ Bunkers|Energy;Mt OC/yr;;;;;organic carbon emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
+432;Emissions|OC|Energy|Demand|Residential and Commercial;Mt OC/yr;Emi|OC|Energy|Demand|Buildings;Mt OC/yr;;;;;organic carbon emissions from fuel combustion in residential,commercial,institutional sectors (IPCC category 1A4a,1A4b);R
 433;Emissions|OC|Energy|Demand|Residential and Commercial|Commercial;Mt OC/yr;;;;;;;OC emissions from fuel combustion in commercial sector (IPCC category 1A4a,1A4b);
 434;Emissions|OC|Energy|Demand|Residential and Commercial|Residential;Mt OC/yr;;;;;;;OC emissions from fuel combustion in residential sector (IPCC category 1A4a,1A4b);
-436;Emissions|OC|Energy|Demand|Industry;Mt OC/yr;Emi|OC|Energy Demand|Industry;Mt OC/yr;;;;;organic carbon emissions from fuel combustion in industry (IPCC category 1A2);R
-437;Emissions|OC|Energy|Demand|Transportation;Mt OC/yr;Emi|OC|Energy Demand|Transport;Mt OC/yr;;;;;organic carbon emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);R
+436;Emissions|OC|Energy|Demand|Industry;Mt OC/yr;Emi|OC|Energy|Demand|Industry;Mt OC/yr;;;;;organic carbon emissions from fuel combustion in industry (IPCC category 1A2);R
+437;Emissions|OC|Energy|Demand|Transportation;Mt OC/yr;Emi|OC|w/ Bunkers|Energy|Demand|Transport;Mt OC/yr;;;;;organic carbon emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);R
 438;Emissions|OC|Energy|Demand|Transportation|Freight;Mt OC/yr;;;;;;;OC emissions from fuel combustion in Freight transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
 439;Emissions|OC|Energy|Demand|Transportation|Passenger;Mt OC/yr;;;;;;;OC emissions from fuel combustion in Passenger transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
-440;Emissions|OC|Energy|Supply;Mt OC/yr;Emi|OC|Energy Supply;Mt OC/yr;;;;;organic carbon emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel prorganic carbonessing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C);R
-441;Emissions|OC|Industrial Processes;Mt OC/yr;;;;;;;OC emissions from industrial processes;
-442;Emissions|OC|Other;Mt OC/yr;Emi|OC|Solvents;Mt OC/yr;;;;;organic carbon emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);R
+440;Emissions|OC|Energy|Supply;Mt OC/yr;Emi|OC|Energy|Supply;Mt OC/yr;;;;;organic carbon emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel prorganic carbonessing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C);R
+441;Emissions|OC|Industrial Processes;Mt OC/yr;Emi|OC|Industrial Processes;Mt OC/yr;;;;;OC emissions from industrial processes;R
+442;Emissions|OC|Other;Mt OC/yr;Emi|OC|Product Use|Solvents;Mt OC/yr;;;;;organic carbon emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);R
 443;Emissions|OC|Waste;Mt OC/yr;Emi|OC|Waste;Mt OC/yr;;;;;organic carbon emissions from waste;R
 444;Emissions|PFC;kt CF4-equiv/yr;Emi|PFC;kt CF4-equiv/yr;;;;;total emissions of perfluorocarbons (PFCs),provided as aggregate CF4-equivalents;R
 445;Emissions|PFC|C2F6;kt C2F6/yr;;;;;;;total emissions of C2F6;
@@ -514,37 +512,37 @@ idx;variable;unit;piam_variable;piam_unit;piam_factor;piam_spatial;internal_comm
 459;Emissions|SF6|Industrial Processes|Other;kt SF6/yr;;;;;;;SF6 emissions from industrial processes (excl. fuel combustion IPCC 1A2) in the other sector (All other production,please specify in comments tab) (IPCC categories 2A,B,C,E);
 460;Emissions|SF6|Industrial Processes|Steel;kt SF6/yr;;;;;;;SF6 emissions from industrial processes (excl. fuel combustion IPCC 1A2) in the steel sector  (IPCC categories 2A,B,C,E);
 461;Emissions|SF6|Waste;kt SF6/yr;;;;;;;;
-462;Emissions|Sulfur;Mt SO2/yr;Emi|SO2;Mt SO2/yr;;;;;total sulfur (SO2) emissions;R
-463;Emissions|Sulfur|AFOLU;Mt SO2/yr;Emi|SO2|Land Use;Mt SO2/yr;;;;;sulfur emissions from agriculture,forestry and other land use (IPCC category 3);R
-464;Emissions|Sulfur|AFOLU|Agriculture;Mt SO2/yr;;;;;;;Sulfur|AFOLU|Agric emissions from agriculture;
-465;Emissions|Sulfur|AFOLU|Land;Mt SO2/yr;;;;;;;Sulfur|AFOL emissions from forestry and other land use;
-466;Emissions|Sulfur|Energy;Mt SO2/yr;Emi|SO2|Energy Supply and Demand;Mt SO2/yr;;;;;sulfur emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
-467;Emissions|Sulfur|Energy|Demand|Residential and Commercial;Mt SO2/yr;Emi|SO2|Energy Demand|Buildings;Mt SO2/yr;;;;;sulfur emissions from fuel combustion in residential,commercial,institutional sectors (IPCC category 1A4a,1A4b);R
+462;Emissions|Sulfur;Mt SO2/yr;Emi|SO2|w/ Bunkers;Mt SO2/yr;;;Warning: The current remind2 version (2.0.10) does not yet include any MAgPIE-related air pollutant emissions.;;total sulfur (SO2) emissions;R
+463;Emissions|Sulfur|AFOLU;Mt SO2/yr;;;;;Warning: Needs to be added once available in REMIND.;;sulfur emissions from agriculture,forestry and other land use (IPCC category 3);
+464;Emissions|Sulfur|AFOLU|Agriculture;Mt SO2/yr;;;;;Warning: Needs to be added once available in REMIND.;;Sulfur|AFOLU|Agric emissions from agriculture;
+465;Emissions|Sulfur|AFOLU|Land;Mt SO2/yr;;;;;Warning: Needs to be added once available in REMIND.;;Sulfur|AFOL emissions from forestry and other land use;
+466;Emissions|Sulfur|Energy;Mt SO2/yr;Emi|SO2|w/ Bunkers|Energy;Mt SO2/yr;;;;;sulfur emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
+467;Emissions|Sulfur|Energy|Demand|Residential and Commercial;Mt SO2/yr;Emi|SO2|Energy|Demand|Buildings;Mt SO2/yr;;;;;sulfur emissions from fuel combustion in residential,commercial,institutional sectors (IPCC category 1A4a,1A4b);R
 468;Emissions|Sulfur|Energy|Demand|Residential and Commercial|Commercial;Mt SO2/yr;;;;;;;Sulfur emissions from fuel combustion in commercial sector (IPCC category 1A4a,1A4b);
 469;Emissions|Sulfur|Energy|Demand|Residential and Commercial|Residential;Mt SO2/yr;;;;;;;Sulfur emissions from fuel combustion in residential sector (IPCC category 1A4a,1A4b);
-471;Emissions|Sulfur|Energy|Demand|Industry;Mt SO2/yr;Emi|SO2|Energy Demand|Industry;Mt SO2/yr;;;;;sulfur emissions from fuel combustion in industry (IPCC category 1A2);R
-472;Emissions|Sulfur|Energy|Demand|Transportation;Mt SO2/yr;Emi|SO2|Energy Demand|Transport;Mt SO2/yr;;;;;sulfur emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);R
+471;Emissions|Sulfur|Energy|Demand|Industry;Mt SO2/yr;Emi|SO2|Energy|Demand|Industry;Mt SO2/yr;;;;;sulfur emissions from fuel combustion in industry (IPCC category 1A2);R
+472;Emissions|Sulfur|Energy|Demand|Transportation;Mt SO2/yr;Emi|SO2|w/ Bunkers|Energy|Demand|Transport;Mt SO2/yr;;;;;sulfur emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);R
 473;Emissions|Sulfur|Energy|Demand|Transportation|Freight;Mt SO2/yr;;;;;;;Sulfur emissions from fuel combustion in Freight transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
 474;Emissions|Sulfur|Energy|Demand|Transportation|Passenger;Mt SO2/yr;;;;;;;Sulfur emissions from fuel combustion in Passenger transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
-475;Emissions|Sulfur|Energy|Supply;Mt SO2/yr;Emi|SO2|Energy Supply;Mt SO2/yr;;;;;sulfur emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C);R
-476;Emissions|Sulfur|Industrial Processes;Mt SO2/yr;;;;;;;Sulfur emissions from industrial processes;
-477;Emissions|Sulfur|Other;Mt SO2/yr;Emi|SO2|Solvents;Mt SO2/yr;;;;;sulfur emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);R
+475;Emissions|Sulfur|Energy|Supply;Mt SO2/yr;Emi|SO2|Energy|Supply;Mt SO2/yr;;;;;sulfur emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C);R
+476;Emissions|Sulfur|Industrial Processes;Mt SO2/yr;Emi|SO2|Industrial Processes;Mt SO2/yr;;;;;Sulfur emissions from industrial processes;R
+477;Emissions|Sulfur|Other;Mt SO2/yr;Emi|SO2|Product Use|Solvents;Mt SO2/yr;;;;;sulfur emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab);R
 478;Emissions|Sulfur|Waste;Mt SO2/yr;Emi|SO2|Waste;Mt SO2/yr;;;;;sulfur emissions from waste;R
-479;Emissions|VOC;Mt VOC/yr;Emi|VOC;Mt VOC/yr;;;;;total volatile organic compound (VOC) emissions;R
-480;Emissions|VOC|AFOLU;Mt VOC/yr;Emi|VOC|Land Use;Mt VOC/yr;;;;;land use based volatile organic compounds Emissions;R
-481;Emissions|VOC|AFOLU|Agriculture;Mt VOC/yr;;;;;;;VOC|AFOLU|Agric emissions from agriculture;
-482;Emissions|VOC|AFOLU|Land;Mt VOC/yr;;;;;;;VOC|AFOL emissions from forestry and other land use;
-483;Emissions|VOC|Energy;Mt VOC/yr;Emi|VOC|Energy Supply and Demand;Mt VOC/yr;;;;;volatile organic compounds emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
-484;Emissions|VOC|Energy|Demand|Residential and Commercial;Mt VOC/yr;Emi|VOC|Energy Demand|Buildings;Mt VOC/yr;;;;;volatile organic compounds Emissions from Combustion in Residential and Commercial/Institutional Sectors (IPCC 1A4A,1A4B);R
+479;Emissions|VOC;Mt VOC/yr;Emi|VOC|w/ Bunkers;Mt VOC/yr;;;Warning: The current remind2 version (2.0.10) does not yet include any MAgPIE-related air pollutant emissions.;;total volatile organic compound (VOC) emissions;R
+480;Emissions|VOC|AFOLU;Mt VOC/yr;;;;;Warning: Needs to be added once available in REMIND.;;land use based volatile organic compounds Emissions;
+481;Emissions|VOC|AFOLU|Agriculture;Mt VOC/yr;;;;;Warning: Needs to be added once available in REMIND.;;VOC|AFOLU|Agric emissions from agriculture;
+482;Emissions|VOC|AFOLU|Land;Mt VOC/yr;;;;;Warning: Needs to be added once available in REMIND.;;VOC|AFOL emissions from forestry and other land use;
+483;Emissions|VOC|Energy;Mt VOC/yr;Emi|VOC|w/ Bunkers|Energy;Mt VOC/yr;;;;;volatile organic compounds emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B);R
+484;Emissions|VOC|Energy|Demand|Residential and Commercial;Mt VOC/yr;Emi|VOC|Energy|Demand|Buildings;Mt VOC/yr;;;;;volatile organic compounds Emissions from Combustion in Residential and Commercial/Institutional Sectors (IPCC 1A4A,1A4B);R
 485;Emissions|VOC|Energy|Demand|Residential and Commercial|Commercial;Mt VOC/yr;;;;;;;VOC emissions from fuel combustion in commercial sector (IPCC category 1A4a,1A4b);
 486;Emissions|VOC|Energy|Demand|Residential and Commercial|Residential;Mt VOC/yr;;;;;;;VOC emissions from fuel combustion in residential sector (IPCC category 1A4a,1A4b);
-488;Emissions|VOC|Energy|Demand|Industry;Mt VOC/yr;Emi|VOC|Energy Demand|Industry;Mt VOC/yr;;;;;volatile organic compounds Emissions from Combustion in industry (IPCC 1A2) and industrial processes (IPCC 2C1-2C5);R
-489;Emissions|VOC|Energy|Demand|Transportation;Mt VOC/yr;Emi|VOC|Energy Demand|Transport;Mt VOC/yr;;;;;volatile organic compounds Emissions from Combustion in Transportation Sector (IPCC category 1A3);R
+488;Emissions|VOC|Energy|Demand|Industry;Mt VOC/yr;Emi|VOC|Energy|Demand|Industry;Mt VOC/yr;;;;;volatile organic compounds Emissions from Combustion in industry (IPCC 1A2) and industrial processes (IPCC 2C1-2C5);R
+489;Emissions|VOC|Energy|Demand|Transportation;Mt VOC/yr;Emi|VOC|w/ Bunkers|Energy|Demand|Transport;Mt VOC/yr;;;;;volatile organic compounds Emissions from Combustion in Transportation Sector (IPCC category 1A3);R
 490;Emissions|VOC|Energy|Demand|Transportation|Freight;Mt VOC/yr;;;;;;;VOC emissions from fuel combustion in Freight transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
 491;Emissions|VOC|Energy|Demand|Transportation|Passenger;Mt VOC/yr;;;;;;;VOC emissions from fuel combustion in Passenger transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei);
-492;Emissions|VOC|Energy|Supply;Mt VOC/yr;Emi|VOC|Energy Supply;Mt VOC/yr;;;;;volatile organic compounds Emissions from Extraction and Distribution of Fossil Fuels (including fugitive Emissions,IPCC category 1B);R
-493;Emissions|VOC|Industrial Processes;Mt VOC/yr;;;;;;;VOC emissions from industrial processes;
-494;Emissions|VOC|Other;Mt VOC/yr;Emi|VOC|Solvents;Mt VOC/yr;;;;;volatile organic compounds Emissions from other energy end-use sectors that do not fit to any other category (please provide a definition of the sectors in this category in the 'comments' tab);R
+492;Emissions|VOC|Energy|Supply;Mt VOC/yr;Emi|VOC|Energy|Supply;Mt VOC/yr;;;;;volatile organic compounds Emissions from Extraction and Distribution of Fossil Fuels (including fugitive Emissions,IPCC category 1B);R
+493;Emissions|VOC|Industrial Processes;Mt VOC/yr;Emi|VOC|Industrial Processes;Mt VOC/yr;;;;;VOC emissions from industrial processes;R
+494;Emissions|VOC|Other;Mt VOC/yr;Emi|VOC|Product Use|Solvents;Mt VOC/yr;;;;;volatile organic compounds Emissions from other energy end-use sectors that do not fit to any other category (please provide a definition of the sectors in this category in the 'comments' tab);R
 495;Emissions|VOC|Waste;Mt VOC/yr;Emi|VOC|Waste;Mt VOC/yr;;;;;volatile organic compounds from waste;R
 496;Employment|Industry|Energy;million;;;;;;;Number of employed inhabitants (payrolls) in energy related industries (based on ILO classification);
 497;Employment|Industry|Energy Intensive;million;;;;;;;Number of employed inhabitants (payrolls) in energy-intensive industry (based on ILO classification);
