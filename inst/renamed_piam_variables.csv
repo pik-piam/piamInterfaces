@@ -348,6 +348,7 @@ Emi|NH3|Energy|Supply|+|Electricity;Emi|NH3|Energy Supply|Electricity
 Emi|NH3|Energy|Supply|+|Extraction;Emi|NH3|Energy Supply|Extraction
 Emi|NH3|Product Use|Solvents;Emi|NH3|Solvents
 Emi|NOx|w/ Bunkers;Emi|NOX
+Emi|CA|NOx;Emi|CA|NOX
 Emi|NOx|w/ Bunkers|Energy;Emi|NOX|Energy Supply and Demand
 Emi|NOx|Energy|Demand|Buildings;Emi|NOX|Energy Demand|Buildings
 Emi|NOx|Energy|Demand|Industry;Emi|NOX|Energy Demand|Industry

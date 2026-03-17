@@ -99,7 +99,7 @@ test_that("fail on duplicated data", {
 
 test_that("interpolation for ScenarioMIP works as expected", {
 
-  # this test assumes that Emi|BC is one of the variables that should
+  # this test assumes that Emi|BC|w/ Bunkers is one of the variables that should
   # be interpolated as per the ScenarioMIP template
 
   data <- data.frame(
