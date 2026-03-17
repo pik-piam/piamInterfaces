@@ -461,7 +461,7 @@ idx;variable;unit;piam_variable;piam_unit;piam_factor;piam_spatial;internal_comm
 407;Emissions|NH3|Industrial Processes;Mt NH3/yr;Emi|NH3|Industrial Processes;Mt NH3/yr;;;;;NH3 emissions from industrial processes;R
 408;Emissions|NH3|Other;Mt NH3/yr;Emi|NH3|Product Use|Solvents;Mt NH3/yr;;;;;ammonia Emissions from other energy end-use sectors that do not fit to any other category (please provide a definition of the sectors in this category in the 'comments' tab);R
 409;Emissions|NH3|Waste;Mt NH3/yr;Emi|NH3|Waste;Mt NH3/yr;;;;;Ammonia emissions from waste;R
-410;Emissions|NOx;Mt NO2/yr;Emi|NOx;Mt NOx/yr;;;Warning: The current remind2 version (2.0.10) does not yet include any MAgPIE-related air pollutant emissions.;;total NOx emissions;R
+410;Emissions|NOx;Mt NO2/yr;Emi|NOx|w/ Bunkers;Mt NOx/yr;;;Warning: The current remind2 version (2.0.10) does not yet include any MAgPIE-related air pollutant emissions.;;total NOx emissions;R
 411;Emissions|NOx|AFOLU;Mt NO2/yr;;;;;Warning: Needs to be added once available in REMIND.;;NOx emissions from agriculture,forestry and other land use (IPCC category 3);
 412;Emissions|NOx|AFOLU|Agriculture;Mt NO2/yr;;;;;Warning: Needs to be added once available in REMIND.;;NOx|AFOLU|Agric emissions from agriculture;
 413;Emissions|NOx|AFOLU|Land;Mt NO2/yr;;;;;Warning: Needs to be added once available in REMIND.;;NOx|AFOL emissions from forestry and other land use;
