@@ -314,3 +314,78 @@ Productivity|Feed protein conversion|Pig meat;Productivity|Feed protein conversi
 Production Nr|Livestock products|+|Pig meat;Production Nr|Livestock products|+|Monogastric meat
 Production|Livestock products|+|Pig meat;Production|Livestock products|+|Monogastric meat
 Prices|Index2020|Agriculture|Producer|Pig meat;Prices|Index2020|Agriculture|Producer|Monogastric meat
+#
+# renaming of air pollutants in REMIND
+# https://github.com/pik-piam/remind2/pull/768
+Emi|BC|w/ Bunkers;Emi|BC
+Emi|BC|w/ Bunkers|Energy;Emi|BC|Energy Supply and Demand
+Emi|BC|Energy|Demand|Buildings;Emi|BC|Energy Demand|Buildings
+Emi|BC|Energy|Demand|Industry;Emi|BC|Energy Demand|Industry
+Emi|BC|Energy|Demand|Transport|Ground;Emi|BC|Energy Demand|Transport|Ground Trans
+Emi|BC|w/ Bunkers|Energy|Demand|Transport;Emi|BC|Energy Demand|Transport
+Emi|BC|Energy|Supply;Emi|BC|Energy Supply
+Emi|BC|Energy|Supply|+|Electricity;Emi|BC|Energy Supply|Electricity
+Emi|BC|Energy|Supply|+|Extraction;Emi|BC|Energy Supply|Extraction
+Emi|BC|Product Use|Solvents;Emi|BC|Solvents
+Emi|CO|w/ Bunkers;Emi|CO
+Emi|CO|w/ Bunkers|Energy;Emi|CO|Energy Supply and Demand
+Emi|CO|Energy|Demand|Buildings;Emi|CO|Energy Demand|Buildings
+Emi|CO|Energy|Demand|Industry;Emi|CO|Energy Demand|Industry
+Emi|CO|Energy|Demand|Transport|Ground;Emi|CO|Energy Demand|Transport|Ground Trans
+Emi|CO|w/ Bunkers|Energy|Demand|Transport;Emi|CO|Energy Demand|Transport
+Emi|CO|Energy|Supply;Emi|CO|Energy Supply
+Emi|CO|Energy|Supply|+|Electricity;Emi|CO|Energy Supply|Electricity
+Emi|CO|Energy|Supply|+|Extraction;Emi|CO|Energy Supply|Extraction
+Emi|CO|Product Use|Solvents;Emi|CO|Solvents
+Emi|NH3|w/ Bunkers;Emi|NH3
+Emi|NH3|w/ Bunkers|Energy;Emi|NH3|Energy Supply and Demand
+Emi|NH3|Energy|Demand|Buildings;Emi|NH3|Energy Demand|Buildings
+Emi|NH3|Energy|Demand|Industry;Emi|NH3|Energy Demand|Industry
+Emi|NH3|Energy|Demand|Transport|Ground;Emi|NH3|Energy Demand|Transport|Ground Trans
+Emi|NH3|w/ Bunkers|Energy|Demand|Transport;Emi|NH3|Energy Demand|Transport
+Emi|NH3|Energy|Supply;Emi|NH3|Energy Supply
+Emi|NH3|Energy|Supply|+|Electricity;Emi|NH3|Energy Supply|Electricity
+Emi|NH3|Energy|Supply|+|Extraction;Emi|NH3|Energy Supply|Extraction
+Emi|NH3|Product Use|Solvents;Emi|NH3|Solvents
+Emi|NOx|w/ Bunkers;Emi|NOX
+Emi|CA|NOx;Emi|CA|NOX
+Emi|NOx|w/ Bunkers|Energy;Emi|NOX|Energy Supply and Demand
+Emi|NOx|Energy|Demand|Buildings;Emi|NOX|Energy Demand|Buildings
+Emi|NOx|Energy|Demand|Industry;Emi|NOX|Energy Demand|Industry
+Emi|NOx|Energy|Demand|Transport|Ground;Emi|NOX|Energy Demand|Transport|Ground Trans
+Emi|NOx|w/ Bunkers|Energy|Demand|Transport;Emi|NOX|Energy Demand|Transport
+Emi|NOx|Energy|Supply;Emi|NOX|Energy Supply
+Emi|NOx|Energy|Supply|+|Electricity;Emi|NOX|Energy Supply|Electricity
+Emi|NOx|Energy|Supply|+|Extraction;Emi|NOX|Energy Supply|Extraction
+Emi|NOx|Product Use|Solvents;Emi|NOX|Solvents
+Emi|NOx|Waste;Emi|NOX|Waste
+Emi|OC|w/ Bunkers;Emi|OC
+Emi|OC|w/ Bunkers|Energy;Emi|OC|Energy Supply and Demand
+Emi|OC|Energy|Demand|Buildings;Emi|OC|Energy Demand|Buildings
+Emi|OC|Energy|Demand|Industry;Emi|OC|Energy Demand|Industry
+Emi|OC|Energy|Demand|Transport|Ground;Emi|OC|Energy Demand|Transport|Ground Trans
+Emi|OC|w/ Bunkers|Energy|Demand|Transport;Emi|OC|Energy Demand|Transport
+Emi|OC|Energy|Supply;Emi|OC|Energy Supply
+Emi|OC|Energy|Supply|+|Electricity;Emi|OC|Energy Supply|Electricity
+Emi|OC|Energy|Supply|+|Extraction;Emi|OC|Energy Supply|Extraction
+Emi|OC|Product Use|Solvents;Emi|OC|Solvents
+Emi|SO2|w/ Bunkers;Emi|SO2
+Emi|SO2|w/ Bunkers|Energy;Emi|SO2|Energy Supply and Demand
+Emi|SO2|Energy|Demand|Buildings;Emi|SO2|Energy Demand|Buildings
+Emi|SO2|Energy|Demand|Industry;Emi|SO2|Energy Demand|Industry
+Emi|SO2|Energy|Demand|Transport|Ground;Emi|SO2|Energy Demand|Transport|Ground Trans
+Emi|SO2|w/ Bunkers|Energy|Demand|Transport;Emi|SO2|Energy Demand|Transport
+Emi|SO2|Energy|Supply;Emi|SO2|Energy Supply
+Emi|SO2|Energy|Supply|+|Electricity;Emi|SO2|Energy Supply|Electricity
+Emi|SO2|Energy|Supply|+|Extraction;Emi|SO2|Energy Supply|Extraction
+Emi|SO2|Product Use|Solvents;Emi|SO2|Solvents
+Emi|VOC|w/ Bunkers;Emi|VOC
+Emi|VOC|w/ Bunkers|Energy;Emi|VOC|Energy Supply and Demand
+Emi|VOC|Energy|Demand|Buildings;Emi|VOC|Energy Demand|Buildings
+Emi|VOC|Energy|Demand|Industry;Emi|VOC|Energy Demand|Industry
+Emi|VOC|Energy|Demand|Transport|Ground;Emi|VOC|Energy Demand|Transport|Ground Trans
+Emi|VOC|w/ Bunkers|Energy|Demand|Transport;Emi|VOC|Energy Demand|Transport
+Emi|VOC|Energy|Supply;Emi|VOC|Energy Supply
+Emi|VOC|Energy|Supply|+|Electricity;Emi|VOC|Energy Supply|Electricity
+Emi|VOC|Energy|Supply|+|Extraction;Emi|VOC|Energy Supply|Extraction
+Emi|VOC|Product Use|Solvents;Emi|VOC|Solvents
