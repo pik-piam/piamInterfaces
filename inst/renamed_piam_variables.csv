@@ -358,6 +358,7 @@ Emi|NOx|Energy|Supply;Emi|NOX|Energy Supply
 Emi|NOx|Energy|Supply|+|Electricity;Emi|NOX|Energy Supply|Electricity
 Emi|NOx|Energy|Supply|+|Extraction;Emi|NOX|Energy Supply|Extraction
 Emi|NOx|Product Use|Solvents;Emi|NOX|Solvents
+Emi|NOx|Waste;Emi|NOX|Waste
 Emi|OC|w/ Bunkers;Emi|OC
 Emi|OC|w/ Bunkers|Energy;Emi|OC|Energy Supply and Demand
 Emi|OC|Energy|Demand|Buildings;Emi|OC|Energy Demand|Buildings
