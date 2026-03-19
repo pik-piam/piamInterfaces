@@ -354,6 +354,9 @@ Emi|NOx|Energy|Demand|Buildings;Emi|NOX|Energy Demand|Buildings
 Emi|NOx|Energy|Demand|Industry;Emi|NOX|Energy Demand|Industry
 Emi|NOx|Energy|Demand|Transport|Ground;Emi|NOX|Energy Demand|Transport|Ground Trans
 Emi|NOx|w/ Bunkers|Energy|Demand|Transport;Emi|NOX|Energy Demand|Transport
+Emi|NOx|Extra|Energy|Demand|Transport|Bunkers;Emi|NOX|Extra|Energy|Demand|Transport|Bunkers
+Emi|NOx|Extra|Energy|Demand|Transport|Bunkers|Freight|International Shipping;Emi|NOX|Extra|Energy|Demand|Transport|Bunkers|Freight|International Shipping
+Emi|NOx|Extra|Energy|Demand|Transport|Bunkers|Pass|International Aviation;Emi|NOX|Extra|Energy|Demand|Transport|Bunkers|Pass|International Aviation
 Emi|NOx|Energy|Supply;Emi|NOX|Energy Supply
 Emi|NOx|Energy|Supply|+|Electricity;Emi|NOX|Energy Supply|Electricity
 Emi|NOx|Energy|Supply|+|Extraction;Emi|NOX|Energy Supply|Extraction
