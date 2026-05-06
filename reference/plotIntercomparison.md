@@ -90,6 +90,7 @@ Oliver Richters
 ## Examples
 
 ``` r
+
 if (FALSE) { # \dontrun{
 plotIntercomparison(quitte::quitte_example_dataAR6,
                     lineplotVariables = c("Temperature|Global Mean", "Population"))

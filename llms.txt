@@ -1,9 +1,7 @@
 # Project specific interfaces to REMIND / MAgPIE
 
-R package **piamInterfaces**, version **0.59.0**
+R package **piamInterfaces**, version **0.59.1**
 
-[![CRAN
-status](https://www.r-pkg.org/badges/version/piamInterfaces)](https://cran.r-project.org/package=piamInterfaces)
 [![R build
 status](https://github.com/pik-piam/piamInterfaces/workflows/check/badge.svg)](https://github.com/pik-piam/piamInterfaces/actions)
 [![codecov](https://codecov.io/gh/pik-piam/piamInterfaces/branch/master/graph/badge.svg)](https://app.codecov.io/gh/pik-piam/piamInterfaces)
@@ -272,6 +270,7 @@ For installation of the most recent package version an additional
 repository has to be added in R:
 
 ``` r
+
 options(repos = c(CRAN = "@CRAN@", pik = "https://rse.pik-potsdam.de/r/packages"))
 ```
 
@@ -283,6 +282,7 @@ After that the most recent version of the package can be installed using
 `install.packages`:
 
 ``` r
+
 install.packages("piamInterfaces")
 ```
 
@@ -290,6 +290,7 @@ Package updates can be installed using `update.packages` (make sure that
 the additional repository has been added before running that command):
 
 ``` r
+
 update.packages()
 ```
 
@@ -303,7 +304,7 @@ In case of questions / problems please contact Falk Benke
 To cite package **piamInterfaces** in publications use:
 
 Benke F, Richters O (2026). “piamInterfaces: Project specific interfaces
-to REMIND / MAgPIE.” Version: 0.59.0,
+to REMIND / MAgPIE.” Version: 0.59.1,
 <https://github.com/pik-piam/piamInterfaces>.
 
 A BibTeX entry for LaTeX users is
@@ -312,10 +313,10 @@ A BibTeX entry for LaTeX users is
 @Misc{,
  title = {piamInterfaces: Project specific interfaces to REMIND / MAgPIE},
  author = {Falk Benke and Oliver Richters},
- date = {2026-03-31},
+ date = {2026-05-06},
  year = {2026},
  url = {https://github.com/pik-piam/piamInterfaces},
- note = {Version: 0.59.0},
+ note = {Version: 0.59.1},
 }
 ```
 
