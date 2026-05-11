@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="index.html">piamInterfaces</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.59.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.60.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +69,7 @@ Save -&gt; Edit filter settings:
   - Field Delimiter: ;
   - String Delimiter: (none)</code></pre>
 <p>The github diff on a large semicolon-separated file is often unreadable. For a human-readable output, save the old version of the mapping and run:</p>
-<pre><code><span><span class="fu">remind2</span><span class="fu">::</span><span class="fu">compareScenConf</span><span class="op">(</span>fileList <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"oldfile.csv"</span>, <span class="st">"mappingfile.csv"</span><span class="op">)</span>, row.names <span class="op">=</span> <span class="cn">NULL</span>, expanddata <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre>
+<pre><code><span><span class="fu">remind2</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/remind2/man/compareScenConf.html" class="external-link">compareScenConf</a></span><span class="op">(</span>fileList <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"oldfile.csv"</span>, <span class="st">"mappingfile.csv"</span><span class="op">)</span>, row.names <span class="op">=</span> <span class="cn">NULL</span>, expanddata <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre>
 <p>On the PIK cluster, you can run <code>comparescenconf mapping_AR6.csv</code> in the <code>inst/mappings</code> folder and it will compare to a recent <code>master</code> version.</p>
 <p>After you adjusted the mapping, run <code>make test</code> on Linux (incl. the cluster) or <code>Rscript -e 'devtools::test(show_report = TRUE)'</code> on Windows, and various tests will be performed.</p>
 </div>
