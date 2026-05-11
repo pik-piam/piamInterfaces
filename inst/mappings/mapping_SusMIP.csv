@@ -420,9 +420,9 @@ Temperature|Global Mean;°C;MAGICC7 AR6|Surface Temperature (GSAT)|50.0th Percen
 Policy Cost|Area under MAC Curve;billion US$2010/yr;;;;total costs of the policy,i.e. the area under the Marginal Abatement Cost (MAC) curve;
 Emissions|CH4|AFOLU;Mt CH4/yr;Emi|CH4|+|Land-Use Change;Mt CH4/yr;;CH4 emissions from agriculture,forestry and other land use (IPCC category 3);R
 Emissions|N2O|AFOLU;kt N2O/yr;Emi|N2O|+|Land-Use Change;kt N2O/yr;;N2O emissions from agriculture,forestry and other land use (IPCC category 3);R
-Energy Service|Transportation|Freight;bn tkm/yr;ES|Transport|Freight;billion tkm/yr;;annual demand for energy services related to freight transportation;R
-Energy Service|Transportation|Passenger;bn pkm/yr;ES|Transport|Pass;billion pkm/yr;;annual demand for energy services related to passenger transportation;R
-Energy Service|Transportation|Passenger|Road;bn pkm/yr;ES|Transport|Pass|Non-motorized;billion pkm/yr;-1;annual demand for energy services related to road passenger transportation;T
+Energy Service|Transportation|Freight;billion tkm/yr;ES|Transport|Freight;billion tkm/yr;;annual demand for energy services related to freight transportation;R
+Energy Service|Transportation|Passenger;billion pkm/yr;ES|Transport|Pass;billion pkm/yr;;annual demand for energy services related to passenger transportation;R
+Energy Service|Transportation|Passenger|Road;billion pkm/yr;ES|Transport|Pass|Non-motorized;billion pkm/yr;-1;annual demand for energy services related to road passenger transportation;T
 Final Energy|Industry;EJ/yr;FE|++|Industry;EJ/yr;;final energy consumed by the industrial sector,including feedstocks,including agriculture and fishing;R
 Final Energy|Transportation;EJ/yr;FE|++|Transport;EJ/yr;;final energy consumed in the transportation sector,including bunker fuels,excluding pipelines;R
 Final Energy|Transportation|Freight;EJ/yr;FE|Transport|Freight|Electricity;EJ/yr;;final energy consumed for freight transportation;R
