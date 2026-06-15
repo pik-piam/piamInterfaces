@@ -1,6 +1,6 @@
 # Project specific interfaces to REMIND / MAgPIE
 
-R package **piamInterfaces**, version **0.60.0**
+R package **piamInterfaces**, version **0.61.0**
 
 [![R build
 status](https://github.com/pik-piam/piamInterfaces/workflows/check/badge.svg)](https://github.com/pik-piam/piamInterfaces/actions)
@@ -301,7 +301,7 @@ In case of questions / problems please contact Falk Benke
 To cite package **piamInterfaces** in publications use:
 
 Benke F, Richters O (2026). “piamInterfaces: Project specific interfaces
-to REMIND / MAgPIE.” Version: 0.60.0,
+to REMIND / MAgPIE.” Version: 0.61.0,
 <https://github.com/pik-piam/piamInterfaces>.
 
 A BibTeX entry for LaTeX users is
@@ -310,9 +310,9 @@ A BibTeX entry for LaTeX users is
 @Misc{,
  title = {piamInterfaces: Project specific interfaces to REMIND / MAgPIE},
  author = {Falk Benke and Oliver Richters},
- date = {2026-05-11},
+ date = {2026-06-12},
  year = {2026},
  url = {https://github.com/pik-piam/piamInterfaces},
- note = {Version: 0.60.0},
+ note = {Version: 0.61.0},
 }
 ```

@@ -77,6 +77,8 @@ variableInfo(
 #> 
 #> ### Nothing found in mapping: ScenarioMIP_historical
 #> 
+#> ### Nothing found in mapping: SusMIP
+#> 
 #> ### Nothing found in mapping: climateassessment
 #> 
 #> ### Renaming found in renamed_piam_variables.csv:
