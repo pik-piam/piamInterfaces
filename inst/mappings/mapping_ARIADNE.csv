@@ -558,8 +558,8 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 2;energy (industry);Final Energy|Non-Energy Use|Liquids|Biomass;PJ/yr;Final energy consumption of liquid biofuels by the non-combustion processes;FE|Non-energy Use|Industry|Liquids|+|Biomass;EJ/yr;1000;;0;;R
 2;energy (industry);Final Energy|Non-Energy Use|Liquids|Efuel;PJ/yr;Final energy consumption of synthetic liquids of fossil origin by the non-combustion processes;FE|Non-energy Use|Industry|Liquids|+|Hydrogen;EJ/yr;1000;;0;;R
 1;energy (industry);Final Energy|Non-Energy Use|Solids;PJ/yr;Final energy consumption of solids by the non-combustion processes;FE|Non-energy Use|Industry|+|Solids;EJ/yr;1000;;0;;R
-2;energy (industry);Final Energy|Non-Energy Use|Solids|Coal;PJ/yr;Final energy coal consumption by the non-combustion processes;;;;;0;;
-2;energy (industry);Final Energy|Non-Energy Use|Solids|Biomass;PJ/yr;Final energy consumption of solid biomass (modern and traditional, including renewable waste) by the non-combustion processes;;;;;0;;
+2;energy (industry);Final Energy|Non-Energy Use|Solids|Coal;PJ/yr;Final energy coal consumption by the non-combustion processes;FE|Non-energy Use|Industry|Solids|+|Fossil;EJ/yr;1000;;0;;R
+2;energy (industry);Final Energy|Non-Energy Use|Solids|Biomass;PJ/yr;Final energy consumption of solid biomass (modern and traditional, including renewable waste) by the non-combustion processes;FE|Non-energy Use|Industry|Solids|+|Biomass;EJ/yr;1000;;0;;R
 1;energy (industry);Final Energy|Non-Energy Use|Hydrogen;PJ/yr;Final energy consumption of hydrogen by the non-combustion processes;;;;;0;;
 2;energy (industry);Final Energy|Non-Energy Use|Waste;PJ/yr;Final energy consumption of non-renewable waste by the non-combustion processes;;;;;0;;
 2;energy (industry);Final Energy|Non-Energy Use|Other;PJ/yr;Final energy consumption of other feedstocks by the non-combustion processes (please provide a definition of the feedstocks in this category in the 'comments' tab);;;;;0;;
