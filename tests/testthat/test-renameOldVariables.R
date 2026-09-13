@@ -82,3 +82,14 @@ for (n in names(mappingNames())) {
     expect_true(nrow(oldvars) == 0)
   })
 }
+
+test_that("legacy Managed Forest names rename directly to the current planted-forest variables", {
+  oldvar <- qeAR6
+  oldname <- "Resources|Land Cover|Forest|Managed Forest|+|Afforestation"
+  newname <- "Resources|Land Cover|Forest|Planted Forest|CO2-price AR|Natural"
+  levels(oldvar$variable)[[1]] <- oldname
+  expect_message(newvar <- renameOldVariables(oldvar, variables = newname),
+                 "Automatically adjusted variables based")
+  expect_true(newname %in% newvar$variable)
+  expect_false(deletePlus(oldname) %in% deletePlus(newvar$variable))
+})
