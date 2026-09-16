@@ -5571,6 +5571,7 @@ Population;Population|Male;1
 Population 2;Population|Prevalence of Normal Weight;1
 Population 2;Population|Prevalence of Overweight;1
 Population 2;Population|Prevalence of Underweight;1
+Population 2;Population|Prevalence of Obesity;1
 ;;
 Population|Female;Population|Female|Age 0-4;1
 Population|Female;Population|Female|Age 10-14;1
