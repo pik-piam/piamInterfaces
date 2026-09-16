@@ -14,11 +14,6 @@ Emissions|Kyoto Gases|Industry;Mt CO2-equiv/yr;Emi|GHG|Industry;Mt CO2eq/yr;1;;p
 Emissions|Kyoto Gases|Transportation;Mt CO2-equiv/yr;Emi|GHG|w/ Bunkers|Energy|Demand|Transport;Mt CO2eq/yr;1;;phase 5 variable may not be necessary;;;R
 Emissions|Kyoto Gases|Residential and Commercial;Mt CO2-equiv/yr;Emi|GHG|Energy|Demand|+|Buildings;Mt CO2eq/yr;1;;phase 5 variable may not be necessary;;;R
 Emissions|Kyoto Gases|Supply;Mt CO2-equiv/yr;Emi|GHG|Energy|+|Supply;Mt CO2eq/yr;1;;phase 5 variable may not be necessary;;;R
-Final Energy|Residential and Commercial|Liquids|Biomass;EJ/yr;FE|Buildings|Liquids|+|Biomass;EJ/yr;1;;phase 5 variable may not be necessary;;;R
-Final Energy|Residential and Commercial|Liquids|Hydrogen;EJ/yr;FE|Buildings|Liquids|+|Hydrogen;EJ/yr;1;;phase 5 variable may not be necessary;;;R
-Final Energy|Residential and Commercial|Liquids|Oil;EJ/yr;FE|Buildings|Liquids|+|Fossil;EJ/yr;1;;phase 5 variable may not be necessary;;;R
-Final Energy|Residential and Commercial|Gases|Biomass;EJ/yr;FE|Buildings|Gases|+|Biomass;EJ/yr;1;;phase 5 variable may not be necessary;;;R
-Final Energy|Residential and Commercial|Gases|Hydrogen;EJ/yr;FE|Buildings|Gases|+|Hydrogen;EJ/yr;1;;phase 5 variable may not be necessary;;;R
 Final Energy|Residential and Commercial|Gases|Natural Gas;EJ/yr;FE|Buildings|Gases|+|Fossil;EJ/yr;1;;phase 5 variable may not be necessary;;;R
 GDP|PPP|including medium chronic physical risk damage estimate;billion US$2010/yr;GDP|PPP|including medium chronic physical risk damage estimate;billion US$2017/yr;0.9096;;phase 5 variable may not be necessary;;;Rx
 GDP|PPP|including high chronic physical risk damage estimate;billion US$2010/yr;GDP|PPP|including high chronic physical risk damage estimate;billion US$2017/yr;0.9096;;phase 5 variable may not be necessary;;;Rx
