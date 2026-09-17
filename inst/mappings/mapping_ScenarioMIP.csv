@@ -3368,7 +3368,7 @@ Final Energy|Agriculture|Solids|Biomass;EJ/yr;2;Final energy consumption by the 
 Final Energy|Agriculture|Solids|Coal;EJ/yr;2;Final energy consumption by the agriculture sector including fishing of coal, lignite, and derived products (e.g., coke, briquettes);;;;;;;
 Final Energy|Bunkers;EJ/yr;1;Final energy consumption by the international aviation and shipping;;FE|Transport|Bunkers;EJ/yr;;;T;
 Final Energy|Bunkers|Electricity;EJ/yr;1;Final energy consumption by the international aviation and shipping of electricity;;FE|Transport|Bunkers|+|Electricity;EJ/yr;1;mapping taken from ESABCC;R;
-Final Energy|Bunkers|Freight;EJ/yr;2;Final energy consumption for freight transport in international aviation and shipping;;FE|Transport|Bunkers|Freight;EJ/yr;;;T;
+Final Energy|Bunkers|Freight;EJ/yr;2;Final energy consumption for freight transport in international aviation and shipping;;FE|Transport|Bunkers|Freight|International Shipping;EJ/yr;;;T;
 Final Energy|Bunkers|Gases;EJ/yr;1;Final energy consumption by the international aviation and shipping of gaseous fuels including natural gas and biogas, not including hydrogen;;FE|Transport|Bunkers|+|Gases;EJ/yr;1;mapping taken from ESABCC;R;
 Final Energy|Bunkers|Gases|Biomass;EJ/yr;2;Final energy consumption by the international aviation and shipping of gaseous fuels from biogenic sources, mainly biogas;;FE|Transport|Bunkers|Gases|+|Biomass;EJ/yr;1;mapping taken from ECEMF;R;
 Final Energy|Bunkers|Gases|Coal;EJ/yr;2;Final energy consumption by the international aviation and shipping of gaseous fuels from fossil coal gasification;;;;;;;
@@ -3415,7 +3415,7 @@ Final Energy|Bunkers|Liquids|Hydrogen;EJ/yr;2;Final energy consumption by the in
 Final Energy|Bunkers|Liquids|Oil;EJ/yr;2;Final energy consumption by the international aviation and shipping of liquid fuels from refined crude oil;;;;;;;
 Final Energy|Bunkers|Liquids|Other;EJ/yr;2;Final energy consumption by the international aviation and shipping of sources that do not fit any other category;;;;;;;
 Final Energy|Bunkers|Other;EJ/yr;2;Final energy consumption by the international aviation and shipping of other energy sources;;;;;;;
-Final Energy|Bunkers|Passenger;EJ/yr;2;Final energy consumption for passenger transport in international aviation and shipping;;FE|Transport|Bunkers|Pass;EJ/yr;;;T;
+Final Energy|Bunkers|Passenger;EJ/yr;2;Final energy consumption for passenger transport in international aviation and shipping;;FE|Transport|Bunkers|Pass|International Aviation;EJ/yr;;;T;
 Final Energy|Bunkers|Solids;EJ/yr;1;Final energy consumption by the international aviation and shipping of solid energy carriers, including coal, briquettes, coke, and wood pellets;;;;;;;
 Final Energy|Bunkers|Solids|Biomass;EJ/yr;2;Final energy consumption by the international aviation and shipping of solid biomass (e.g., commercial charcoal, wood chips, wood pellets);;;;;;;
 Final Energy|Bunkers|Solids|Coal;EJ/yr;2;Final energy consumption by the international aviation and shipping of coal, lignite, and derived products (e.g., coke, briquettes);;;;;;;
@@ -6268,7 +6268,7 @@ Final Energy|Transportation|Domestic Shipping|Solids|Biomass;EJ/yr;3;Final energ
 Final Energy|Transportation|Domestic Shipping|Solids|Coal;EJ/yr;3;Final energy consumption by the domestic shipping sector of coal, lignite, and derived products (e.g., coke, briquettes);;;;;;;
 Final Energy|Transportation|Electricity;EJ/yr;1;Final energy consumption by the transportation sector excluding international aviation and shipping (see 'Bunkers') of electricity;;FE|Transport|w/o Bunkers|+|Electricity;EJ/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (final);R;
 Final Energy|Transportation|Freight;EJ/yr;2;Final energy consumption by the freight transportation sector excluding international aviation and shipping;;FE|Transport|Freight;EJ/yr;;To be replaced by FE|Transport|Freight with bunkers once REMIND and EDGE-T are consistent;R;
-Final Energy|Transportation|Freight;EJ/yr;2;Final energy consumption by the freight transportation sector excluding international aviation and shipping;;FE|Transport|Bunkers|Freight;EJ/yr;-1;;T;
+Final Energy|Transportation|Freight;EJ/yr;2;Final energy consumption by the freight transportation sector excluding international aviation and shipping;;FE|Transport|Bunkers|Freight|International Shipping;EJ/yr;-1;;T;
 Final Energy|Transportation|Freight|Electricity;EJ/yr;2;Final energy consumption by the freight transportation sector excluding international aviation and shipping of electricity;;FE|Transport|Freight|Electricity;EJ/yr;;Remind has no electricity in Bunkers freight;R;
 Final Energy|Transportation|Freight|Gases;EJ/yr;2;Final energy consumption by the freight transportation sector excluding international aviation and shipping of gaseous fuels including natural gas and biogas, not including hydrogen;;FE|Transport|Freight|Gases;EJ/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (final);R;
 Final Energy|Transportation|Freight|Gases|Biomass;EJ/yr;3;Final energy consumption by the freight transportation sector excluding international aviation and shipping of gaseous fuels from biogenic sources, mainly biogas;;;;;;;
@@ -6400,7 +6400,7 @@ Final Energy|Transportation|Liquids|Oil;EJ/yr;2;Final energy consumption by the 
 Final Energy|Transportation|Liquids|Other;EJ/yr;2;Final energy consumption by the transportation sector excluding international aviation and shipping (see 'Bunkers') of sources that do not fit any other category;;;;;;;
 Final Energy|Transportation|Other;EJ/yr;2;Final energy consumption by the transportation sector excluding international aviation and shipping (see 'Bunkers') of other energy sources;;;;;;;
 Final Energy|Transportation|Passenger;EJ/yr;2;Final energy consumption by the passenger transportation sector excluding international aviation and shipping;;FE|Transport|Pass;EJ/yr;;mapping taken from NAVIGATE, NAVIGATE category: energy (final);T;
-Final Energy|Transportation|Passenger;EJ/yr;2;Final energy consumption by the passenger transportation sector excluding international aviation and shipping;;FE|Transport|Bunkers|Pass;EJ/yr;-1;;T;
+Final Energy|Transportation|Passenger;EJ/yr;2;Final energy consumption by the passenger transportation sector excluding international aviation and shipping;;FE|Transport|Bunkers|Pass|International Aviation;EJ/yr;-1;;T;
 Final Energy|Transportation|Passenger|Electricity;EJ/yr;2;Final energy consumption by the passenger transportation sector excluding international aviation and shipping of electricity;;FE|Transport|Pass|Electricity;EJ/yr;;;T;
 Final Energy|Transportation|Passenger|Gases;EJ/yr;2;Final energy consumption by the passenger transportation sector excluding international aviation and shipping of gaseous fuels including natural gas and biogas, not including hydrogen;;FE|Transport|Pass|Gases;EJ/yr;;;T;
 Final Energy|Transportation|Passenger|Gases|Biomass;EJ/yr;3;Final energy consumption by the passenger transportation sector excluding international aviation and shipping of gaseous fuels from biogenic sources, mainly biogas;;;;;;;
