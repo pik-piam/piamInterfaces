@@ -318,7 +318,7 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 1;energy (electricity);Capacity|Electricity|Solar;GW;Total installed (available) net capacity on hydrogen Open Cycle (OC) units. Includes low capital intensity existent technologies (steam turbines, combustion turbines and internal combustion);Cap|Electricity|+|Solar;GW;1;;0;;R
 2;energy (electricity);Capacity|Electricity|Solar|CSP;GW;Total installed (available) net capacity on hydrogen Fuel Cell Cycle (FC) units.;Cap|Electricity|Solar|+|CSP;GW;1;;0;;R
 1;energy (electricity);Capacity|Electricity|Solar|PV;GW;Total installed (available) net capacity of solar PV power plants. The installed (available) capacity of solar PV power plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Electricity|Solar|PV|1, ..., Capacity|Electricity|Solar|PV|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).;Cap|Electricity|Solar|+|PV;GW;1;;0;;R
-2;energy (electricity);Capacity|Electricity|Solar|PV|Rooftop;GW;Total installed (available) net capacity of solar PV rooftop power plants. The installed (available) capacity of solar PV power plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Electricity|Solar|PV|rooftop|1, ..., Capacity|Electricity|Solar|PV|rooftop|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).;;;;;;;
+2;energy (electricity);Capacity|Electricity|Solar|PV|Rooftop;GW;Total installed (available) net capacity of solar PV rooftop power plants. The installed (available) capacity of solar PV power plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Electricity|Solar|PV|rooftop|1, ..., Capacity|Electricity|Solar|PV|rooftop|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).;;;;;0;;
 2;energy (electricity);Capacity|Electricity|Solar|PV|Open Field;GW;Total installed (available) net capacity of solar PV open field power plants. The installed (available) capacity of solar PV power plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Electricity|Solar|PV|open field|1, ..., Capacity|Electricity|Solar|PV|open field|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).;;;;;0;;
 1;energy (electricity);Capacity|Electricity|Wind;GW;Total installed (available) net capacity of wind power plants (onshore + offshore). The installed (available) capacity of wind power plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Electricity|Wind|1, ..., Capacity|Electricity|Wind|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).;Cap|Electricity|+|Wind;GW;1;;0;;R
 1;energy (electricity);Capacity|Electricity|Wind|Offshore;GW;Total installed (available) net capacity of offshore wind power plants. The installed (available) capacity of offshore wind power plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Electricity|Wind|Offshore|1, ..., Capacity|Electricity|Wind|Offshore|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).;Cap|Electricity|Wind|+|Offshore;GW;1;;0;;R
@@ -1194,6 +1194,7 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 2;energy (price);Price|Final Energy|Transportation|Liquids|Kerosene|Other Taxes;EUR2020/GJ;Other taxes and subsidies included in the price for kerosene at the final level in the transport sector.;;;;;0;;
 1;energy (supply);Primary Energy;PJ/yr;total primary energy consumption (direct equivalent);PE;EJ/yr;1000;;0;;R
 1;energy (supply);Primary Energy|Biomass;PJ/yr;primary energy consumption of purpose-grown bioenergy crops, crop and forestry residue bioenergy, municipal solid waste bioenergy, traditional biomass, including renewable waste;PE|+|Biomass;EJ/yr;1000;;0;;R
+1;energy (supply);Primary Energy|Biomass|Biochar;PJ/yr;primary energy input to biochar of purpose-grown bioenergy crops, crop and forestry residue bioenergy, municipal solid waste bioenergy, traditional biomass;;;;;0;;
 2;energy (supply);Primary Energy|Biomass|Modern;PJ/yr;modern biomass primary energy consumption, including purpose-grown bioenergy crops, crop and forestry residue bioenergy and municipal solid waste bioenergy;PE|Biomass|Modern;EJ/yr;1000;;0;;R
 2;energy (supply);Primary Energy|Biomass|Traditional;PJ/yr;traditional biomass primary energy consumption;PE|Biomass|Traditional;EJ/yr;1000;;0;;R
 2;energy (supply);Primary Energy|Biomass|1st Generation;PJ/yr;biomass primary energy from 1st generation biofuel crops (e.g., sugar cane, rapeseed oil, maize, sugar beet);PE|Biomass|1st Generation;EJ/yr;1000;;0;;R
@@ -1263,6 +1264,7 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 2;energy (electricity);Secondary Energy|Electricity|Fossil|w/o CCS;PJ/yr;net electricity production from coal, gas, conventional and unconventional oil without CCS (net generation = gross generation minus the own electricity consumption of power stations, minus curtailment);SE|Electricity|Oil|w/o CC;EJ/yr;1000;;0;;Rx
 2;energy (electricity);Secondary Energy|Electricity|Fossil|w/o CCS;PJ/yr;net electricity production from coal, gas, conventional and unconventional oil without CCS (net generation = gross generation minus the own electricity consumption of power stations, minus curtailment);SE|Electricity|Gas|+|w/o CC;EJ/yr;1000;;0;;Rx
 1;energy (electricity);Secondary Energy|Electricity|Gas;PJ/yr;net electricity production from gas (net generation = gross generation minus the own electricity consumption of power stations, minus curtailment);SE|Electricity|+|Gas;EJ/yr;1000;;0;;Rx
+2;energy (electricity);Secondary Energy|Electricity|Gas|Biomethane;PJ/yr;net electricity production from biomethane (net generation = gross generation minus the own electricity consumption of power stations, minus curtailment);;;;;0;;
 2;energy (electricity);Secondary Energy|Electricity|Gas|Efuel;PJ/yr;net electricity production from synthetic gas (net generation = gross generation minus the own electricity consumption of power stations, minus curtailment);;;;;0;;
 2;energy (electricity);Secondary Energy|Electricity|Gas|Natural Gas;PJ/yr;net electricity production from natural gas (net generation = gross generation minus the own electricity consumption of power stations, minus curtailment);;;;;0;;
 2;energy (electricity);Secondary Energy|Electricity|Gas|w/ CCS;PJ/yr;net electricity production from gas with a CO2 capture component (net generation = gross generation minus the own electricity consumption of power stations, minus curtailment);SE|Electricity|Gas|+|w/ CC;EJ/yr;1000;;0;;Rx
@@ -1425,6 +1427,7 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 2;energy (industry);Production|Chemicals|Ethylene;Mt/yr;Production of ethylene;;;;;0;;
 2;energy (industry);Production|Chemicals|Ethylene|Fossil;Mt/yr;Production of ethylene using fossil fuels;;;;;0;;
 2;energy (industry);Production|Chemicals|Ethylene|Low-Carbon;Mt/yr;Production of ethylene with new low carbon /carbon-free methods;;;;;0;;
+2;energy (industry);Production|Chemicals|Ethylene|Recycling;Mt/yr;Production of ethylene with recycling;;;;;0;;
 2;energy (industry);Production|Pulp and Paper;Mt/yr;production of pulp and paper;;;;;0;;
 2;energy (transport);Energy Service|Transportation|Freight;bn tkm/yr;energy service demand for domestic freight transport;ES|Transport|Freight|Rail;billion tkm/yr;1;;0;;T
 2;energy (transport);Energy Service|Transportation|Freight;bn tkm/yr;energy service demand for domestic freight transport;ES|Transport|Freight|Road;billion tkm/yr;1;;0;;T
@@ -2519,6 +2522,10 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 2;raw materials;Minerals|Cadmium|PV;kt/yr;Demand of Cadmium for PV Power Plants;;;;;0;;
 2;raw materials;Minerals|Cadmium|Power Plants (fossil + nuclear);kt/yr;Demand of Cadmium for Power Plants (fossil + nuclear);;;;;0;;
 2;raw materials;Minerals|Cadmium|Other Sectors;kt/yr;Demand of Cadmium for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Cerium|Electrolysers;kt/yr;Demand of Cerium for Electrolysers;;;;;0;;
+2;raw materials;Minerals|Chromium|Electrolysers;kt/yr;Demand of Chromium for Electrolysers;;;;;0;;
+2;raw materials;Minerals|Chromium|Other Conversion Technologies;kt/yr;Demand of Chromium for Other Conversion Technologies;;;;;0;;
+2;raw materials;Minerals|Chromium|Stationary Batteries;kt/yr;Demand of Chromium for Stationary Batteries;;;;;0;;
 2;raw materials;Minerals|Chromium|Wind;kt/yr;Demand of Chromium for Wind Power Plants;;;;;0;;
 2;raw materials;Minerals|Chromium|PV;kt/yr;Demand of Chromium for PV Power Plants;;;;;0;;
 2;raw materials;Minerals|Chromium|CSP;kt/yr;Demand of Chromium for CSP Plants;;;;;0;;
@@ -2527,6 +2534,9 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 2;raw materials;Minerals|Chromium|Power Plants (fossil + nuclear);kt/yr;Demand of Chromium for Power Plants (fossil + nuclear);;;;;0;;
 2;raw materials;Minerals|Chromium|Cars;kt/yr;Demand of Chromium for Cars;;;;;0;;
 2;raw materials;Minerals|Chromium|Other Sectors;kt/yr;Demand of Chromium for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Cobalt|PV;kt/yr;Demand of Cobalt for PV Power Plants;;;;;0;;
+2;raw materials;Minerals|Cobalt|Power Plants (fossil + nuclear);kt/yr;Demand of Cobalt for Power Plants (fossil + nuclear);;;;;0;;
+2;raw materials;Minerals|Cobalt|Wind;kt/yr;Demand of Cobalt for Wind Power Plants;;;;;0;;
 2;raw materials;Minerals|Cobalt|Stationary Fuel Cells;kt/yr;Demand of Cobalt for Stationary Fuel Cells;;;;;0;;
 2;raw materials;Minerals|Cobalt|Stationary Batteries;kt/yr;Demand of Cobalt for Stationary Batteries;;;;;0;;
 2;raw materials;Minerals|Cobalt|Electrolysers;kt/yr;Demand of Cobalt for Electrolysers;;;;;0;;
@@ -2544,19 +2554,33 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 2;raw materials;Minerals|Copper|Other Conversion Technologies;kt/yr;Demand of Copper for Other Conversion Technologies;;;;;0;;
 2;raw materials;Minerals|Copper|Cars;kt/yr;Demand of Copper for Cars;;;;;0;;
 2;raw materials;Minerals|Copper|Other Sectors;kt/yr;Demand of Copper for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Dysprosium|Cars;kt/yr;Demand of Dysprosium for Cars;;;;;0;;
 2;raw materials;Minerals|Dysprosium|Wind;kt/yr;Demand of Dysprosium for Wind Power Plants;;;;;0;;
 2;raw materials;Minerals|Dysprosium|Other Sectors;kt/yr;Demand of Dysprosium for Other Sectors;;;;;0;;
 2;raw materials;Minerals|Gallium|PV;kt/yr;Demand of Gallium for PV Power Plants;;;;;0;;
 2;raw materials;Minerals|Gallium|Other Sectors;kt/yr;Demand of Gallium for Other Sectors;;;;;0;;
 2;raw materials;Minerals|Germanium|PV;kt/yr;Demand of Germanium for PV Power Plants;;;;;0;;
 2;raw materials;Minerals|Germanium|Other Sectors;kt/yr;Demand of Germanium for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Graphite|Cars;kt/yr;Demand of Graphite for Cars;;;;;0;;
+2;raw materials;Minerals|Graphite|Electrolysers;kt/yr;Demand of Graphite for Electrolysers;;;;;0;;
+2;raw materials;Minerals|Graphite|Stationary Batteries;kt/yr;Demand of Graphite for Stationary Batteries;;;;;0;;
 2;raw materials;Minerals|Indium|PV;kt/yr;Demand of Indium for PV Power Plants;;;;;0;;
 2;raw materials;Minerals|Indium|Power Plants (fossil + nuclear);kt/yr;Demand of Indium for Power Plants (fossil + nuclear);;;;;0;;
 2;raw materials;Minerals|Indium|Other Sectors;kt/yr;Demand of Indium for Other Sectors;;;;;0;;
 2;raw materials;Minerals|Iridium|Electrolysers;kt/yr;Demand of Iridium for Electrolysers;;;;;0;;
 2;raw materials;Minerals|Iridium|Other Sectors;kt/yr;Demand of Iridium for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Iron|Cars;kt/yr;Demand of Iron for Cars;;;;;0;;
+2;raw materials;Minerals|Iron|Electrolysers;kt/yr;Demand of Iron for Electrolysers;;;;;0;;
+2;raw materials;Minerals|Iron|Other Conversion Technologies;kt/yr;Demand of Iron for Other Conversion Technologies;;;;;0;;
+2;raw materials;Minerals|Iron|PV;kt/yr;Demand of Iron for PV Power Plants;;;;;0;;
+2;raw materials;Minerals|Iron|Power Plants (fossil + nuclear);kt/yr;Demand of Iron for Power Plants (fossil + nuclear);;;;;0;;
+2;raw materials;Minerals|Iron|Power Plants (renewable);kt/yr;Demand of Iron for Power Plants (renewable);;;;;0;;
+2;raw materials;Minerals|Iron|Stationary Batteries;kt/yr;Demand of Iron for Stationary Batteries;;;;;0;;
+2;raw materials;Minerals|Iron|Wind;kt/yr;Demand of Iron for Wind Power Plants;;;;;0;;
 2;raw materials;Minerals|Lanthanum|Electrolysers;kt/yr;Demand of Lanthanum for Electrolysers;;;;;0;;
 2;raw materials;Minerals|Lanthanum|Other Sectors;kt/yr;Demand of Lanthanum for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Lead|Power Plants (fossil + nuclear);kt/yr;Demand of Lead for Power Plants (fossil + nuclear);;;;;0;;
+2;raw materials;Minerals|Lead|Wind;kt/yr;Demand of Lead for Wind Power Plants;;;;;0;;
 2;raw materials;Minerals|Lead|PV;kt/yr;Demand of Lead for PV Power Plants;;;;;0;;
 2;raw materials;Minerals|Lead|Stationary Batteries;kt/yr;Demand of Lead for Stationary Batteries;;;;;0;;
 2;raw materials;Minerals|Lead|Cars;kt/yr;Demand of Lead for Cars;;;;;0;;
@@ -2564,6 +2588,7 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 2;raw materials;Minerals|Lithium|Stationary Batteries;kt/yr;Demand of Lithium for Stationary Batteries;;;;;0;;
 2;raw materials;Minerals|Lithium|Cars;kt/yr;Demand of Lithium for Cars;;;;;0;;
 2;raw materials;Minerals|Lithium|Other Sectors;kt/yr;Demand of Lithium for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Magnesium|Power Plants (fossil + nuclear);kt/yr;Demand of Magnesium for Power Plants (fossil + nuclear);;;;;0;;
 2;raw materials;Minerals|Magnesium|PV;kt/yr;Demand of Magnesium for PV Power Plants;;;;;0;;
 2;raw materials;Minerals|Magnesium|CSP;kt/yr;Demand of Magnesium for CSP Plants;;;;;0;;
 2;raw materials;Minerals|Magnesium|Cars;kt/yr;Demand of Magnesium for Cars;;;;;0;;
@@ -2578,6 +2603,7 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 2;raw materials;Minerals|Manganese|Other Conversion Technologies;kt/yr;Demand of Manganese for Other Conversion Technologies;;;;;0;;
 2;raw materials;Minerals|Manganese|Cars;kt/yr;Demand of Manganese for Cars;;;;;0;;
 2;raw materials;Minerals|Manganese|Other Sectors;kt/yr;Demand of Manganese for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Neodymium|Cars;kt/yr;Demand of Neodymium for Cars;;;;;0;;
 2;raw materials;Minerals|Neodymium|Wind;kt/yr;Demand of Neodymium for Wind Power Plants;;;;;0;;
 2;raw materials;Minerals|Neodymium|Other Sectors;kt/yr;Demand of Neodymium for Other Sectors;;;;;0;;
 2;raw materials;Minerals|Nickel|Wind;kt/yr;Demand of Nickel for Wind Power Plants;;;;;0;;
@@ -2591,6 +2617,11 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 2;raw materials;Minerals|Nickel|Other Conversion Technologies;kt/yr;Demand of Nickel for Other Conversion Technologies;;;;;0;;
 2;raw materials;Minerals|Nickel|Cars;kt/yr;Demand of Nickel for Cars;;;;;0;;
 2;raw materials;Minerals|Nickel|Other Sectors;kt/yr;Demand of Nickel for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Phosphorus|Cars;kt/yr;Demand of Phosphorus for Cars;;;;;0;;
+2;raw materials;Minerals|Phosphorus|Power Plants (fossil + nuclear);kt/yr;Demand of Phosphorus for Power Plants (fossil + nuclear);;;;;0;;
+2;raw materials;Minerals|Phosphorus|Stationary Batteries;kt/yr;Demand of Phosphorus for Stationary Batteries;;;;;0;;
+2;raw materials;Minerals|Platinum|PV;kt/yr;Demand of Platinum for PV Power Plants;;;;;0;;
+2;raw materials;Minerals|Platinum|Wind;kt/yr;Demand of Platinum for Wind Power Plants;;;;;0;;
 2;raw materials;Minerals|Platinum|Electrolysers;kt/yr;Demand of Platinum for Electrolysers;;;;;0;;
 2;raw materials;Minerals|Platinum|Cars;kt/yr;Demand of Platinum for Cars;;;;;0;;
 2;raw materials;Minerals|Platinum|Other Sectors;kt/yr;Demand of Platinum for Other Sectors;;;;;0;;
@@ -2598,10 +2629,18 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 2;raw materials;Minerals|Potassium|Stationary Fuel Cells;kt/yr;Demand of Potassium for Stationary Fuel Cells;;;;;0;;
 2;raw materials;Minerals|Potassium|Electrolysers;kt/yr;Demand of Potassium for Electrolysers;;;;;0;;
 2;raw materials;Minerals|Potassium|Other Sectors;kt/yr;Demand of Potassium for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Praseodymium|Cars;kt/yr;Demand of Praseodymium for Cars;;;;;0;;
+2;raw materials;Minerals|Praseodymium|Electrolysers;kt/yr;Demand of Praseodymium for Electrolysers;;;;;0;;
+2;raw materials;Minerals|Praseodymium|Wind;kt/yr;Demand of Praseodymium for Wind Power Plants;;;;;0;;
 2;raw materials;Minerals|Selenium|PV;kt/yr;Demand of Selenium for PV Power Plants;;;;;0;;
 2;raw materials;Minerals|Selenium|Other Sectors;kt/yr;Demand of Selenium for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Silicon|Cars;kt/yr;Demand of Silicon for Cars;;;;;0;;
+2;raw materials;Minerals|Silicon|Power Plants (fossil + nuclear);kt/yr;Demand of Silicon for Power Plants (fossil + nuclear);;;;;0;;
+2;raw materials;Minerals|Silicon|Stationary Batteries;kt/yr;Demand of Silicon for Stationary Batteries;;;;;0;;
+2;raw materials;Minerals|Silicon|Wind;kt/yr;Demand of Silicon for Wind Power Plants;;;;;0;;
 2;raw materials;Minerals|Silicon|PV;kt/yr;Demand of Silicon for PV Power Plants;;;;;0;;
 2;raw materials;Minerals|Silicon|Other Sectors;kt/yr;Demand of Silicon for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Silver|Wind;kt/yr;Demand of Silver for Wind Power Plants;;;;;0;;
 2;raw materials;Minerals|Silver|PV;kt/yr;Demand of Silver for PV Power Plants;;;;;0;;
 2;raw materials;Minerals|Silver|CSP;kt/yr;Demand of Silver for CSP Plants;;;;;0;;
 2;raw materials;Minerals|Silver|Power Plants (fossil + nuclear);kt/yr;Demand of Silver for Power Plants (fossil + nuclear);;;;;0;;
@@ -2617,10 +2656,20 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 2;raw materials;Minerals|Steel|Other Conversion Technologies;kt/yr;Demand of Steel for Other Conversion Technologies;;;;;0;;
 2;raw materials;Minerals|Steel|Cars;kt/yr;Demand of Steel for Cars;;;;;0;;
 2;raw materials;Minerals|Steel|Other Sectors;kt/yr;Demand of Steel for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Sulfur|Power Plants (fossil + nuclear);kt/yr;Demand of Sulfur for Power Plants (fossil + nuclear);;;;;0;;
 2;raw materials;Minerals|Sulfur|Stationary Batteries;kt/yr;Demand of Sulfur for Stationary Batteries;;;;;0;;
 2;raw materials;Minerals|Sulfur|Other Sectors;kt/yr;Demand of Sulfur for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Tantalum|PV;kt/yr;Demand of Tantalum for PV Power Plants;;;;;0;;
 2;raw materials;Minerals|Tellurium|PV;kt/yr;Demand of Tellurium for PV Power Plants;;;;;0;;
 2;raw materials;Minerals|Tellurium|Other Sectors;kt/yr;Demand of Tellurium for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Terbium|Cars;kt/yr;Demand of Terbium for Cars;;;;;0;;
+2;raw materials;Minerals|Terbium|Wind;kt/yr;Demand of Terbium for Wind Power Plants;;;;;0;;
+2;raw materials;Minerals|Titanium|Cars;kt/yr;Demand of Titanium for Cars;;;;;0;;
+2;raw materials;Minerals|Titanium|Electrolysers;kt/yr;Demand of Titanium for Electrolysers;;;;;0;;
+2;raw materials;Minerals|Titanium|PV;kt/yr;Demand of Titanium for PV Power Plants;;;;;0;;
+2;raw materials;Minerals|Titanium|Power Plants (fossil + nuclear);kt/yr;Demand of Titanium for Power Plants (fossil + nuclear);;;;;0;;
+2;raw materials;Minerals|Titanium|Wind;kt/yr;Demand of Titanium for Wind Power Plants;;;;;0;;
+2;raw materials;Minerals|Vanadium|Cars;kt/yr;Demand of Vanadium for Cars;;;;;0;;
 2;raw materials;Minerals|Vanadium|Wind;kt/yr;Demand of Vanadium for Wind Power Plants;;;;;0;;
 2;raw materials;Minerals|Vanadium|CSP;kt/yr;Demand of Vanadium for CSP Plants;;;;;0;;
 2;raw materials;Minerals|Vanadium|Stationary Fuel Cells;kt/yr;Demand of Vanadium for Stationary Fuel Cells;;;;;0;;
@@ -2633,6 +2682,9 @@ tier;category;variable;unit;description;piam_variable;piam_unit;piam_factor;comm
 2;raw materials;Minerals|Yttrium|Power Plants (fossil + nuclear);kt/yr;Demand of Yttrium for Power Plants (fossil + nuclear);;;;;0;;
 2;raw materials;Minerals|Yttrium|Electrolysers;kt/yr;Demand of Yttrium for Electrolysers;;;;;0;;
 2;raw materials;Minerals|Yttrium|Other Sectors;kt/yr;Demand of Yttrium for Other Sectors;;;;;0;;
+2;raw materials;Minerals|Zinc|Other Conversion Technologies;kt/yr;Demand of Zinc for Other Conversion Technologies;;;;;0;;
+2;raw materials;Minerals|Zinc|Power Plants (fossil + nuclear);kt/yr;Demand of Zinc for Power Plants (fossil + nuclear);;;;;0;;
+2;raw materials;Minerals|Zinc|Wind;kt/yr;Demand of Zinc for Wind Power Plants;;;;;0;;
 2;raw materials;Minerals|Zinc|PV;kt/yr;Demand of Zinc for PV Power Plants;;;;;0;;
 2;raw materials;Minerals|Zinc|CSP;kt/yr;Demand of Zinc for CSP Plants;;;;;0;;
 2;raw materials;Minerals|Zinc|Other Sectors;kt/yr;Demand of Zinc for Other Sectors;;;;;0;;
