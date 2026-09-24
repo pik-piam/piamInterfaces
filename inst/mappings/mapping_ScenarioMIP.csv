@@ -1923,7 +1923,7 @@ Emissions|CO2|Energy|Supply|Liquids|Gas;Mt CO2/yr;3;Emissions of carbon dioxide 
 Emissions|CO2|Energy|Supply|Liquids|Hydrogen;Mt CO2/yr;3;Emissions of carbon dioxide (CO2) for production of liquid fuels from hydrogen (if hydrogen is explicitly modeled as a commodity and not an implicit intermediate product of the transformation technologies);;;;;;;linear
 Emissions|CO2|Energy|Supply|Liquids|Oil;Mt CO2/yr;3;Emissions of carbon dioxide (CO2) for production of liquid fuels from refined crude oil;;;;;;;linear
 Emissions|CO2|Energy|Supply|Liquids|Other;Mt CO2/yr;3;Emissions of carbon dioxide (CO2) for production of sources that do not fit any other category;;;;;;;linear
-Emissions|CO2|Energy|Supply|Other;Mt CO2/yr;2;Emissions of carbon dioxide (CO2) for other categories of energy supply;;;;;;;linear
+Emissions|CO2|Energy|Supply|Other;Mt CO2/yr;2;Emissions of carbon dioxide (CO2) for other categories of energy supply;;Emi|CO2|Energy|Supply|+|Biochar w/ couple prod;Mt CO2/yr;;added after biochar inclusion and for REMINDv3p7p1;R;linear
 Emissions|CO2|Energy|Supply|Solids;Mt CO2/yr;2;Emissions of carbon dioxide (CO2) for production of solid energy carriers, including coal, briquettes, coke, and wood pellets;;Emi|CO2|Energy|Supply|+|Solids w/ couple prod;Mt CO2/yr;;mapping taken from NAVIGATE, NAVIGATE category: emissions (CO2);R;linear
 Emissions|CO2|Energy|Supply|Solids|Biomass;Mt CO2/yr;3;Emissions of carbon dioxide (CO2) for production of solid biomass (e.g., commercial charcoal, wood chips, wood pellets);;;;;;;linear
 Emissions|CO2|Energy|Supply|Solids|Coal;Mt CO2/yr;3;Emissions of carbon dioxide (CO2) for production of coal, lignite, and derived products (e.g., coke, briquettes);;;;;;;linear
