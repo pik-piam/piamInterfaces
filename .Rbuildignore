@@ -19,3 +19,4 @@ tutorial.md
 ^\.claude$
 ^_pkgdown\.yml$
 ^\.positai$
+^CODE_STYLE\.md$
