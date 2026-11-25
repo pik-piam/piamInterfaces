@@ -221,6 +221,7 @@ Agricultural Demand|Crops|Bioenergy;Agricultural Demand|Crops|Bioenergy|1st Gene
 Agricultural Demand|Crops|Bioenergy;Agricultural Demand|Crops|Bioenergy|2nd Generation;1
 ;;
 Agricultural Demand|Crops|Feed;Agricultural Demand|Crops|Feed|Cereals;1
+Agricultural Demand|Crops|Feed;Agricultural Demand|Crops|Feed|Fodder Crops;1
 Agricultural Demand|Crops|Feed;Agricultural Demand|Crops|Feed|Oil Crops;1
 Agricultural Demand|Crops|Feed;Agricultural Demand|Crops|Feed|Other Crops;1
 Agricultural Demand|Crops|Feed;Agricultural Demand|Crops|Feed|Sugar Crops;1
@@ -256,6 +257,7 @@ Agricultural Production;Agricultural Production|Residues;1
 ;;
 Agricultural Production|Crops;Agricultural Production|Crops|Cereals;1
 Agricultural Production|Crops;Agricultural Production|Crops|Energy Crops;1
+Agricultural Production|Crops;Agricultural Production|Crops|Fodder Crops;1
 Agricultural Production|Crops;Agricultural Production|Crops|Oil Crops;1
 Agricultural Production|Crops;Agricultural Production|Crops|Other Crops;1
 Agricultural Production|Crops;Agricultural Production|Crops|Sugar Crops;1
@@ -1452,7 +1454,8 @@ Emissions|CO2;Emissions|CO2|Product Use;1
 Emissions|CO2;Emissions|CO2|Waste;1
 ;;
 Emissions|CO2 2;Gross Emissions|CO2;1
-Emissions|CO2 2;Gross Removals|CO2;1
+Emissions|CO2 2;Carbon Removal;-1
+Emissions|CO2 2;Net Carbon Cycling;1
 ;;
 Emissions|CO2|Energy and Industrial Processes;Emissions|CO2|Energy;1
 Emissions|CO2|Energy and Industrial Processes;Emissions|CO2|Industrial Processes;1
@@ -1463,7 +1466,9 @@ Emissions|CO2|AFOLU;Emissions|CO2|AFOLU|Agriculture;1
 Emissions|CO2|AFOLU;Emissions|CO2|AFOLU|Land;1
 ;;
 Emissions|CO2|AFOLU 2;Gross Emissions|CO2|AFOLU;1
-Emissions|CO2|AFOLU 2;Gross Removals|CO2|AFOLU;1
+Emissions|CO2|AFOLU 2;Carbon Removal|Land Use;-1
+Emissions|CO2|AFOLU 2;Carbon Removal|Long-Lived Materials|Timber;-1
+Emissions|CO2|AFOLU 2;Net Carbon Cycling|AFOLU;1
 ;;
 Emissions|CO2|AFOLU|Agriculture;Emissions|CO2|AFOLU|Agriculture|Livestock;1
 Emissions|CO2|AFOLU|Agriculture;Emissions|CO2|AFOLU|Agriculture|Managed Soils;1
@@ -5332,9 +5337,6 @@ Gross Emissions|CO2|Energy|Supply|Liquids;Gross Emissions|CO2|Energy|Supply|Liqu
 Gross Emissions|CO2|Energy|Supply|Solids;Gross Emissions|CO2|Energy|Supply|Solids|Biomass;1
 Gross Emissions|CO2|Energy|Supply|Solids;Gross Emissions|CO2|Energy|Supply|Solids|Coal;1
 ;;
-Gross Removals|CO2|AFOLU;Gross Removals|CO2|AFOLU|Intentional;1
-Gross Removals|CO2|AFOLU;Gross Removals|CO2|AFOLU|Unintentional;1
-;;
 # Summation check currently fails since not all components of Energy Investments|Supply have a counterpart in the ScenarioMIP variable template;;
 Investment|Energy Supply;Investment|Energy Supply|Electricity;1
 Investment|Energy Supply;Investment|Energy Supply|Gases;1
@@ -5523,6 +5525,7 @@ Land Cover;Land Cover|Pasture;1
 Land Cover|Cropland;Land Cover|Cropland|Cereals;1
 Land Cover|Cropland;Land Cover|Cropland|Energy Crops;1
 Land Cover|Cropland;Land Cover|Cropland|Fallow;1
+Land Cover|Cropland;Land Cover|Cropland|Fodder Crops;1
 Land Cover|Cropland;Land Cover|Cropland|Oil Crops;1
 Land Cover|Cropland;Land Cover|Cropland|Other Crops;1
 Land Cover|Cropland;Land Cover|Cropland|Sugar Crops;1
@@ -5538,6 +5541,9 @@ Land Cover|Cropland|Cereals;Land Cover|Cropland|Cereals|Rainfed;1
 ;;
 Land Cover|Cropland|Energy Crops;Land Cover|Cropland|Energy Crops|Irrigated;1
 Land Cover|Cropland|Energy Crops;Land Cover|Cropland|Energy Crops|Rainfed;1
+;;
+Land Cover|Cropland|Fodder Crops;Land Cover|Cropland|Fodder Crops|Irrigated;1
+Land Cover|Cropland|Fodder Crops;Land Cover|Cropland|Fodder Crops|Rainfed;1
 ;;
 Land Cover|Cropland|Oil Crops;Land Cover|Cropland|Oil Crops|Irrigated;1
 Land Cover|Cropland|Oil Crops;Land Cover|Cropland|Oil Crops|Rainfed;1
@@ -5564,6 +5570,15 @@ Land Cover|Forest|Planted|Plantation;Land Cover|Forest|Planted|Plantation|Timber
 Land Cover|Other Natural;Land Cover|Other Natural|Primary Non-Forest;1
 Land Cover|Other Natural;Land Cover|Other Natural|Recovered;1
 Land Cover|Other Natural;Land Cover|Other Natural|Restored;1
+;;
+Net Carbon Cycling;Net Carbon Cycling|AFOLU;1
+Net Carbon Cycling;Net Carbon Cycling|Other;1
+;;
+Net Carbon Cycling|AFOLU;Net Carbon Cycling|AFOLU|Other;1
+Net Carbon Cycling|AFOLU;Net Carbon Cycling|AFOLU|Wood Harvest;1
+;;
+Net Carbon Cycling|AFOLU|Wood Harvest;Net Carbon Cycling|AFOLU|Wood Harvest|Emissions;1
+Net Carbon Cycling|AFOLU|Wood Harvest;Net Carbon Cycling|AFOLU|Wood Harvest|Removals;1
 ;;
 Population;Population|Female;1
 Population;Population|Male;1
@@ -6350,6 +6365,7 @@ Trade|Agriculture;Trade|Agriculture|Residues;1
 ;;
 Trade|Agriculture|Crops;Trade|Agriculture|Crops|Cereals;1
 Trade|Agriculture|Crops;Trade|Agriculture|Crops|Energy Crops;1
+Trade|Agriculture|Crops;Trade|Agriculture|Crops|Fodder Crops;1
 Trade|Agriculture|Crops;Trade|Agriculture|Crops|Oil Crops;1
 Trade|Agriculture|Crops;Trade|Agriculture|Crops|Other Crops;1
 Trade|Agriculture|Crops;Trade|Agriculture|Crops|Sugar Crops;1
