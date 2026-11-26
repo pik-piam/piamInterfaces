@@ -793,6 +793,7 @@ Carbon Capture|Utilization;Carbon Capture|Utilization|Other;1
 Carbon Capture|Utilization|Materials;Carbon Capture|Utilization|Materials|Long-Lived;1
 Carbon Capture|Utilization|Materials;Carbon Capture|Utilization|Materials|Short-Lived;1
 ;;
+Carbon Removal;Carbon Removal|Biochar;1
 Carbon Removal;Carbon Removal|Enhanced Weathering;1
 Carbon Removal;Carbon Removal|Geological Storage;1
 Carbon Removal;Carbon Removal|Land Use;1
@@ -806,7 +807,6 @@ Carbon Removal|Geological Storage;Carbon Removal|Geological Storage|Other Source
 Carbon Removal|Geological Storage;Carbon Removal|Geological Storage|Synthetic Fuels;1
 ;;
 Carbon Removal|Land Use;Carbon Removal|Land Use|Agroforestry;1
-Carbon Removal|Land Use;Carbon Removal|Land Use|Biochar;1
 Carbon Removal|Land Use;Carbon Removal|Land Use|Forest Management;1
 Carbon Removal|Land Use;Carbon Removal|Land Use|Other;1
 Carbon Removal|Land Use;Carbon Removal|Land Use|Re/Afforestation;1
