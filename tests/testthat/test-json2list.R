@@ -33,4 +33,9 @@ test_that("unnestComponents works", {
                                      tibble(parent = "FE 1", child = c("FE|C", "FE|D")),
                                      tibble(parent = "PE", child = "FE|B"),
                                      tibble(parent = "PE 1", child = c("FE|C", "FE|D"))))
+
+  template <- data.frame(variable = "FE", components = '{"By type": ["FE|A", "FE|B"], "By use": ["FE|C"]}')
+  summations <- unnestComponents(template)
+  expect_identical(summations, rbind(tibble(parent = "FE", child = c("FE|A", "FE|B")),
+                                     tibble(parent = "FE 1", child = "FE|C")))
 })

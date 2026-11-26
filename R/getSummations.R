@@ -65,8 +65,8 @@ unnestComponents <- function(template) {
     select("variable", "components") %>%
     filter(! is.na(.data$components)) %>%
     mutate(components = json2list(.data$components)) %>%
-    unnest_longer("components") %>%
+    unnest_longer("components", indices_include = FALSE) %>% # named component groups give no id column
     mutate(variable = make.unique(.data$variable, sep = " ")) %>%
-    unnest_longer("components") %>%
+    unnest_longer("components", indices_include = FALSE) %>%
     rename(parent = "variable", child = "components")
 }
